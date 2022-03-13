@@ -1,0 +1,72 @@
+<svg id="légende" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42.83 44.09">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #221f20;
+      }
+
+      .cls-3 {
+        stroke: #221f20;
+      }
+
+      .cls-3, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #eeaa41;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: #eeaa41;
+        stroke-width: 1.13px;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(0.23 0)">
+      <rect class="cls-1" width="42.81" height="44.09"/>
+    </clipPath>
+    <symbol id="Repertoire" data-name="Repertoire" viewBox="0 0 42.83 44.09">
+      <path class="cls-2" d="M42.83,39.44a4.65,4.65,0,0,0-4.65-4.65H4.91A4.81,4.81,0,0,0,0,39a4.65,4.65,0,0,0,4.21,5l.44,0H38.18a4.65,4.65,0,0,0,4.65-4.65h0"/>
+      <g>
+        <rect class="cls-2" x="6.48" y="1.86" width="29.89" height="29.89" rx="2.83"/>
+        <rect class="cls-3" x="5.12" y="0.5" width="32.61" height="32.61" rx="3.69"/>
+        <rect class="cls-4" x="18.32" y="13.34" width="6.52" height="6.52" rx="1.12"/>
+        <circle class="cls-5" cx="13.72" cy="24.44" r="2.46"/>
+        <circle class="cls-6" cx="13.72" cy="16.41" r="2.46"/>
+        <line class="cls-6" x1="11.26" y1="16.41" x2="6.48" y2="16.41"/>
+        <polyline class="cls-6" points="6.48 27.4 8.55 27.4 11.57 25.6"/>
+        <path class="cls-6" d="M20.13,9.09a2.46,2.46,0,1,1-2.47-2.45h0A2.47,2.47,0,0,1,20.13,9.09Z"/>
+        <polyline class="cls-6" points="6.48 6.14 12.5 6.14 15.48 7.9"/>
+        <path class="cls-5" d="M23.51,9.09A2.46,2.46,0,1,0,26,6.64a2.46,2.46,0,0,0-2.51,2.45Z"/>
+        <path class="cls-6" d="M27.34,21.09a2.46,2.46,0,1,0,2.46-2.46h0A2.46,2.46,0,0,0,27.34,21.09Z"/>
+        <line class="cls-6" x1="24.87" y1="16.31" x2="36.38" y2="16.31"/>
+        <polyline class="cls-6" points="36.33 6.14 31.13 6.14 28.12 7.93"/>
+        <circle class="cls-6" cx="21.72" cy="24.44" r="2.46"/>
+        <polyline class="cls-6" points="36.38 27.4 26.89 27.4 23.92 25.63"/>
+        <line class="cls-6" x1="32.25" y1="21.35" x2="36.36" y2="21.35"/>
+      </g>
+    </symbol>
+  </defs>
+  <g class="cls-7">
+    <use width="42.83" height="44.09" transform="matrix(1, 0, 0, -1, 0, 44.09)" xlink:href="#Repertoire"/>
+  </g>
+  <g class="cls-8">
+    <path class="cls-4" d="M9,1.37h2.18c1.5,0,2.12.61,2.12,2.08A1.67,1.67,0,0,1,12.55,5a2.63,2.63,0,0,1,.65,1.11l.56,1.52H11.93l-.45-1.35c-.18-.51-.29-.66-.63-.66h-.1v2H9Zm1.95,2.94c.51,0,.62-.2.62-.82s-.08-.82-.57-.82h-.24V4.31Z" transform="translate(0.23 0)"/>
+    <path class="cls-4" d="M14.21,1.37h1.91c1.13,3.2,1.29,3.86,1.29,3.86h0S17.33,4,17.33,3V1.37h1.58V7.64H17c-1.09-3.15-1.28-3.78-1.28-3.78h0s.09,1.2.09,2.26V7.64H14.21Z" transform="translate(0.23 0)"/>
+    <path class="cls-4" d="M23.49,7.46a5.52,5.52,0,0,1-1.69.26c-1.42,0-2.21-.57-2.21-3.25s.75-3.2,2.24-3.19a5.48,5.48,0,0,1,1.65.25L23.26,2.8a6.37,6.37,0,0,0-1-.12c-.67,0-.89.2-.89,1.79s.25,1.86.87,1.86a4,4,0,0,0,1-.14Z" transform="translate(0.23 0)"/>
+    <path class="cls-4" d="M24.15,1.37h2.12c1.53,0,2.22.62,2.22,2.09,0,1.65-.82,2.27-2.23,2.27H25.9V7.64H24.15Zm2,3c.43,0,.61-.21.61-.87s-.17-.78-.62-.78H25.9V4.38Z" transform="translate(0.23 0)"/>
+    <path class="cls-4" d="M29,6.11a8.61,8.61,0,0,0,1.53.22c.58,0,.68-.17.68-.46s-.19-.44-.54-.6l-.45-.21a1.83,1.83,0,0,1-1.36-1.94c0-1.37.84-1.84,2-1.84a5.85,5.85,0,0,1,1.76.27l-.28,1.33a6.29,6.29,0,0,0-1.23-.17c-.47,0-.58.13-.58.4s.12.36.4.49l.32.14c1,.48,1.63.87,1.63,2,0,1.51-.64,2-2.14,2a8,8,0,0,1-2-.3Z" transform="translate(0.23 0)"/>
+  </g>
+</svg>

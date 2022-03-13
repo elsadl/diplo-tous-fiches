@@ -1,0 +1,64 @@
+<svg id="légende" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 43 36.92">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #221f20;
+      }
+
+      .cls-3, .cls-6 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 0.85px;
+      }
+
+      .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(0 0.01)">
+      <rect class="cls-1" width="42.98" height="36.91"/>
+    </clipPath>
+    <symbol id="Europeen" data-name="Europeen" viewBox="0 0 43 36.91">
+      <path class="cls-2" d="M43,32.26a4.65,4.65,0,0,0-4.65-4.65H4.65a4.65,4.65,0,1,0,0,9.3H38.33A4.64,4.64,0,0,0,43,32.29v0"/>
+      <g>
+        <rect class="cls-3" x="8.23" y="0.43" width="26.52" height="26.63" rx="2.52"/>
+        <g class="cls-4">
+          <path class="cls-5" d="M18.43,4.23c0-.9.53-1.32,1.55-1.32s1.55.42,1.55,1.33V7.32H20.31V4.19c0-.15,0-.31-.33-.31s-.34.16-.34.31V7.32H18.43Z"/>
+          <path class="cls-5" d="M22.14,3h2.57V4H23.36v.83h1v.91h-1v.67h1.33v1H22.14Z"/>
+        </g>
+        <polyline class="cls-6" points="24.35 11.68 27.78 8.24 34.72 8.24"/>
+        <line class="cls-6" x1="25.22" y1="14.29" x2="34.72" y2="14.29"/>
+        <polyline class="cls-6" points="19 16.77 15.42 20.32 8.25 20.32"/>
+        <line class="cls-6" x1="17.84" y1="14.29" x2="8.25" y2="14.29"/>
+        <polyline class="cls-6" points="18.82 11.6 15.39 8.19 8.25 8.19"/>
+        <path class="cls-6" d="M21.61,26.91V17.8h-.08a3.71,3.71,0,1,1,2.75-1.24h0L28,20.32h6.69"/>
+      </g>
+    </symbol>
+  </defs>
+  <g>
+    <g class="cls-7">
+      <use width="43" height="36.92" transform="matrix(1, 0, 0, -1, 0, 36.92)" xlink:href="#Europeen"/>
+    </g>
+    <g class="cls-4">
+      <path class="cls-5" d="M6.44,2.08H9.69V3.32H8v1H9.26V5.58H8V7.65H6.44Z" transform="translate(0 0.01)"/>
+      <path class="cls-5" d="M10.14,2.08h1.94c1.33,0,1.89.54,1.89,1.85a1.47,1.47,0,0,1-.67,1.38,2.38,2.38,0,0,1,.59,1l.49,1.35H12.76l-.41-1.2c-.15-.46-.26-.58-.55-.58h-.1V7.65H10.14Zm1.74,2.61c.45,0,.54-.17.54-.73s-.06-.72-.5-.72H11.7V4.69Z" transform="translate(0 0.01)"/>
+      <path class="cls-5" d="M16.66,2c1.52,0,2.06.57,2.06,2.91s-.59,2.86-2.06,2.86-2.07-.52-2.07-2.87S15.2,2,16.66,2Zm.5,2.9c0-1.44-.15-1.66-.5-1.66s-.51.22-.51,1.66.18,1.63.51,1.63S17.16,6.31,17.16,4.88Z" transform="translate(0 0.01)"/>
+      <path class="cls-5" d="M19.33,2.08H21c1,2.84,1.15,3.43,1.15,3.43h0s-.09-1.07-.09-2V2.08h1.4V7.65H21.81c-1-2.8-1.14-3.36-1.14-3.36h0s.08,1.07.08,2V7.65h-1.4Z" transform="translate(0 0.01)"/>
+      <path class="cls-5" d="M25.06,3.32H24V2.08h3.64V3.32h-1V7.65H25.06Z" transform="translate(0 0.01)"/>
+      <path class="cls-5" d="M28.18,2.08h3.28V3.32H29.74v.86h1.32V5.34H29.74V6.41h1.75V7.65H28.18Z" transform="translate(0 0.01)"/>
+      <path class="cls-5" d="M33.82,5.82s-.17.71-.27,1l-.26.81H31.7l1.2-2.92L31.74,2.08h1.63l.23.69c.15.46.29,1,.29,1h0s.18-.68.3-1.07l.21-.65H36L34.87,4.71l1.18,2.94H34.44l-.27-.82c-.11-.32-.31-1-.31-1Z" transform="translate(0 0.01)"/>
+    </g>
+  </g>
+</svg>
