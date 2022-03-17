@@ -25,7 +25,7 @@
       <Infos />
     </div>
   </div>
-  <div style="transform: scale({1})" id="container">
+  <div id="container">
     <Fond {scale} />
     <Svg {scale} />
     <Empreintes {scale} />
@@ -33,6 +33,11 @@
 </main>
 
 <style>
+  :global(body) {
+    /* :global(#svelte-container body) { */
+    margin: 0;
+  }
+
   #tous-fiches {
     background: #fff;
     position: absolute;
@@ -44,24 +49,25 @@
   #tous-fiches #container {
     display: grid;
     transform-origin: top left;
+    transform: translateY(-7vw);
   }
 
   #tous-fiches #header {
-    height: 220px;
+    /* height: 220px; */
     position: relative;
     z-index: 10;
   }
 
   @media (max-width: 1060px) {
     #tous-fiches #header {
-      height: 240px;
+      /* height: 240px; */
     }
   }
 
   #tous-fiches #header #left {
     width: 40%;
     max-width: 440px;
-    position: absolute;
+    position: relative;
     top: 20px;
     left: 4vw;
   }

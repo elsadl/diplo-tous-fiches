@@ -63,79 +63,79 @@
   <use
     width="19.24"
     height="22.71"
-    transform="translate(783.71 702.86) scale(0.73)"
+    transform="translate(791.35 716.88) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(503.82 476.07) scale(0.73)"
+    transform="translate(502.93 483.18) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(676.84 163.93) scale(0.73)"
+    transform="translate(681.23 161.53) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(665.93 266.43) scale(0.73)"
+    transform="translate(669.99 267.16) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(673.69 343.39) scale(0.73)"
+    transform="translate(677.98 346.46) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(768.07 166.09) scale(0.73)"
+    transform="translate(775.24 163.75) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(837.53 166.33) scale(0.73)"
+    transform="translate(846.82 164) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(766 310.13) scale(0.73)"
+    transform="translate(773.11 312.19) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(720.26 340.19) scale(0.73)"
+    transform="translate(725.97 343.17) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(800.83 310.13) scale(0.73)"
+    transform="translate(809 312.19) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(817.37 243.21) scale(0.73)"
+    transform="translate(826.04 243.23) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(799.92 127.44) scale(0.73)"
+    transform="translate(808.06 123.92) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
   <use
     width="19.24"
     height="22.71"
-    transform="translate(544.9 150.37) scale(0.73)"
+    transform="translate(545.26 147.55) scale(0.75)"
     xlink:href="#Nouveau_symbole"
   />
 </g>

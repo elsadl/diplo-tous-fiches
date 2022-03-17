@@ -52,7 +52,7 @@
   // }
 </script>
 
-<g id="fichiers" bind:this={root}>
+<g on:click={handleClick} id="fichiers" bind:this={root}>
   <defs>
     <style>
       .hubs-cls-1,
@@ -107,7 +107,7 @@
       .hubs-cls-20,
       .hubs-cls-21,
       .hubs-cls-3 {
-        font-family: "Bunday Sans";
+        font-family: Bunday Sans;
       }
 
       .hubs-cls-17,
@@ -171,20 +171,20 @@
       .hubs-cls-17,
       .hubs-cls-18,
       .hubs-cls-19 {
-        font-size: 5.84px;
+        font-size: 6.02px;
       }
 
       .hubs-cls-18 {
-        font-family: "Bunday Sans";
+        font-family: Bunday Sans;
         font-style: italic;
       }
 
       .hubs-cls-20 {
-        font-size: 4.55px;
+        font-size: 4.69px;
       }
 
       .hubs-cls-21 {
-        font-size: 6.57px;
+        font-size: 6.77px;
       }
     </style>
     <symbol id="Local" data-name="Local" viewBox="0 0 41.6 26.02">
@@ -401,138 +401,136 @@
       </g>
     </symbol>
   </defs>
-
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(76.26 495.58) scale(0.73)"
+      transform="translate(62.34 503.29) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-17" transform="translate(80.63 501.17)">Prénatal</text
+    <text class="hubs-cls-17" transform="translate(66.84 509.04)">Prénatal</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(129.66 239.47) scale(0.73)"
+      transform="translate(117.37 239.37) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-17" transform="translate(135.03 245.06)">Pronote</text
+    <text class="hubs-cls-17" transform="translate(122.9 245.13)">Pronote</text>
+  </g>
+  <g on:click={handleClick}>
+    <use
+      width="41.6"
+      height="26.02"
+      transform="translate(79.1 239.49) scale(0.75)"
+      xlink:href="#Local"
+    />
+    <text class="hubs-cls-18" transform="translate(83.64 245.24)">Cantines</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(92.53 239.58) scale(0.73)"
+      transform="translate(37.39 423.45) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-18" transform="translate(96.93 245.17)">Cantines</text
-    >
+    <text class="hubs-cls-18" transform="translate(43.29 429.21)">Crèches</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(52.05 418.1) scale(0.73)"
+      transform="translate(37.42 476.87) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-18" transform="translate(57.78 423.69)">Crèches</text>
+    <text class="hubs-cls-17" transform="translate(47.52 482.63)">CRIP</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(52.08 469.94) scale(0.73)"
+      transform="translate(84.11 476.87) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-17" transform="translate(61.87 475.53)">CRIP</text>
-  </g>
-  <g on:click={handleClick}>
-    <use
-      width="41.6"
-      height="26.02"
-      transform="translate(97.38 469.94) scale(0.73)"
-      xlink:href="#Local"
-    />
-    <text class="hubs-cls-17" transform="translate(108.24 475.53)">ASE</text>
+    <text class="hubs-cls-17" transform="translate(95.29 482.63)">ASE</text>
   </g>
   <g on:click={handleClick}>
     <g>
       <g>
         <line
           class="hubs-cls-5"
-          x1="152.19"
-          y1="603.87"
-          x2="138.61"
-          y2="603.87"
+          x1="140.58"
+          y1="614.88"
+          x2="126.59"
+          y2="614.88"
         />
         <line
           class="hubs-cls-5"
-          x1="152.19"
-          y1="603.87"
-          x2="138.61"
-          y2="603.87"
+          x1="140.58"
+          y1="614.88"
+          x2="126.59"
+          y2="614.88"
         />
         <path
           class="hubs-cls-5"
-          d="M153.68,607.58a8.28,8.28,0,1,1-8.28-8.28,8.28,8.28,0,0,1,8.28,8.28"
+          d="M142.12,618.73a8.53,8.53,0,1,1-8.53-8.53,8.53,8.53,0,0,1,8.53,8.53"
           transform="translate(0 1)"
         />
         <polyline
           class="hubs-cls-5"
-          points="143.94 607.37 142.96 606.38 137.52 606.38"
+          points="132.09 618.49 131.07 617.47 125.47 617.47"
         />
         <line
           class="hubs-cls-5"
-          x1="143.88"
-          y1="608.64"
-          x2="137.12"
-          y2="608.64"
+          x1="132.02"
+          y1="619.8"
+          x2="125.06"
+          y2="619.8"
         />
         <polyline
           class="hubs-cls-5"
-          points="153.31 606.5 147.8 606.5 146.84 607.45"
+          points="141.74 617.59 136.06 617.59 135.07 618.57"
         />
         <polyline
           class="hubs-cls-5"
-          points="149.57 615.73 145.35 615.73 145.35 610.25 146.89 610.25 146.89 607.27 143.88 607.27 143.88 610.21 142.91 611.18 137.52 611.18"
+          points="137.89 627.1 133.54 627.1 133.54 621.45 135.12 621.45 135.12 618.38 132.02 618.38 132.02 621.42 131.02 622.42 125.46 622.42"
         />
         <line
           class="hubs-cls-5"
-          x1="145.42"
-          y1="607.24"
-          x2="145.42"
-          y2="600.3"
+          x1="133.61"
+          y1="618.35"
+          x2="133.61"
+          y2="611.2"
         />
         <line
           class="hubs-cls-5"
-          x1="152.16"
-          y1="613.36"
-          x2="138.62"
-          y2="613.36"
+          x1="140.55"
+          y1="624.66"
+          x2="126.6"
+          y2="624.66"
         />
         <polyline
           class="hubs-cls-5"
-          points="153.34 611.08 147.79 611.08 146.92 610.21"
+          points="141.77 622.31 136.05 622.31 135.16 621.42"
         />
         <line
           class="hubs-cls-5"
-          x1="153.68"
-          y1="608.77"
-          x2="146.89"
-          y2="608.77"
+          x1="142.12"
+          y1="619.93"
+          x2="135.12"
+          y2="619.93"
         />
       </g>
       <path
         class="hubs-cls-5"
-        d="M165.63,600.58a3.39,3.39,0,0,1-3.39,3.39H129a3.4,3.4,0,0,1,0-6.79h33.28a3.4,3.4,0,0,1,3.39,3.4"
+        d="M154.44,611.52a3.5,3.5,0,0,1-3.5,3.49H116.65a3.5,3.5,0,1,1,0-7h34.29a3.5,3.5,0,0,1,3.5,3.5"
         transform="translate(0 1)"
       />
     </g>
-    <text class="hubs-cls-17" transform="translate(127.04 603.62) scale(0.9 1)"
+    <text class="hubs-cls-17" transform="translate(114.67 614.62) scale(0.9 1)"
       >115 - SAMU social</text
     >
   </g>
@@ -540,119 +538,120 @@
     <use
       width="41.6"
       height="26.02"
-      transform="translate(299.1 475.98) scale(0.73)"
+      transform="translate(291.98 483.09) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-17" transform="translate(306.97 481.57)">i-Milo</text>
+    <text class="hubs-cls-17" transform="translate(300.08 488.85)">i-Milo</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(725.64 683.06) scale(0.73)"
+      transform="translate(731.52 696.49) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-17" transform="translate(736.74 688.65)">CEF</text>
+    <text class="hubs-cls-17" transform="translate(742.95 702.24)">CEF</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(502.94 560.29) scale(0.73)"
+      transform="translate(502.03 569.97) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-17" transform="translate(513.3 565.88)">DUP</text>
+    <text class="hubs-cls-17" transform="translate(512.7 575.73)">DUP</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(160.52 566.48) scale(0.73)"
+      transform="translate(149.17 576.35) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-17" transform="translate(169.65 572.07)">SDAS</text>
+    <text class="hubs-cls-17" transform="translate(158.57 582.11)">SDAS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(181.31 576.64) scale(0.73)"
+      transform="translate(170.59 586.82) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-17" transform="translate(190.74 582.23)">CCAS</text>
+    <text class="hubs-cls-17" transform="translate(180.3 592.58)">CCAS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.6"
       height="26.02"
-      transform="translate(93.37 418.1) scale(0.73)"
+      transform="translate(79.97 423.45) scale(0.75)"
       xlink:href="#Local"
     />
-    <text class="hubs-cls-17" transform="translate(104.05 423.69)">PMI</text>
+    <text class="hubs-cls-17" transform="translate(90.97 429.21)">PMI</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.74"
       height="26.16"
-      transform="translate(114.25 293.29) scale(0.73)"
+      transform="translate(101.49 294.83) scale(0.75)"
       xlink:href="#Regional-13"
     />
-    <text class="hubs-cls-19" transform="translate(119.52 299.26)">MOSART</text>
+    <text class="hubs-cls-19" transform="translate(106.91 300.98)">MOSART</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.74"
       height="26.16"
-      transform="translate(93.8 175.31) scale(0.73)"
+      transform="translate(80.41 173.26) scale(0.75)"
       xlink:href="#Regional-13"
     />
-    <text class="hubs-cls-19" transform="translate(96.9 181.08)">AFFELNET</text>
-  </g>
-  <g on:click={handleClick}>
-    <use
-      width="41.74"
-      height="26.16"
-      transform="translate(63.78 137.77) scale(0.73)"
-      xlink:href="#Regional-13"
-    />
-    <text class="hubs-cls-19" transform="translate(72.37 143.79)">ONDE</text>
-  </g>
-  <g on:click={handleClick}>
-    <use
-      width="41.74"
-      height="26.16"
-      transform="translate(40.94 175.31) scale(0.73)"
-      xlink:href="#Regional-13"
-    />
-    <text class="hubs-cls-19" transform="translate(44.54 181.32)">LSUN-LSL</text
+    <text class="hubs-cls-19" transform="translate(83.61 179.21)">AFFELNET</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.74"
       height="26.16"
-      transform="translate(126.96 137.77) scale(0.73)"
+      transform="translate(49.48 134.57) scale(0.75)"
       xlink:href="#Regional-13"
     />
-    <text class="hubs-cls-19" transform="translate(134.24 143.68)">SIECLE</text>
+    <text class="hubs-cls-19" transform="translate(58.33 140.77)">ONDE</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.74"
       height="26.16"
-      transform="translate(333.76 316.48) scale(0.73)"
+      transform="translate(25.94 173.26) scale(0.75)"
       xlink:href="#Regional-13"
     />
-    <text class="hubs-cls-19" transform="translate(342.91 322.23)">PMSI</text>
+    <text class="hubs-cls-19" transform="translate(29.65 179.46)">LSUN-LSL</text
+    >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.74"
       height="26.16"
-      transform="translate(333.99 390.28) scale(0.73)"
+      transform="translate(114.58 134.57) scale(0.75)"
       xlink:href="#Regional-13"
     />
-    <text class="hubs-cls-19" transform="translate(335.87 396.02) scale(0.9 1)"
+    <text class="hubs-cls-19" transform="translate(122.09 140.66)">SIECLE</text>
+  </g>
+  <g on:click={handleClick}>
+    <use
+      width="41.74"
+      height="26.16"
+      transform="translate(327.69 318.73) scale(0.75)"
+      xlink:href="#Regional-13"
+    />
+    <text class="hubs-cls-19" transform="translate(337.12 324.65)">PMSI</text>
+  </g>
+  <g on:click={handleClick}>
+    <use
+      width="41.74"
+      height="26.16"
+      transform="translate(327.92 394.78) scale(0.75)"
+      xlink:href="#Regional-13"
+    />
+    <text class="hubs-cls-19" transform="translate(329.86 400.7) scale(0.9 1)"
       >SIVIC/SINUS</text
     >
   </g>
@@ -660,19 +659,19 @@
     <use
       width="41.74"
       height="26.16"
-      transform="translate(68.61 277.45) scale(0.73)"
+      transform="translate(54.46 278.51) scale(0.75)"
       xlink:href="#Regional-13"
     />
-    <text class="hubs-cls-19" transform="translate(73.29 283.1)">SAGESSE</text>
+    <text class="hubs-cls-19" transform="translate(59.28 284.34)">SAGESSE</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.74"
       height="26.16"
-      transform="translate(367.88 516.42) scale(0.73)"
+      transform="translate(362.85 524.76) scale(0.75)"
       xlink:href="#Regional-13"
     />
-    <text class="hubs-cls-19" transform="translate(370.16 522.21) scale(0.94 1)"
+    <text class="hubs-cls-19" transform="translate(365.2 530.73) scale(0.94 1)"
       >CAP SITERE</text
     >
   </g>
@@ -680,11 +679,10 @@
     <use
       width="41.8"
       height="33.52"
-      transform="translate(148.58 268.82) scale(0.73)"
+      transform="translate(136.86 269.62) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(153.37 274.73)">CPA/CPF</text
-    >
+    <text class="hubs-cls-19" transform="translate(141.8 275.71)">CPA/CPF</text>
   </g>
   <g on:click={handleClick}>
     <g>
@@ -692,66 +690,66 @@
         <g>
           <rect
             class="hubs-cls-6"
-            x="157.47"
-            y="177.13"
-            width="16.76"
-            height="16.84"
-            rx="1.25"
+            x="146.01"
+            y="175.12"
+            width="17.3"
+            height="17.38"
+            rx="1.3"
           />
           <path
             class="hubs-cls-1"
-            d="M173,176.56a.82.82,0,0,1,.82.82v14.34a.83.83,0,0,1-.82.83H158.72a.83.83,0,0,1-.83-.83V177.38a.83.83,0,0,1,.83-.82H173m0-.85H158.72a1.68,1.68,0,0,0-1.68,1.67v14.34a1.68,1.68,0,0,0,1.68,1.68H173a1.68,1.68,0,0,0,1.67-1.68V177.38a1.67,1.67,0,0,0-1.67-1.67Z"
+            d="M162,174.55a.87.87,0,0,1,.87.88V190.2a.88.88,0,0,1-.87.88h-14.7a.89.89,0,0,1-.88-.88V175.43a.88.88,0,0,1,.88-.88H162m0-.85h-14.7a1.73,1.73,0,0,0-1.73,1.73V190.2a1.74,1.74,0,0,0,1.73,1.73H162a1.73,1.73,0,0,0,1.72-1.73V175.43A1.72,1.72,0,0,0,162,173.7Z"
             transform="translate(0 1)"
           />
         </g>
         <polyline
           class="hubs-cls-7"
-          points="167.79 187.18 170.01 189.4 174.45 189.4"
+          points="156.66 185.49 158.95 187.78 163.52 187.78"
         />
         <line
           class="hubs-cls-7"
-          x1="168.35"
-          y1="185.38"
-          x2="174.45"
-          y2="185.38"
+          x1="157.24"
+          y1="183.64"
+          x2="163.52"
+          y2="183.64"
         />
         <polyline
           class="hubs-cls-7"
-          points="164.05 183.63 161.81 181.38 157.38 181.38"
+          points="152.8 181.83 150.49 179.51 145.93 179.51"
         />
         <line
           class="hubs-cls-7"
-          x1="163.41"
-          y1="185.38"
-          x2="157.38"
-          y2="185.38"
+          x1="152.15"
+          y1="183.64"
+          x2="145.93"
+          y2="183.64"
         />
         <polyline
           class="hubs-cls-7"
-          points="164.16 187.07 161.79 189.44 157.38 189.44"
+          points="152.92 185.37 150.47 187.82 145.93 187.82"
         />
         <path
           class="hubs-cls-7"
-          d="M165.92,176v6.12h-.06a2.45,2.45,0,1,0,1.83.82h0l2.49-2.5h4.27"
+          d="M154.73,174v6.3h-.06a2.52,2.52,0,1,0,1.89.84h0l2.58-2.58h4.39"
           transform="translate(0 1)"
         />
         <line
           class="hubs-cls-7"
-          x1="165.92"
-          y1="188.04"
-          x2="165.92"
-          y2="194.12"
+          x1="154.73"
+          y1="186.38"
+          x2="154.73"
+          y2="192.65"
         />
       </g>
-      <g id="Europeen-2" data-name="Europeen">
+      <g on:click={handleClick} id="Europeen-2" data-name="Europeen">
         <path
           class="hubs-cls-8"
-          d="M182.75,172.64a3.39,3.39,0,0,1-3.39,3.39H151.27a3.4,3.4,0,0,1,0-6.79h28.09a3.4,3.4,0,0,1,3.39,3.4"
+          d="M172.08,170.53a3.5,3.5,0,0,1-3.5,3.5H139.64a3.5,3.5,0,1,1,0-7h28.94a3.5,3.5,0,0,1,3.5,3.49"
           transform="translate(0 1)"
         />
       </g>
     </g>
-    <text class="hubs-cls-19" transform="translate(149.66 175.8)"
+    <text class="hubs-cls-19" transform="translate(137.98 173.76)"
       >PARCOURSUP</text
     >
   </g>
@@ -761,366 +759,368 @@
         <g>
           <rect
             class="hubs-cls-6"
-            x="199.38"
-            y="177.13"
-            width="16.76"
-            height="16.84"
-            rx="1.25"
+            x="189.2"
+            y="175.12"
+            width="17.3"
+            height="17.38"
+            rx="1.3"
           />
           <path
             class="hubs-cls-1"
-            d="M214.89,176.56a.83.83,0,0,1,.83.82v14.34a.83.83,0,0,1-.83.83H200.63a.83.83,0,0,1-.83-.83V177.38a.83.83,0,0,1,.83-.82h14.26m0-.85H200.63a1.68,1.68,0,0,0-1.68,1.67v14.34a1.68,1.68,0,0,0,1.68,1.68h14.26a1.68,1.68,0,0,0,1.68-1.68V177.38a1.68,1.68,0,0,0-1.68-1.67Z"
+            d="M205.2,174.55a.88.88,0,0,1,.88.88V190.2a.89.89,0,0,1-.88.88H190.5a.89.89,0,0,1-.88-.88V175.43a.88.88,0,0,1,.88-.88h14.7m0-.85H190.5a1.73,1.73,0,0,0-1.73,1.73V190.2a1.74,1.74,0,0,0,1.73,1.73h14.7a1.74,1.74,0,0,0,1.73-1.73V175.43a1.73,1.73,0,0,0-1.73-1.73Z"
             transform="translate(0 1)"
           />
         </g>
         <polyline
           class="hubs-cls-7"
-          points="209.7 187.18 211.93 189.4 216.36 189.4"
+          points="199.85 185.49 202.14 187.78 206.71 187.78"
         />
         <line
           class="hubs-cls-7"
-          x1="210.27"
-          y1="185.38"
-          x2="216.36"
-          y2="185.38"
+          x1="200.43"
+          y1="183.64"
+          x2="206.71"
+          y2="183.64"
         />
         <polyline
           class="hubs-cls-7"
-          points="205.96 183.63 203.72 181.38 199.29 181.38"
+          points="196 181.83 193.68 179.51 189.12 179.51"
         />
         <line
           class="hubs-cls-7"
-          x1="205.33"
-          y1="185.38"
-          x2="199.29"
-          y2="185.38"
+          x1="195.34"
+          y1="183.64"
+          x2="189.12"
+          y2="183.64"
         />
         <polyline
           class="hubs-cls-7"
-          points="206.08 187.07 203.7 189.44 199.29 189.44"
+          points="196.11 185.37 193.67 187.82 189.12 187.82"
         />
         <path
           class="hubs-cls-7"
-          d="M207.83,176v6.12h-.05a2.45,2.45,0,1,0,2.45,2.45,2.5,2.5,0,0,0-.62-1.63h0l2.5-2.5h4.26"
+          d="M197.92,174v6.3h0a2.52,2.52,0,1,0,1.88.84h0l2.57-2.58h4.39"
           transform="translate(0 1)"
         />
         <line
           class="hubs-cls-7"
-          x1="207.83"
-          y1="188.04"
-          x2="207.83"
-          y2="194.12"
+          x1="197.92"
+          y1="186.38"
+          x2="197.92"
+          y2="192.65"
         />
       </g>
-      <g id="Europeen-3" data-name="Europeen">
+      <g on:click={handleClick} id="Europeen-3" data-name="Europeen">
         <path
           class="hubs-cls-8"
-          d="M224.67,172.64a3.4,3.4,0,0,1-3.4,3.39H193.19a3.4,3.4,0,0,1,0-6.79h28.08a3.4,3.4,0,0,1,3.4,3.4"
+          d="M215.27,170.53a3.5,3.5,0,0,1-3.5,3.5H182.83a3.5,3.5,0,0,1,0-7h28.94a3.5,3.5,0,0,1,3.5,3.49"
           transform="translate(0 1)"
         />
       </g>
     </g>
-    <text class="hubs-cls-19" transform="translate(198.32 175.8)">APOGEE</text>
+    <text class="hubs-cls-19" transform="translate(188.12 173.76)">APOGEE</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(176.48 245.4) scale(0.73)"
+      transform="translate(165.62 245.48) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(187.01 251.33)">SDO</text>
+    <text class="hubs-cls-19" transform="translate(176.46 251.6)">SDO</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(230.89 407.37) scale(0.73)"
+      transform="translate(221.68 412.39) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(238.1 413.21)">HOPSY</text>
+    <text class="hubs-cls-19" transform="translate(229.11 418.4)">HOPSY</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(199.13 382.12) scale(0.73)"
+      transform="translate(188.96 386.37) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(206.96 388.02)">RIM-P</text>
+    <text class="hubs-cls-19" transform="translate(197.02 392.45)">RIM-P</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(303.36 517.79) scale(0.73)"
+      transform="translate(296.37 526.18) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(312.15 523.65)">DUDE</text>
+    <text class="hubs-cls-19" transform="translate(305.42 532.21)">DUDE</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(306.01 429.76) scale(0.73)"
+      transform="translate(299.09 435.46) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(312.88 435.6)">DMIMT</text>
+    <text class="hubs-cls-19" transform="translate(306.17 441.48)">DMIMT</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(231.46 563.31) scale(0.73)"
+      transform="translate(222.27 573.09) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(242.1 569.19)">RSA</text>
+    <text class="hubs-cls-19" transform="translate(233.23 579.14)">RSA</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(531.8 410.58) scale(0.73)"
+      transform="translate(531.77 415.7) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(540.92 416.49)">FAED</text>
+    <text class="hubs-cls-19" transform="translate(541.16 421.79)">FAED</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(469.97 410.58) scale(0.73)"
+      transform="translate(468.05 415.7) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(477.33 416.46)">FNAEG</text>
+    <text class="hubs-cls-19" transform="translate(475.63 421.76)">FNAEG</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(778.27 587.21) scale(0.73)"
+      transform="translate(785.75 597.71) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(788.05 593.15)">APPI</text>
+    <text class="hubs-cls-19" transform="translate(795.82 603.83)">APPI</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(712.78 630.36) scale(0.73)"
+      transform="translate(718.27 642.18) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(721.28 636.3)">PSEM</text>
+    <text class="hubs-cls-19" transform="translate(727.02 648.29)">PSEM</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(735.42 598.06) scale(0.73)"
+      transform="translate(741.59 608.89) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(746.24 603.94)">PSE</text>
+    <text class="hubs-cls-19" transform="translate(752.74 614.96)">PSE</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(544.38 594.66) scale(0.73)"
+      transform="translate(544.73 605.39) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(550.67 600.58)">FIJAISV</text
+    <text class="hubs-cls-19" transform="translate(551.21 611.49)">FIJAISV</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(607.32 594.66) scale(0.73)"
+      transform="translate(609.58 605.39) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(615.24 600.58)">FIJAIT</text>
+    <text class="hubs-cls-19" transform="translate(617.75 611.49)">FIJAIT</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(349.57 654.55) scale(0.73)"
+      transform="translate(343.98 667.11) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(359.62 660.42)">FICP</text>
+    <text class="hubs-cls-19" transform="translate(354.34 673.16)">FICP</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(357.56 701.6) scale(0.73)"
+      transform="translate(352.21 715.59) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(368.67 707.47)">FCC</text>
+    <text class="hubs-cls-19" transform="translate(363.66 721.64)">FCC</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(369.65 599.52) scale(0.73)"
+      transform="translate(364.67 610.4) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(375.75 605.42)">ADONIS</text>
+    <text class="hubs-cls-19" transform="translate(370.96 616.48)">ADONIS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(394.15 701.59) scale(0.73)"
+      transform="translate(389.92 715.58) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(400.74 707.43)">FICOBA</text>
+    <text class="hubs-cls-19" transform="translate(396.72 721.59)">FICOBA</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(164.26 505.59) scale(0.73)"
+      transform="translate(153.02 513.6) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(169.69 511.43)">CRISTAL</text
+    <text class="hubs-cls-19" transform="translate(158.62 519.62)">CRISTAL</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(187.09 661.44) scale(0.73)"
+      transform="translate(176.55 674.2) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(196.68 667.31)">DN@</text>
+    <text class="hubs-cls-19" transform="translate(186.43 680.25)">DN@</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(74.82 597.76) scale(0.73)"
+      transform="translate(60.85 608.59) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(79.73 603.69)">SNE-DLS</text>
+    <text class="hubs-cls-19" transform="translate(65.92 614.69)">SNE-DLS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(36.2 635.47) scale(0.73)"
+      transform="translate(21.05 647.44) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(45.19 641.31)">DALO</text>
+    <text class="hubs-cls-19" transform="translate(30.32 653.46)">DALO</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(58.99 700.42) scale(0.73)"
+      transform="translate(44.54 714.37) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(65.4 706.28)">ADOMA</text>
+    <text class="hubs-cls-19" transform="translate(51.15 720.41)">ADOMA</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(103.06 635.47) scale(0.73)"
+      transform="translate(89.95 647.44) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(112.8 641.38)">SIAO</text>
+    <text class="hubs-cls-19" transform="translate(100 653.53)">SIAO</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(439.12 682.3) scale(0.73)"
+      transform="translate(436.26 695.7) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(444.61 688.12)">EVAFISC</text
+    <text class="hubs-cls-19" transform="translate(441.91 701.69)">EVAFISC</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(420.66 599.41) scale(0.73)"
+      transform="translate(417.24 610.28) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(427.89 605.29)">SIRIUS</text>
+    <text class="hubs-cls-19" transform="translate(424.69 616.35)">SIRIUS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(797.4 660.38) scale(0.73)"
+      transform="translate(805.46 673.11) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(802.54 666.2)">GENESIS</text>
+    <text class="hubs-cls-19" transform="translate(810.76 679.11)">GENESIS</text
+    >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(766.16 683.06) scale(0.73)"
+      transform="translate(773.27 696.49) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(776.79 688.88)">DPS</text>
+    <text class="hubs-cls-19" transform="translate(784.22 702.48)">DPS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(791.03 488.55) scale(0.73)"
+      transform="translate(798.9 496.05) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(796.65 494.4)">API-PNR</text>
+    <text class="hubs-cls-19" transform="translate(804.69 502.07)">API-PNR</text
+    >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(602.4 524.94) scale(0.73)"
+      transform="translate(604.52 533.55) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(611.62 530.78)">CJNA</text>
+    <text class="hubs-cls-19" transform="translate(614.02 539.56)">CJNA</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(583.26 641.67) scale(0.73)"
+      transform="translate(584.79 653.83) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(593.27 647.51)">AEM</text>
+    <text class="hubs-cls-19" transform="translate(595.11 659.85)">AEM</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(820.01 146.35) scale(0.73)"
+      transform="translate(828.76 143.42) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(826.44 152.25)">BIOPEX</text>
+    <text class="hubs-cls-19" transform="translate(835.39 149.5)">BIOPEX</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(750.46 146.31) scale(0.73)"
+      transform="translate(757.09 143.37) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(756.15 152.2)">DOREMI</text>
+    <text class="hubs-cls-19" transform="translate(762.95 149.45)">DOREMI</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(748.5 290.4) scale(0.73)"
+      transform="translate(755.07 291.85) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(750.21 296.29) scale(0.95 1)"
+    <text class="hubs-cls-19" transform="translate(756.83 297.93) scale(0.95 1)"
       >BCR-DNRED</text
     >
   </g>
@@ -1128,10 +1128,10 @@
     <use
       width="41.8"
       height="33.52"
-      transform="translate(799.84 223.48) scale(0.73)"
+      transform="translate(807.97 222.89) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(801.09 229.38) scale(0.95 1)"
+    <text class="hubs-cls-19" transform="translate(809.27 228.97) scale(0.95 1)"
       >SIREX-DRSD</text
     >
   </g>
@@ -1139,19 +1139,19 @@
     <use
       width="41.8"
       height="33.52"
-      transform="translate(702.72 320.22) scale(0.73)"
+      transform="translate(707.9 322.58) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(713.4 326.12)">CAR</text>
+    <text class="hubs-cls-19" transform="translate(718.9 328.66)">CAR</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(783.29 290.4) scale(0.73)"
+      transform="translate(790.92 291.85) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(786.26 296.29)"
+    <text class="hubs-cls-19" transform="translate(793.98 297.93)"
       >STARTRAC</text
     >
   </g>
@@ -1159,74 +1159,75 @@
     <use
       width="41.8"
       height="33.52"
-      transform="translate(782.42 107.62) scale(0.73)"
+      transform="translate(790.02 103.51) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(791.58 113.49)">DGSE</text>
+    <text class="hubs-cls-19" transform="translate(799.47 109.55)">DGSE</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(804.41 386.31) scale(0.73)"
+      transform="translate(812.69 390.69) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(813.46 392.2)">FNPC</text>
+    <text class="hubs-cls-19" transform="translate(822.01 396.76)">FNPC</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(741.61 386.03) scale(0.73)"
+      transform="translate(747.97 390.4) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(749.34 391.92)">FOVES</text>
+    <text class="hubs-cls-19" transform="translate(755.93 396.47)">FOVES</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(799.52 438.5) scale(0.73)"
+      transform="translate(807.65 444.47) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(803.95 444.4)">STC-LAPI</text
+    <text class="hubs-cls-19" transform="translate(812.21 450.55)"
+      >STC-LAPI</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(761.16 438.12) scale(0.73)"
+      transform="translate(768.12 444.08) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(772.69 444.01)">SIV</text>
+    <text class="hubs-cls-19" transform="translate(780 450.15)">SIV</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(740.56 481.32) scale(0.73)"
+      transform="translate(746.89 488.59) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(751.33 487.06)">SCA</text>
+    <text class="hubs-cls-19" transform="translate(757.99 494.51)">SCA</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(576.49 410.58) scale(0.73)"
+      transform="translate(577.82 415.7) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(587.56 416.41)">TAJ</text>
+    <text class="hubs-cls-19" transform="translate(589.22 421.71)">TAJ</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(428.31 382.52) scale(0.73)"
+      transform="translate(425.12 386.78) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(437.16 388.36)">ADOC</text>
+    <text class="hubs-cls-19" transform="translate(434.24 392.8)">ADOC</text>
   </g>
   <g on:click={handleClick}>
     <g>
@@ -1234,66 +1235,66 @@
         <g>
           <rect
             class="hubs-cls-6"
-            x="447.34"
-            y="348.69"
-            width="16.76"
-            height="16.84"
-            rx="1.25"
+            x="444.72"
+            y="351.91"
+            width="17.3"
+            height="17.38"
+            rx="1.3"
           />
           <path
             class="hubs-cls-1"
-            d="M462.85,348.12a.83.83,0,0,1,.83.83v14.33a.83.83,0,0,1-.83.83H448.59a.83.83,0,0,1-.82-.83V349a.83.83,0,0,1,.82-.83h14.26m0-.85H448.59a1.68,1.68,0,0,0-1.67,1.68v14.33a1.68,1.68,0,0,0,1.67,1.68h14.26a1.68,1.68,0,0,0,1.68-1.68V349a1.68,1.68,0,0,0-1.68-1.68Z"
+            d="M460.72,351.34a.88.88,0,0,1,.88.88V367a.89.89,0,0,1-.88.88H446a.89.89,0,0,1-.88-.88V352.22a.88.88,0,0,1,.88-.88h14.7m0-.85H446a1.73,1.73,0,0,0-1.73,1.73V367a1.74,1.74,0,0,0,1.73,1.73h14.7a1.74,1.74,0,0,0,1.73-1.73V352.22a1.73,1.73,0,0,0-1.73-1.73Z"
             transform="translate(0 1)"
           />
         </g>
         <polyline
           class="hubs-cls-7"
-          points="457.67 358.74 459.89 360.96 464.32 360.96"
+          points="455.37 362.28 457.67 364.57 462.23 364.57"
         />
         <line
           class="hubs-cls-7"
-          x1="458.23"
-          y1="356.94"
-          x2="464.32"
-          y2="356.94"
+          x1="455.95"
+          y1="360.43"
+          x2="462.23"
+          y2="360.43"
         />
         <polyline
           class="hubs-cls-7"
-          points="453.93 355.19 451.68 352.94 447.25 352.94"
+          points="451.52 358.62 449.2 356.3 444.64 356.3"
         />
         <line
           class="hubs-cls-7"
-          x1="453.29"
-          y1="356.94"
-          x2="447.25"
-          y2="356.94"
+          x1="450.86"
+          y1="360.43"
+          x2="444.64"
+          y2="360.43"
         />
         <polyline
           class="hubs-cls-7"
-          points="454.04 358.63 451.66 361 447.25 361"
+          points="451.63 362.16 449.19 364.61 444.64 364.61"
         />
         <path
           class="hubs-cls-7"
-          d="M455.8,347.51v6.12h-.06a2.45,2.45,0,1,0,2.45,2.45,2.5,2.5,0,0,0-.62-1.64h0l2.5-2.5h4.26"
+          d="M453.44,350.74V357h-.05a2.52,2.52,0,1,0,1.88.84h0l2.57-2.58h4.39"
           transform="translate(0 1)"
         />
         <line
           class="hubs-cls-7"
-          x1="455.79"
-          y1="359.6"
-          x2="455.79"
-          y2="365.69"
+          x1="453.44"
+          y1="363.17"
+          x2="453.44"
+          y2="369.44"
         />
       </g>
-      <g id="Europeen-48" data-name="Europeen">
+      <g on:click={handleClick} id="Europeen-48" data-name="Europeen">
         <path
           class="hubs-cls-8"
-          d="M480.48,344.2a3.4,3.4,0,0,1-3.4,3.39H434.52a3.39,3.39,0,0,1,0-6.78h42.56a3.4,3.4,0,0,1,3.4,3.39"
+          d="M478.88,347.32a3.49,3.49,0,0,1-3.5,3.5H431.52a3.5,3.5,0,1,1,0-7h43.86a3.49,3.49,0,0,1,3.5,3.49"
           transform="translate(0 1)"
         />
       </g>
     </g>
-    <text class="hubs-cls-19" transform="translate(432.85 347.33) scale(0.98 1)"
+    <text class="hubs-cls-19" transform="translate(429.8 350.52) scale(0.98 1)"
       >ANACRIM/MERCURE</text
     >
   </g>
@@ -1301,48 +1302,48 @@
     <use
       width="41.8"
       height="33.52"
-      transform="translate(524.78 332.93) scale(0.73)"
+      transform="translate(524.53 335.69) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(529.96 338.81)">FNG-CNI</text
+    <text class="hubs-cls-19" transform="translate(529.87 341.74)">FNG-CNI</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(380.51 240.46) scale(0.73)"
+      transform="translate(375.86 240.39) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(386.05 246.36)">VISABIO</text
+    <text class="hubs-cls-19" transform="translate(381.58 246.48)">VISABIO</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(556.08 167.86) scale(0.73)"
+      transform="translate(556.79 165.58) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(565.04 173.69)">PASP</text>
+    <text class="hubs-cls-19" transform="translate(566.02 171.59)">PASP</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(686.22 246.4) scale(0.73)"
+      transform="translate(690.89 246.51) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(695.33 252.23)">EASP</text>
+    <text class="hubs-cls-19" transform="translate(700.28 252.52)">EASP</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(659.99 144.21) scale(0.73)"
+      transform="translate(663.86 141.21) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(664.05 150.08)"
+    <text class="hubs-cls-19" transform="translate(668.05 147.26)"
       >CRISTINA</text
     >
   </g>
@@ -1350,65 +1351,64 @@
     <use
       width="41.8"
       height="33.52"
-      transform="translate(576.41 306.3) scale(0.73)"
+      transform="translate(577.74 308.24) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(587.06 312.18)">FPR</text>
+    <text class="hubs-cls-19" transform="translate(588.71 314.3)">FPR</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(486.29 456.39) scale(0.73)"
+      transform="translate(484.87 462.91) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(490.55 462.21)">OCTOPUS</text
-    >
+    <text class="hubs-cls-19" transform="translate(489.26 468.9)">OCTOPUS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(530.25 456.39) scale(0.73)"
+      transform="translate(530.16 462.91) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(540.05 462.21)">FNIS</text>
+    <text class="hubs-cls-19" transform="translate(540.27 468.9)">FNIS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(438.41 438.86) scale(0.73)"
+      transform="translate(435.53 444.84) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(445.72 444.67)">OSIRIS</text>
+    <text class="hubs-cls-19" transform="translate(443.06 450.83)">OSIRIS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(648.4 246.4) scale(0.73)"
+      transform="translate(651.92 246.51) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(654.28 252.26)">ACCRED</text>
+    <text class="hubs-cls-19" transform="translate(657.98 252.56)">ACCRED</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(656.09 323.51) scale(0.73)"
+      transform="translate(659.85 325.98) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(662.19 329.38)">ASTREE</text>
+    <text class="hubs-cls-19" transform="translate(666.12 332.02)">ASTREE</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(596.68 119.38) scale(0.73)"
+      transform="translate(598.62 115.62) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(598.53 125.25)"
+    <text class="hubs-cls-19" transform="translate(600.53 121.67)"
       >GESTEREXT</text
     >
   </g>
@@ -1416,146 +1416,146 @@
     <use
       width="41.8"
       height="33.52"
-      transform="translate(659.99 107.54) scale(0.73)"
+      transform="translate(663.86 103.42) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(664.43 113.41)">CGEEDRT</text
+    <text class="hubs-cls-19" transform="translate(668.44 109.47)">CGEEDRT</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(527.42 130.44) scale(0.73)"
+      transform="translate(527.26 127.02) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(535.17 136.33)">FSPRT</text>
+    <text class="hubs-cls-19" transform="translate(535.24 133.09)">FSPRT</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(589.04 167.86) scale(0.73)"
+      transform="translate(590.75 165.58) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(595.58 173.76)">GIPASP</text>
+    <text class="hubs-cls-19" transform="translate(597.49 171.66)">GIPAPS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(339.66 142.71) scale(0.73)"
+      transform="translate(333.77 139.66) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(349.71 148.65)">ELOI</text>
+    <text class="hubs-cls-19" transform="translate(344.12 145.78)">ELOI</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(372.71 107.49) scale(0.73)"
+      transform="translate(367.83 103.37) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(378.54 113.42)">ADGREF</text>
+    <text class="hubs-cls-19" transform="translate(373.83 109.48)">ADGREF</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(339.89 210.65) scale(0.73)"
+      transform="translate(334.01 209.68) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(345.58 216.49)">PRÉNAT</text>
+    <text class="hubs-cls-19" transform="translate(339.87 215.7)">PRÉNAT</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(286.93 280.3) scale(0.73)"
+      transform="translate(279.43 281.44) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(299.04 286.19)">DP</text>
+    <text class="hubs-cls-19" transform="translate(291.91 287.52)">DP</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(249.22 280.3) scale(0.73)"
+      transform="translate(240.57 281.44) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(259.39 286.19)">MES</text>
+    <text class="hubs-cls-19" transform="translate(251.05 287.52)">MES</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(491.69 332.93) scale(0.73)"
+      transform="translate(490.43 335.69) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(502.78 338.81)">TES</text>
+    <text class="hubs-cls-19" transform="translate(501.86 341.74)">TES</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="41.8"
       height="33.52"
-      transform="translate(602.4 489.94) scale(0.73)"
+      transform="translate(604.52 497.48) scale(0.75)"
       xlink:href="#National"
     />
-    <text class="hubs-cls-19" transform="translate(604.29 495.85)"
+    <text class="hubs-cls-19" transform="translate(606.47 503.57)"
       >CASSIOPEE</text
     >
   </g>
-  <g id="JRO-FRONTEX" on:click={handleClick}>
+  <g on:click={handleClick}>
     <g>
       <path
         class="hubs-cls-1"
-        d="M440.43,145.65A3.39,3.39,0,0,1,437,149H410.67a3.39,3.39,0,0,1,0-6.78H437a3.4,3.4,0,0,1,3.4,3.39"
+        d="M437.61,142.73a3.5,3.5,0,0,1-3.5,3.49H407a3.5,3.5,0,1,1,0-7h27.16a3.5,3.5,0,0,1,3.5,3.5"
         transform="translate(0 1)"
       />
       <g>
         <rect
           class="hubs-cls-2"
-          x="414.47"
-          y="150.46"
-          width="19.35"
-          height="19.43"
-          rx="1.84"
+          x="410.86"
+          y="147.65"
+          width="19.94"
+          height="20.02"
+          rx="1.9"
         />
-        <text class="hubs-cls-20" transform="translate(421.7 168.02)">UE</text>
+        <text class="hubs-cls-20" transform="translate(418.3 165.74)">UE</text>
         <polyline
           class="hubs-cls-4"
-          points="426.23 161.68 428.74 164.18 433.8 164.18"
+          points="422.98 159.21 425.56 161.79 430.78 161.79"
         />
         <line
           class="hubs-cls-4"
-          x1="426.87"
-          y1="159.76"
-          x2="433.8"
-          y2="159.76"
+          x1="423.63"
+          y1="157.24"
+          x2="430.78"
+          y2="157.24"
         />
         <polyline
           class="hubs-cls-4"
-          points="422.33 157.96 419.72 155.37 414.48 155.37"
+          points="418.95 155.38 416.26 152.71 410.87 152.71"
         />
         <line
           class="hubs-cls-4"
-          x1="421.48"
-          y1="159.76"
-          x2="414.48"
-          y2="159.76"
+          x1="418.08"
+          y1="157.24"
+          x2="410.87"
+          y2="157.24"
         />
         <polyline
           class="hubs-cls-4"
-          points="422.2 161.74 419.7 164.22 414.48 164.22"
+          points="418.82 159.27 416.25 161.83 410.87 161.83"
         />
         <path
           class="hubs-cls-4"
-          d="M424.24,149.57v6.65h-.07a2.69,2.69,0,1,0,2,.89h0l2.74-2.74h4.88"
+          d="M420.92,146.77v6.84h-.06a2.78,2.78,0,1,0,2.77,2.77,2.75,2.75,0,0,0-.7-1.84h0l2.83-2.82h5"
           transform="translate(0 1)"
         />
       </g>
     </g>
-    <text class="hubs-cls-17" transform="translate(408.96 148.81) scale(0.9 1)"
+    <text class="hubs-cls-17" transform="translate(405.18 145.95) scale(0.9 1)"
       >JRO-FRONTEX</text
     >
   </g>
@@ -1563,75 +1563,75 @@
     <use
       width="42.98"
       height="36.91"
-      transform="translate(415.75 197.41) scale(0.73)"
+      transform="translate(412.18 196.03) scale(0.75)"
       xlink:href="#Europeen-71"
     />
-    <text class="hubs-cls-17" transform="translate(420.05 203.04)">EURODAC</text
+    <text class="hubs-cls-17" transform="translate(416.61 201.83)">EURODAC</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="42.98"
       height="36.91"
-      transform="translate(453.73 304.17) scale(0.73)"
+      transform="translate(451.31 306.05) scale(0.75)"
       xlink:href="#Europeen-71"
     />
-    <text class="hubs-cls-17" transform="translate(458.12 309.82)">EUROPOL</text
+    <text class="hubs-cls-17" transform="translate(455.84 311.87)">EUROPOL</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="42.98"
       height="36.91"
-      transform="translate(508.93 292.61) scale(0.73)"
+      transform="translate(508.2 294.13) scale(0.75)"
       xlink:href="#Europeen-71"
     />
-    <text class="hubs-cls-17" transform="translate(515.33 298.22)">N-SIS-2</text
+    <text class="hubs-cls-17" transform="translate(514.79 299.92)">N-SIS-2</text
     >
   </g>
   <g on:click={handleClick}>
     <use
       width="42.98"
       height="36.91"
-      transform="translate(561.05 524.71) scale(0.73)"
+      transform="translate(561.9 533.31) scale(0.75)"
       xlink:href="#Europeen-71"
     />
-    <text class="hubs-cls-17" transform="translate(569.86 530.33)">ECRIS</text>
+    <text class="hubs-cls-17" transform="translate(570.98 539.1)">ECRIS</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="42.81"
       height="44.09"
-      transform="translate(122.26 344.86) scale(0.73)"
+      transform="translate(109.74 347.97) scale(0.75)"
       xlink:href="#Repertoire"
     />
-    <text class="hubs-cls-21" transform="translate(128.74 350.71)">RNIPP</text>
+    <text class="hubs-cls-21" transform="translate(116.42 354)">RNIPP</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="42.81"
       height="44.09"
-      transform="translate(94.93 122.93) scale(0.73)"
+      transform="translate(81.58 119.28) scale(0.75)"
       xlink:href="#Repertoire"
     />
-    <text class="hubs-cls-21" transform="translate(103.48 128.9)">RNIE</text>
+    <text class="hubs-cls-21" transform="translate(90.39 125.43)">RNIE</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="42.81"
       height="44.09"
-      transform="translate(270.14 322.56) scale(0.73)"
+      transform="translate(262.13 324.99) scale(0.75)"
       xlink:href="#Repertoire"
     />
-    <text class="hubs-cls-21" transform="translate(275.78 328.46)">RNIAM</text>
+    <text class="hubs-cls-21" transform="translate(267.94 331.08)">RNIAM</text>
   </g>
   <g on:click={handleClick}>
     <use
       width="42.81"
       height="44.09"
-      transform="translate(196.39 498.87) scale(0.73)"
+      transform="translate(186.13 506.68) scale(0.75)"
       xlink:href="#Repertoire"
     />
-    <text class="hubs-cls-21" transform="translate(202.2 504.6)">RNCPS</text>
+    <text class="hubs-cls-21" transform="translate(192.12 512.58)">RNCPS</text>
   </g>
 </g>

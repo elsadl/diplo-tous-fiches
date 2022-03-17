@@ -1,1452 +1,4018 @@
-<script>
-  import { fade } from "svelte/transition"
-</script>
+<g id="fleches">
+  <defs>
+    <style>
+      .exemples-cls-1,
+      .exemples-cls-5,
+      .exemples-cls-8 {
+        fill: #fff;
+      }
 
-<g transition:fade={{ duration: 100 }} id="exemples">
-  <g id="fleches">
-    <defs>
-      <style>
-        .exemples-cls-1,
-        .exemples-cls-5,
-        .exemples-cls-8 {
-          fill: #fff;
-        }
+      .exemples-cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        opacity: 0;
+      }
 
-        .exemples-cls-1 {
-          stroke: #000;
-          stroke-miterlimit: 10;
-          opacity: 0;
-        }
+      .exemples-cls-2,
+      .exemples-cls-4,
+      .exemples-cls-7 {
+        fill: none;
+      }
 
-        .exemples-cls-2,
-        .exemples-cls-4,
-        .exemples-cls-7 {
-          fill: none;
-        }
+      .exemples-cls-2,
+      .exemples-cls-4,
+      .exemples-cls-8 {
+        stroke: #ba602d;
+      }
 
-        .exemples-cls-2,
-        .exemples-cls-4,
-        .exemples-cls-8 {
-          stroke: #ba602d;
-        }
+      .exemples-cls-2,
+      .exemples-cls-8 {
+        stroke-width: 0.71px;
+      }
 
-        .exemples-cls-2,
-        .exemples-cls-8 {
-          stroke-width: 0.71px;
-        }
+      .exemples-cls-3 {
+        fill: #ba602d;
+      }
 
-        .exemples-cls-3,
-        .exemples-cls-9 {
-          fill: #ba602d;
-        }
+      .exemples-cls-4 {
+        stroke-width: 0.71px;
+      }
 
-        .exemples-cls-4 {
-          stroke-width: 0.71px;
-        }
-
-        .exemples-cls-6 {
-          fill: #dee7e9;
-        }
-
-        .exemples-cls-9 {
-          font-size: 6.93px;
-          font-family: "Bunday Sans";
-          font-weight: 600;
-        }
-      </style>
-    </defs>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="46.53"
-        y1="115.4"
-        x2="46.53"
-        y2="171.24"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="44.42 170.62 46.53 174.28 48.65 170.62 44.42 170.62"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="180.35"
-        y1="115.65"
-        x2="46.31"
-        y2="115.65"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="183.52 113.55 179.97 115.66 183.52 117.77 183.52 113.55"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="185.19 173.38 175.22 173.38 175.22 115.96"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="184.57 171.26 188.24 173.38 184.57 175.5 184.57 171.26"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="280.99"
-        y1="112.18"
-        x2="367.08"
-        y2="112.18"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="366.46 114.3 370.13 112.18 366.46 110.07 366.46 114.3"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="280.99"
-        y1="134.94"
-        x2="280.99"
-        y2="112.18"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="283.09 138.11 280.98 134.56 278.87 138.11 283.09 138.11"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="235.64 222.16 235.64 248.19 195.39 248.19"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="233.52 222.78 235.64 219.11 237.75 222.78 233.52 222.78"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="60.53 199.98 60.53 202.97 235.64 202.97 235.64 219.11"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="58.42 200.6 60.53 196.94 62.65 200.6 58.42 200.6"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="142.63"
-        y1="161.82"
-        x2="142.63"
-        y2="202.64"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="140.52 162.44 142.63 158.78 144.75 162.44 140.52 162.44"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="191.77 254.22 191.77 441.03 243.7 441.03 243.7 479.84 306.99 479.84"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="306.37 481.96 310.03 479.84 306.37 477.73 306.37 481.96"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="31.74 518.98 31.74 473.48 58.97 473.48"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="33.84 522.15 31.73 518.6 29.62 522.15 33.84 522.15"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="92.13"
-        y1="473.34"
-        x2="76.92"
-        y2="473.34"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="91.52 471.22 95.18 473.34 91.52 475.45 91.52 471.22"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="172.83 501.3 172.83 498.84 102.36 498.84"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="174.95 500.69 172.83 504.35 170.72 500.69 174.95 500.69"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="91.33"
-        y1="502.22"
-        x2="91.33"
-        y2="527.14"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="89.23 530.3 91.34 526.76 93.45 530.3 89.23 530.3"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="316.83 534.68 316.83 624.11 308.95 624.11"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="305.78 622.01 309.33 624.12 305.78 626.23 305.78 622.01"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="214.47 316.56 264.08 316.56 264.08 309.24"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="266.19 309.86 264.08 306.2 261.96 309.86 266.19 309.86"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="252.38 316.56 302 316.56 302 309.24"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="304.11 309.86 302 306.2 299.88 309.86 304.11 309.86"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="214.46"
-        y1="322.95"
-        x2="214.46"
-        y2="316.32"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="216.56 326.12 214.45 322.57 212.34 326.12 216.56 326.12"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="214.46"
-        y1="364.7"
-        x2="214.46"
-        y2="350.04"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="216.56 346.88 214.45 350.42 212.34 346.88 216.56 346.88"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="214.46"
-        y1="377.29"
-        x2="214.46"
-        y2="364.7"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="216.58 376.67 214.47 380.33 212.35 376.67 216.58 376.67"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="348.84"
-        y1="378.13"
-        x2="348.84"
-        y2="394.45"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="346.74 374.97 348.85 378.51 350.96 374.97 346.74 374.97"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="348.84"
-        y1="347.25"
-        x2="348.84"
-        y2="352.52"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="346.74 355.69 348.85 352.14 350.96 355.69 346.74 355.69"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="348.84"
-        y1="340.23"
-        x2="348.84"
-        y2="347.25"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="346.73 340.85 348.84 337.18 350.95 340.85 346.73 340.85"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="356.79 393.68 402.54 393.68 402.52 287.41 465.07 287.41 465.07 276.96"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="467.18 277.58 465.07 273.92 462.95 277.58 467.18 277.58"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="108.5 575.93 145.45 575.93 145.45 639.25 120.59 639.25"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="105.33 578.03 108.88 575.92 105.33 573.81 105.33 578.03"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="113.04"
-        y1="639.25"
-        x2="72.22"
-        y2="639.25"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="72.84 637.14 69.18 639.25 72.84 641.37 72.84 637.14"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="90.23"
-        y1="639.33"
-        x2="90.23"
-        y2="628.49"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="92.34 629.1 90.23 625.44 88.11 629.1 92.34 629.1"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="196.55 587.1 196.55 625.44 242.25 625.44"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="245.42 627.54 241.87 625.43 245.42 623.32 245.42 627.54"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="246.92 564.68 246.92 492.51 185.3 492.51 185.3 501.3"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="183.19 500.69 185.3 504.35 187.41 500.69 183.19 500.69"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="414.21"
-        y1="603.6"
-        x2="414.21"
-        y2="591.43"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="416.31 588.27 414.19 591.81 412.08 588.27 416.31 588.27"
-      />
-    </g>
-    <line
-      class="exemples-cls-4"
-      x1="414.21"
-      y1="603.6"
-      x2="391.33"
-      y2="603.6"
-    />
-    <line
-      class="exemples-cls-4"
-      x1="414.21"
-      y1="603.6"
-      x2="426.36"
-      y2="603.6"
-    />
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="591.26"
-        y1="361.23"
-        x2="591.26"
-        y2="406.63"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="589.14 406.01 591.26 409.68 593.37 406.01 589.14 406.01"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="591.26"
-        y1="338.49"
-        x2="591.26"
-        y2="361.23"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="589.14 339.11 591.26 335.44 593.37 339.11 589.14 339.11"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="591.74 361.47 641.64 361.47 641.64 369.24"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="639.54 372.41 641.65 368.86 643.76 372.41 639.54 372.41"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="642.2"
-        y1="493.54"
-        x2="637.1"
-        y2="493.54"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="637.72 491.42 634.05 493.54 637.72 495.65 637.72 491.42"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="641.96"
-        y1="394.44"
-        x2="641.96"
-        y2="493.78"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="639.86 391.28 641.97 394.82 644.09 391.28 639.86 391.28"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="673.12"
-        y1="645.12"
-        x2="619.11"
-        y2="645.12"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="619.73 643.01 616.07 645.12 619.73 647.24 619.73 643.01"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="672.87"
-        y1="433.13"
-        x2="672.87"
-        y2="645.12"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="670.77 429.97 672.89 433.51 675 429.97 670.77 429.97"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="672.87"
-        y1="374.97"
-        x2="672.87"
-        y2="360.66"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="674.99 361.28 672.88 357.62 670.76 361.28 674.99 361.28"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="672.87"
-        y1="399.55"
-        x2="672.87"
-        y2="374.97"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="674.97 402.71 672.86 399.17 670.75 402.71 674.97 402.71"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="695.49"
-        y1="687.71"
-        x2="678.41"
-        y2="687.71"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="675.25 685.61 678.79 687.72 675.25 689.83 675.25 685.61"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="720.57"
-        y1="687.71"
-        x2="695.49"
-        y2="687.71"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="719.95 685.6 723.61 687.71 719.95 689.83 719.95 685.6"
-      />
-    </g>
-    <path
-      class="exemples-cls-2"
-      d="M778.31,658.43"
-      transform="translate(0 1)"
-    />
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="717.83"
-        y1="524.72"
-        x2="717.83"
-        y2="350.38"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="719.94 351 717.83 347.33 715.71 351 719.94 351"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="717.83"
-        y1="552.5"
-        x2="717.83"
-        y2="524.72"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="719.93 555.66 717.82 552.12 715.7 555.66 719.93 555.66"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="810.38 664.73 858.94 664.73 857.97 591.24 718.47 590.6 718.47 585.78"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="720.57 582.62 718.46 586.16 716.35 582.62 720.57 582.62"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="782.8 677.53 782.8 664.73 810.38 664.73"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="784.92 676.91 782.8 680.58 780.69 676.91 784.92 676.91"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="469.3 686.1 529.9 686.1 529.9 706"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="527.8 709.17 529.91 705.62 532.02 709.17 527.8 709.17"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="455.85 686.04 372.93 686.04 372.93 696.93"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="370.81 696.31 372.93 699.98 375.04 696.31 370.81 696.31"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="409.28"
-        y1="686.35"
-        x2="409.28"
-        y2="696.93"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="407.16 696.31 409.28 699.98 411.39 696.31 407.16 696.31"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="799.2 282.94 762.98 282.94 762.98 286.06"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="760.86 285.44 762.98 289.11 765.09 285.44 760.86 285.44"
-      />
-    </g>
-    <line
-      class="exemples-cls-2"
-      x1="579.32"
-      y1="111.84"
-      x2="579.32"
-      y2="155.89"
-    />
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="611.81"
-        y1="111.84"
-        x2="611.81"
-        y2="115.24"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="609.7 114.62 611.81 118.28 613.92 114.62 609.7 114.62"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="519.05"
-        y1="111.84"
-        x2="611.81"
-        y2="111.84"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="515.89 113.94 519.43 111.83 515.89 109.72 515.89 113.94"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="655.13"
-        y1="111.84"
-        x2="609.69"
-        y2="111.84"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="654.51 109.72 658.17 111.84 654.51 113.95 654.51 109.72"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="591.29"
-        y1="249.77"
-        x2="591.29"
-        y2="302.1"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="589.18 301.48 591.29 305.15 593.41 301.48 589.18 301.48"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="494.8 127.83 494.8 244.06 591.29 244.06 591.29 249.77"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="492.7 124.66 494.81 128.21 496.92 124.66 492.7 124.66"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="592.98 111.81 592.98 147.27 654.59 147.27"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="653.97 149.38 657.63 147.27 653.97 145.15 653.97 149.38"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="360.8"
-        y1="146.81"
-        x2="402.49"
-        y2="146.81"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="401.87 148.92 405.53 146.81 401.87 144.69 401.87 148.92"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="296.33"
-        y1="146.81"
-        x2="360.8"
-        y2="146.81"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="293.16 148.91 296.71 146.8 293.16 144.69 293.16 148.91"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="281.88 160 281.88 200.8 428.29 200.8"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="279.78 156.83 281.89 160.38 284 156.83 279.78 156.83"
-      />
-    </g>
-    <rect
-      class="exemples-cls-5"
-      x="426.86"
-      y="276.46"
-      width="2.92"
-      height="3.06"
-    />
-    <rect
-      class="exemples-cls-5"
-      x="426.86"
-      y="285.86"
-      width="2.92"
-      height="3.06"
-    />
-    <rect
-      class="exemples-cls-6"
-      x="543.37"
-      y="248.85"
-      width="2.92"
-      height="3.06"
-    />
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="428.29 200.8 428.29 295.6 504.42 295.6"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="503.8 297.71 507.46 295.6 503.8 293.48 503.8 297.71"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="316.83"
-        y1="499.34"
-        x2="316.83"
-        y2="530.61"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="314.72 499.95 316.83 496.29 318.95 499.95 314.72 499.95"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="591.7"
-        y1="450.98"
-        x2="467.77"
-        y2="450.98"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="468.39 448.86 464.73 450.98 468.39 453.09 468.39 448.86"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="546.52"
-        y1="451.13"
-        x2="546.52"
-        y2="440.44"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="548.64 441.05 546.52 437.39 544.41 441.05 548.64 441.05"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="484.82"
-        y1="451.13"
-        x2="484.82"
-        y2="440.44"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="486.94 441.05 484.82 437.39 482.71 441.05 486.94 441.05"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="586.81 156.04 571.31 156.04 571.31 163.03"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="569.19 162.41 571.31 166.07 573.42 162.41 569.19 162.41"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="663.73"
-        y1="249.93"
-        x2="682.18"
-        y2="249.93"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="681.56 252.05 685.22 249.93 681.56 247.82 681.56 252.05"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="663.73"
-        y1="286.74"
-        x2="663.73"
-        y2="249.93"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="665.83 289.91 663.72 286.36 661.61 289.91 665.83 289.91"
-      />
-    </g>
-    <path class="exemples-cls-2" d="M693.43,283.6" transform="translate(0 1)" />
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="850.81 282.94 799.13 282.94 799.13 286.06"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="797.01 285.44 799.13 289.11 801.24 285.44 797.01 285.44"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="589.06 725.83 864.69 725.83 864.69 282.94 850.81 282.94"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="585.9 727.93 589.44 725.82 585.9 723.71 585.9 727.93"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="724.36"
-        y1="441.73"
-        x2="755.35"
-        y2="441.73"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="754.73 443.84 758.4 441.73 754.73 439.61 754.73 443.84"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="786.19 354.64 756.73 354.64 756.73 390.33 724.36 390.33 724.36 441.73"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="789.36 352.54 785.81 354.65 789.36 356.76 789.36 352.54"
-      />
-    </g>
-    <line
-      class="exemples-cls-4"
-      x1="208.82"
-      y1="580.29"
-      x2="242.75"
-      y2="580.29"
-    />
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="107.71 242.25 107.71 409.75 179.05 409.75 179.05 501.3"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="176.94 500.69 179.05 504.35 181.17 500.69 176.94 500.69"
-      />
-    </g>
-    <rect
-      class="exemples-cls-5"
-      x="45.18"
-      y="124.82"
-      width="2.92"
-      height="3.06"
-    />
-    <rect
-      class="exemples-cls-5"
-      x="45.18"
-      y="139.75"
-      width="2.92"
-      height="3.06"
-    />
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="76.49 141.31 36.76 141.31 36.76 242.41 92.32 242.41"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="91.7 244.53 95.37 242.41 91.7 240.3 91.7 244.53"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="31.42 303.36 31.42 126.36 120.75 126.36"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="33.52 306.52 31.41 302.98 29.29 306.52 33.52 306.52"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="534.33 504.15 591.7 504.15 591.7 439.89"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="593.81 440.51 591.7 436.85 589.58 440.51 593.81 440.51"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="479.49"
-        y1="504.15"
-        x2="534.33"
-        y2="504.15"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="476.33 506.25 479.87 504.14 476.33 502.03 476.33 506.25"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="617.68"
-        y1="520.16"
-        x2="617.68"
-        y2="513.81"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="619.8 519.54 617.68 523.21 615.57 519.54 619.8 519.54"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="518.13 570.67 518.13 508.97 603.6 508.97"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="602.98 511.09 606.65 508.97 602.98 506.86 602.98 511.09"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-4"
-        points="618.34 687.32 535.14 687.32 535.14 680.98 518.13 680.98 518.13 570.67"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="621.5 685.22 617.96 687.34 621.5 689.45 621.5 685.22"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="819.05"
-        y1="371.96"
-        x2="819.05"
-        y2="380.44"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="816.94 379.82 819.05 383.48 821.17 379.82 816.94 379.82"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="819.05"
-        y1="365.28"
-        x2="819.05"
-        y2="371.96"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="816.95 362.12 819.06 365.66 821.17 362.12 816.95 362.12"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="724.36 441.73 724.36 484.37 734.92 484.37"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="734.3 486.48 737.96 484.37 734.3 482.25 734.3 486.48"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="586.81 156.04 604.25 156.04 604.25 163.03"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="602.13 162.41 604.25 166.07 606.36 162.41 602.13 162.41"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="51.97"
-        y1="141.35"
-        x2="51.97"
-        y2="171.24"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="49.85 170.62 51.97 174.28 54.08 170.62 49.85 170.62"
-      />
-    </g>
-    <path
-      class="exemples-cls-7"
-      d="M646.87,412.88"
-      transform="translate(0 1)"
-    />
-    <path
-      class="exemples-cls-7"
-      d="M591.86,412.88"
-      transform="translate(0 1)"
-    />
-    <path
-      class="exemples-cls-7"
-      d="M646.87,412.88"
-      transform="translate(0 1)"
-    />
-    <path
-      class="exemples-cls-7"
-      d="M591.86,412.88"
-      transform="translate(0 1)"
-    />
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="451.77 200.67 488.78 200.67 488.78 250 571.76 249.96 571.76 413.88 591.86 413.88"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="452.39 202.78 448.73 200.67 452.39 198.55 452.39 202.78"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="372.12 603.37 320.38 603.37 320.38 547.28"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="322.5 547.9 320.38 544.24 318.27 547.9 322.5 547.9"
-      />
-    </g>
-    <rect
-      class="exemples-cls-5"
-      x="315"
-      y="557.58"
-      width="3.28"
-      height="3.49"
-    />
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="320.38 559.43 251.81 559.43 251.81 502.36 232.68 502.36"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="233.3 500.24 229.64 502.36 233.3 504.47 233.3 500.24"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="312.1"
-        y1="513.53"
-        x2="312.1"
-        y2="489.69"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="314.21 512.91 312.1 516.57 309.98 512.91 314.21 512.91"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="67.09"
-        y1="413.26"
-        x2="67.09"
-        y2="326.44"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="69.19 416.42 67.08 412.88 64.96 416.42 69.19 416.42"
-      />
-    </g>
-    <g>
-      <polyline
-        class="exemples-cls-2"
-        points="67.09 326.44 67.09 321.95 64.99 321.95"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="65.61 319.83 61.95 321.94 65.61 324.06 65.61 319.83"
-      />
-    </g>
-    <g>
-      <line
-        class="exemples-cls-2"
-        x1="542.87"
-        y1="112.3"
-        x2="542.87"
-        y2="125.93"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="540.75 125.31 542.87 128.97 544.98 125.31 540.75 125.31"
-      />
-    </g>
-    <rect
-      class="exemples-cls-5"
-      x="640.32"
-      y="412.29"
-      width="2.95"
-      height="3.16"
-    />
-    <g>
-      <line
-        class="exemples-cls-4"
-        x1="591.86"
-        y1="413.88"
-        x2="643.71"
-        y2="413.88"
-      />
-      <polygon
-        class="exemples-cls-3"
-        points="646.87 415.98 643.33 413.87 646.87 411.75 646.87 415.98"
-      />
-    </g>
-  </g>
-  <g id="je_suis_-_cadres" data-name="je suis - cadres">
-    <rect
-      class="exemples-cls-8"
-      x="27.14"
-      y="562.63"
-      width="75.94"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="340.01"
-      y="357.39"
-      width="50.93"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="26.99"
-      y="524.14"
-      width="41.04"
-      height="22.75"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="26.99"
-      y="308.67"
-      width="33.71"
-      height="22.75"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="518.13"
-      y="710.64"
-      width="65.65"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="242.05"
-      y="140.01"
-      width="49.53"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="83.76"
-      y="531.38"
-      width="32.14"
-      height="15.47"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="198.86"
-      y="328.76"
-      width="32.82"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="185.8"
-      y="107.52"
-      width="55.28"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="228.44"
-      y="210.91"
-      width="37.81"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="393.75"
-      y="570.54"
-      width="40.76"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="247.43"
-      y="615.51"
-      width="56.99"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="481.01"
-      y="107.48"
-      width="32.89"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="623.54"
-      y="683.82"
-      width="50.03"
-      height="22.75"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="427.34"
-      y="499.81"
-      width="46.33"
-      height="23.43"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="708.92"
-      y="557.81"
-      width="54.28"
-      height="22.75"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="792.67"
-      y="344.51"
-      width="54.44"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="607.04"
-      y="374"
-      width="52.99"
-      height="15.51"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="648.65"
-      y="404.61"
-      width="47.21"
-      height="22.75"
-    />
-    <rect
-      class="exemples-cls-8"
-      x="645.06"
-      y="291.82"
-      width="60.57"
-      height="15.51"
+      .exemples-cls-6 {
+        fill: #dee7e9;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="exemples-cls-2" x1="31.7" y1="111.52" x2="31.7" y2="169.16" />
+    <polygon
+      class="exemples-cls-3"
+      points="29.59 168.54 31.7 172.2 33.82 168.54 29.59 168.54"
     />
   </g>
-  <g id="je_suis_-_textes" data-name="je suis - textes">
-    <text class="exemples-cls-9" transform="translate(29.69 569.6)"
-      >Sans abri, je fais une <tspan x="0" y="6.93">demande d’hébergement</tspan
-      ></text
-    >
-    <text class="exemples-cls-9" transform="translate(341 364.42)"
-      >J’ai été blessé<tspan x="0" y="6.93">en manifestation</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(29.15 530.57)"
-      >Je suis placé<tspan x="0" y="6.93">en famille</tspan><tspan
-        x="0"
-        y="13.87">d’accueil</tspan
-      ></text
-    >
-    <text class="exemples-cls-9" transform="translate(29.45 315.31)"
-      >J’ai 3 ans,<tspan x="0" y="6.93">je rentre</tspan><tspan x="0" y="13.87"
-        >à l’école</tspan
-      ></text
-    >
-    <text class="exemples-cls-9" transform="translate(519.89 716.97)"
-      >Je suis suspecté de<tspan x="0" y="6.93">blanchiment d’argent</tspan
-      ></text
-    >
-    <text class="exemples-cls-9" transform="translate(244.1 146.66)"
-      >L’asile politique<tspan x="0" y="6.93">m’a été refusé</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(85.93 537.46)"
-      >J’attends<tspan x="0" y="6.93">un enfant</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(201.59 335.26)"
-      >Je suis<tspan x="0" y="6.93">dépressif</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(187.51 114.49)"
-      >Je veux m’inscrire<tspan x="0" y="6.93">à l’université</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(230.15 217.89)"
-      >J’ai quitté<tspan x="0" y="6.93">l’école en 3</tspan></text
-    >
-    <text
-      class="exemples-cls-9"
-      transform="translate(262.12 222.51) scale(0.58)">e</text
-    >
-    <text class="exemples-cls-9" transform="translate(396.08 577.27)"
-      >Je déclare<tspan x="0" y="6.93">mes revenus</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(249.19 621.92)"
-      >Je suis agent<tspan x="0" y="6.93">d’entretien en CDD</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(626 690.13)"
-      >Je suis mineur,<tspan x="0" y="6.93">placé en centre</tspan><tspan
-        x="0"
-        y="13.87">fermé</tspan
-      ></text
-    >
-    <text class="exemples-cls-9" transform="translate(429.44 506.78)"
-      >Je suis arrêtée<tspan x="0" y="6.93">en possession</tspan><tspan
-        x="0"
-        y="13.87">de cannabis</tspan
-      ></text
-    >
-    <text class="exemples-cls-9" transform="translate(711.38 564.12)"
-      >Je suis en prison,<tspan x="0" y="6.93">je me suis</tspan><tspan
-        x="0"
-        y="13.87">déjà évadé</tspan
-      ></text
-    >
-    <text class="exemples-cls-9" transform="translate(794.72 351.65)"
-      >J’ai déclaré le vol<tspan x="0" y="6.93">de ma voiture</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(609.26 380.66)"
-      >Je suis interdit<tspan x="0" y="6.93">de manifestation</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(650.87 411.27)"
-      >Jeune exilé<tspan x="0" y="6.93">syrien, je suis</tspan><tspan
-        x="0"
-        y="13.87">en garde à vue</tspan
-      ></text
-    >
-    <text class="exemples-cls-9" transform="translate(646.7 298.33)"
-      >Je veux être<tspan x="0" y="6.93">conductrice de train</tspan></text
-    >
-    <text class="exemples-cls-9" transform="translate(483.71 114.29)"
-      >Je suis<tspan x="0" y="6.93">fché «</tspan></text
-    >
-    <text
-      class="exemples-cls-9"
-      transform="translate(502.52 121.22) scale(0.6 1)"
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="169.7"
+      y1="111.78"
+      x2="31.47"
+      y2="111.78"
     />
-    <text class="exemples-cls-9" transform="translate(503.46 121.22)">S</text>
-    <text
-      class="exemples-cls-9"
-      transform="translate(506.82 121.22) scale(0.6 1)"
+    <polygon
+      class="exemples-cls-3"
+      points="172.87 109.68 169.32 111.79 172.87 113.9 172.87 109.68"
     />
-    <text class="exemples-cls-9" transform="translate(507.77 121.22)">»</text>
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="174.69 171.27 164.32 171.27 164.32 112.1"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="174.07 169.15 177.73 171.27 174.07 173.38 174.07 169.15"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="273.31"
+      y1="108.21"
+      x2="362.12"
+      y2="108.21"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="361.5 110.32 365.16 108.21 361.5 106.09 361.5 110.32"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="273.31"
+      y1="131.76"
+      x2="273.31"
+      y2="108.21"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="275.41 134.92 273.3 131.38 271.19 134.92 275.41 134.92"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="226.58 221.44 226.58 248.37 185.1 248.37"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="224.46 222.06 226.58 218.4 228.69 222.06 224.46 222.06"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="46.13 198.59 46.13 201.76 226.58 201.76 226.58 218.4"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="44.02 199.21 46.13 195.55 48.25 199.21 44.02 199.21"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="130.74"
+      y1="159.27"
+      x2="130.74"
+      y2="201.42"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="128.62 159.89 130.74 156.22 132.85 159.89 128.62 159.89"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="181.38 254.57 181.38 447.07 234.88 447.07 234.88 487.07 300.19 487.07"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="299.57 489.19 303.24 487.07 299.57 484.96 299.57 489.19"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="16.47 527.5 16.47 480.51 44.53 480.51"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="18.57 530.67 16.45 527.12 14.34 530.67 18.57 530.67"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="78.79"
+      y1="480.37"
+      x2="63.02"
+      y2="480.37"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="78.17 478.25 81.83 480.37 78.17 482.48 78.17 478.25"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="161.85 509.28 161.85 506.65 89.23 506.65"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="163.97 508.66 161.85 512.33 159.74 508.66 163.97 508.66"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="77.87"
+      y1="510.14"
+      x2="77.87"
+      y2="535.91"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="75.77 539.07 77.88 535.53 79.99 539.07 75.77 539.07"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="310.24 543.58 310.24 635.73 302.02 635.73"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="298.86 633.63 302.4 635.75 298.86 637.86 298.86 633.63"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="204.76 318.82 255.88 318.82 255.88 311.18"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="258 311.8 255.88 308.14 253.77 311.8 258 311.8"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="243.83 318.82 294.96 318.82 294.96 311.18"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="297.07 311.8 294.96 308.14 292.84 311.8 297.07 311.8"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="204.76"
+      y1="325.5"
+      x2="204.76"
+      y2="318.57"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="206.86 328.66 204.75 325.12 202.63 328.66 206.86 328.66"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="204.76"
+      y1="368.42"
+      x2="204.76"
+      y2="353.22"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="206.86 350.05 204.75 353.6 202.63 350.05 206.86 350.05"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="204.76"
+      y1="381.48"
+      x2="204.76"
+      y2="368.42"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="206.87 380.87 204.76 384.53 202.64 380.87 206.87 380.87"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="343.23"
+      y1="382.17"
+      x2="343.23"
+      y2="399.08"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="341.13 379 343.24 382.55 345.35 379 341.13 379"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="343.23"
+      y1="350.44"
+      x2="343.23"
+      y2="355.97"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="341.13 359.13 343.24 355.59 345.35 359.13 341.13 359.13"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="343.23"
+      y1="343.11"
+      x2="343.23"
+      y2="350.44"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="341.11 343.73 343.23 340.07 345.34 343.73 341.11 343.73"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="351.42 398.28 398.57 398.28 398.54 288.77 463 288.77 463 277.91"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="465.12 278.53 463 274.87 460.88 278.53 465.12 278.53"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="95.46 586.09 133.63 586.09 133.63 651.34 108.03 651.34"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="92.3 588.19 95.84 586.08 92.3 583.97 92.3 588.19"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="100.24"
+      y1="651.34"
+      x2="58.09"
+      y2="651.34"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="58.7 649.23 55.04 651.34 58.7 653.46 58.7 649.23"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="76.73"
+      y1="651.42"
+      x2="76.73"
+      y2="640.15"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="78.85 640.77 76.73 637.11 74.62 640.77 78.85 640.77"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="186.3 597.6 186.3 637.11 233.49 637.11"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="236.65 639.21 233.11 637.1 236.65 634.99 236.65 639.21"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="238.2 574.5 238.2 500.13 174.7 500.13 174.7 509.28"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="172.59 508.66 174.7 512.33 176.82 508.66 172.59 508.66"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="410.59"
+      y1="614.6"
+      x2="410.59"
+      y2="601.97"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="412.69 598.8 410.57 602.35 408.46 598.8 412.69 598.8"
+    />
+  </g>
+  <line class="exemples-cls-4" x1="410.59" y1="614.6" x2="387.02" y2="614.6" />
+  <line class="exemples-cls-4" x1="410.59" y1="614.6" x2="423.11" y2="614.6" />
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="593.03"
+      y1="364.85"
+      x2="593.03"
+      y2="411.72"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="590.92 411.1 593.03 414.77 595.15 411.1 590.92 411.1"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="593.03"
+      y1="341.32"
+      x2="593.03"
+      y2="364.85"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="590.92 341.93 593.03 338.27 595.15 341.93 590.92 341.93"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="593.53 365.09 644.95 365.09 644.95 373.2"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="642.86 376.36 644.97 372.82 647.08 376.36 642.86 376.36"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="645.53"
+      y1="501.19"
+      x2="640.18"
+      y2="501.19"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="640.8 499.07 637.14 501.19 640.8 503.3 640.8 499.07"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="645.29"
+      y1="398.97"
+      x2="645.29"
+      y2="501.44"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="643.19 395.81 645.3 399.35 647.41 395.81 643.19 395.81"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="677.39"
+      y1="657.39"
+      x2="621.65"
+      y2="657.39"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="622.27 655.28 618.6 657.39 622.27 659.51 622.27 655.28"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="677.14"
+      y1="438.84"
+      x2="677.14"
+      y2="657.39"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="675.04 435.68 677.15 439.22 679.26 435.68 675.04 435.68"
+    />
+  </g>
+  <g>
+    <line class="exemples-cls-2" x1="677.14" y1="379" x2="677.14" y2="364.16" />
+    <polygon
+      class="exemples-cls-3"
+      points="679.25 364.78 677.14 361.12 675.02 364.78 679.25 364.78"
+    />
+  </g>
+  <g>
+    <line class="exemples-cls-4" x1="677.14" y1="404.43" x2="677.14" y2="379" />
+    <polygon
+      class="exemples-cls-3"
+      points="679.24 407.59 677.13 404.05 675.02 407.59 679.24 407.59"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="700.45"
+      y1="701.28"
+      x2="682.75"
+      y2="701.28"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="679.58 699.18 683.13 701.29 679.58 703.4 679.58 699.18"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="726.38"
+      y1="701.28"
+      x2="700.45"
+      y2="701.28"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="725.76 699.16 729.42 701.28 725.76 703.39 725.76 699.16"
+    />
+  </g>
+  <path class="exemples-cls-2" d="M785.79,671.14" transform="translate(0 1)" />
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="723.46"
+      y1="533.32"
+      x2="723.46"
+      y2="353.57"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="725.58 354.19 723.46 350.52 721.35 354.19 725.58 354.19"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="723.46"
+      y1="562.04"
+      x2="723.46"
+      y2="533.32"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="725.56 565.2 723.45 561.66 721.34 565.2 725.56 565.2"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="818.83 677.6 868.87 677.6 867.88 601.87 724.12 601.2 724.12 596.14"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="726.22 592.98 724.11 596.52 722 592.98 726.22 592.98"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="790.42 690.88 790.42 677.6 818.83 677.6"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="792.54 690.26 790.42 693.92 788.31 690.26 792.54 690.26"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="467.36 699.62 529.81 699.62 529.81 720.22"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="527.71 723.39 529.82 719.84 531.93 723.39 527.71 723.39"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="453.5 699.55 368.05 699.55 368.05 710.87"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="365.94 710.25 368.05 713.92 370.17 710.25 365.94 710.25"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="405.51"
+      y1="699.87"
+      x2="405.51"
+      y2="710.87"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="403.39 710.25 405.51 713.92 407.62 710.25 403.39 710.25"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="807.31 284.17 769.99 284.17 769.99 287.48"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="767.87 286.86 769.99 290.52 772.1 286.86 767.87 286.86"
+    />
+  </g>
+  <line
+    class="exemples-cls-2"
+    x1="580.73"
+    y1="107.85"
+    x2="580.73"
+    y2="153.24"
+  />
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="614.21"
+      y1="107.85"
+      x2="614.21"
+      y2="111.45"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="612.1 110.83 614.21 114.49 616.33 110.83 612.1 110.83"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="518.54"
+      y1="107.85"
+      x2="614.21"
+      y2="107.85"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="515.37 109.95 518.92 107.84 515.37 105.73 515.37 109.95"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="658.95"
+      y1="107.85"
+      x2="612.03"
+      y2="107.85"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="658.33 105.74 661.99 107.85 658.33 109.97 658.33 105.74"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="593.07"
+      y1="249.99"
+      x2="593.07"
+      y2="304.01"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="590.96 303.39 593.07 307.05 595.19 303.39 590.96 303.39"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="493.63 124.23 493.63 244.1 593.07 244.1 593.07 249.99"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="491.54 121.06 493.65 124.61 495.76 121.06 491.54 121.06"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="594.81 107.83 594.81 144.36 658.39 144.36"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="657.77 146.47 661.43 144.36 657.77 142.24 657.77 146.47"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="355.56"
+      y1="143.89"
+      x2="398.6"
+      y2="143.89"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="397.99 146 401.65 143.89 397.99 141.77 397.99 146"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="289.02"
+      y1="143.89"
+      x2="355.56"
+      y2="143.89"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="285.85 145.99 289.4 143.88 285.85 141.76 285.85 145.99"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="274.23 157.38 274.23 199.52 425.1 199.52"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="272.13 154.22 274.24 157.76 276.35 154.22 272.13 154.22"
+    />
+  </g>
+  <rect
+    class="exemples-cls-5"
+    x="423.62"
+    y="277.5"
+    width="3.01"
+    height="3.16"
+  />
+  <rect
+    class="exemples-cls-5"
+    x="423.62"
+    y="287.17"
+    width="3.01"
+    height="3.16"
+  />
+  <rect
+    class="exemples-cls-6"
+    x="543.68"
+    y="249.04"
+    width="3.01"
+    height="3.16"
+  />
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="425.1 199.52 425.1 297.21 503.64 297.21"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="503.02 299.32 506.69 297.21 503.02 295.09 503.02 299.32"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="310.24"
+      y1="507.07"
+      x2="310.24"
+      y2="539.39"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="308.13 507.69 310.24 504.02 312.36 507.69 308.13 507.69"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="593.5"
+      y1="457.33"
+      x2="465.69"
+      y2="457.33"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="466.31 455.21 462.65 457.33 466.31 459.44 466.31 455.21"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="546.94"
+      y1="457.48"
+      x2="546.94"
+      y2="446.37"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="549.05 446.99 546.94 443.33 544.82 446.99 549.05 446.99"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="483.36"
+      y1="457.48"
+      x2="483.36"
+      y2="446.37"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="485.47 446.99 483.36 443.33 481.24 446.99 485.47 446.99"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="588.45 153.4 572.48 153.4 572.48 160.69"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="570.36 160.07 572.48 163.74 574.59 160.07 570.36 160.07"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="667.72"
+      y1="250.15"
+      x2="686.82"
+      y2="250.15"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="686.2 252.27 689.86 250.15 686.2 248.04 686.2 252.27"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="667.72"
+      y1="288.18"
+      x2="667.72"
+      y2="250.15"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="669.82 291.35 667.71 287.8 665.59 291.35 669.82 291.35"
+    />
+  </g>
+  <path class="exemples-cls-2" d="M698.32,284.88" transform="translate(0 1)" />
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="860.5 284.17 807.24 284.17 807.24 287.48"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="805.13 286.86 807.24 290.52 809.36 286.86 805.13 286.86"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="590.67 740.56 874.8 740.56 874.8 284.17 860.5 284.17"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="587.51 742.66 591.05 740.54 587.51 738.43 587.51 742.66"
+    />
+  </g>
+  <g>
+    <line class="exemples-cls-2" x1="730.2" y1="447.8" x2="762.22" y2="447.8" />
+    <polygon
+      class="exemples-cls-3"
+      points="761.61 449.91 765.27 447.8 761.61 445.68 761.61 449.91"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="794.01 358.05 763.55 358.05 763.55 394.83 730.2 394.83 730.2 447.8"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="797.17 355.95 793.63 358.06 797.17 360.17 797.17 355.95"
+    />
+  </g>
+  <line class="exemples-cls-4" x1="198.94" y1="590.59" x2="233.9" y2="590.59" />
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="94.75 242.24 94.75 414.85 168.26 414.85 168.26 509.28"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="166.15 508.66 168.26 512.33 170.38 508.66 166.15 508.66"
+    />
+  </g>
+  <rect
+    class="exemples-cls-5"
+    x="30.31"
+    y="121.23"
+    width="3.01"
+    height="3.16"
+  />
+  <rect
+    class="exemples-cls-5"
+    x="30.31"
+    y="136.62"
+    width="3.01"
+    height="3.16"
+  />
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="64.64 138.22 23.69 138.22 23.69 242.4 81.05 242.4"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="80.43 244.52 84.09 242.4 80.43 240.29 80.43 244.52"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="16.13 305.3 16.13 122.82 108.19 122.82"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="18.23 308.47 16.12 304.92 14.01 308.47 18.23 308.47"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="534.38 512.12 593.49 512.12 593.49 445.81"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="595.6 446.43 593.49 442.77 591.37 446.43 595.6 446.43"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="477.77"
+      y1="512.12"
+      x2="534.38"
+      y2="512.12"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="474.6 514.22 478.15 512.11 474.6 510 474.6 514.22"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="620.26"
+      y1="528.72"
+      x2="620.26"
+      y2="522.08"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="622.38 528.1 620.26 531.76 618.15 528.1 622.38 528.1"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="517.68 580.67 517.68 517.09 605.85 517.09"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="605.23 519.21 608.89 517.09 605.23 514.98 605.23 519.21"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-4"
+      points="621.03 700.88 535.21 700.88 535.21 694.34 517.68 694.34 517.68 580.67"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="624.2 698.78 620.65 700.89 624.2 703 624.2 698.78"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="827.77"
+      y1="375.9"
+      x2="827.77"
+      y2="384.73"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="825.66 384.11 827.77 387.77 829.89 384.11 825.66 384.11"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="827.77"
+      y1="368.92"
+      x2="827.77"
+      y2="375.9"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="825.67 365.76 827.78 369.3 829.9 365.76 825.67 365.76"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="730.2 447.8 730.2 491.74 741.17 491.74"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="740.55 493.85 744.21 491.74 740.55 489.62 740.55 493.85"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="588.45 153.4 606.42 153.4 606.42 160.69"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="604.31 160.07 606.42 163.74 608.54 160.07 604.31 160.07"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="37.31"
+      y1="138.26"
+      x2="37.31"
+      y2="169.16"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="35.19 168.54 37.31 172.2 39.42 168.54 35.19 168.54"
+    />
+  </g>
+  <path class="exemples-cls-7" d="M650.35,418.1" transform="translate(0 1)" />
+  <path class="exemples-cls-7" d="M593.65,418.1" transform="translate(0 1)" />
+  <path class="exemples-cls-7" d="M650.35,418.1" transform="translate(0 1)" />
+  <path class="exemples-cls-7" d="M593.65,418.1" transform="translate(0 1)" />
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="449.21 199.39 487.44 199.39 487.44 250.22 572.94 250.19 572.94 419.1 593.65 419.1"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="449.82 201.5 446.16 199.39 449.82 197.27 449.82 201.5"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="367.22 614.36 313.9 614.36 313.9 556.48"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="316.02 557.09 313.9 553.43 311.79 557.09 316.02 557.09"
+    />
+  </g>
+  <rect
+    class="exemples-cls-5"
+    x="308.36"
+    y="567.18"
+    width="3.38"
+    height="3.6"
+  />
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="313.9 569.09 243.24 569.09 243.24 510.27 223.44 510.27"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="224.06 508.16 220.39 510.27 224.06 512.39 224.06 508.16"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="305.36"
+      y1="521.88"
+      x2="305.36"
+      y2="497.22"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="307.48 521.26 305.36 524.92 303.25 521.26 307.48 521.26"
+    />
+  </g>
+  <g>
+    <line class="exemples-cls-4" x1="52.89" y1="418.56" x2="52.89" y2="329" />
+    <polygon
+      class="exemples-cls-3"
+      points="54.99 421.72 52.88 418.18 50.76 421.72 54.99 421.72"
+    />
+  </g>
+  <g>
+    <polyline
+      class="exemples-cls-2"
+      points="52.89 329 52.89 324.36 50.63 324.36"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="51.25 322.25 47.59 324.36 51.25 326.48 51.25 322.25"
+    />
+  </g>
+  <g>
+    <line
+      class="exemples-cls-2"
+      x1="543.17"
+      y1="108.33"
+      x2="543.17"
+      y2="122.46"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="541.06 121.85 543.17 125.51 545.29 121.85 541.06 121.85"
+    />
+  </g>
+  <rect
+    class="exemples-cls-5"
+    x="643.6"
+    y="417.46"
+    width="3.04"
+    height="3.25"
+  />
+  <g>
+    <line
+      class="exemples-cls-4"
+      x1="593.65"
+      y1="419.1"
+      x2="647.18"
+      y2="419.1"
+    />
+    <polygon
+      class="exemples-cls-3"
+      points="650.35 421.2 646.8 419.08 650.35 416.97 650.35 421.2"
+    />
+  </g>
+</g>
+<g id="je_suis_-_cadres" data-name="je suis - cadres">
+  <rect
+    class="exemples-cls-8"
+    x="11.73"
+    y="572.38"
+    width="78.25"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="334.13"
+    y="360.89"
+    width="52.48"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="11.56"
+    y="532.72"
+    width="42.29"
+    height="23.45"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="11.56"
+    y="310.68"
+    width="34.74"
+    height="23.45"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="517.68"
+    y="724.91"
+    width="67.65"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="233.18"
+    y="136.88"
+    width="51.04"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="70.07"
+    y="540.19"
+    width="33.12"
+    height="15.94"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="188.67"
+    y="331.39"
+    width="33.82"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="175.22"
+    y="103.4"
+    width="56.97"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="219.15"
+    y="209.94"
+    width="38.96"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="389.51"
+    y="580.54"
+    width="42"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="238.73"
+    y="626.87"
+    width="58.73"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="479.43"
+    y="103.36"
+    width="33.9"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="626.3"
+    y="697.27"
+    width="51.56"
+    height="23.45"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="424.13"
+    y="507.64"
+    width="47.74"
+    height="24.14"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="714.28"
+    y="567.41"
+    width="55.94"
+    height="23.45"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="800.59"
+    y="347.62"
+    width="56.1"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="609.29"
+    y="378"
+    width="54.61"
+    height="15.99"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="652.18"
+    y="409.55"
+    width="48.65"
+    height="23.45"
+  />
+  <rect
+    class="exemples-cls-8"
+    x="648.47"
+    y="293.32"
+    width="62.42"
+    height="15.99"
+  />
+</g>
+<g id="je_suis_-_textes" data-name="je suis - textes">
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M14.76,577.79a5.45,5.45,0,0,0,1.18.18c.6,0,.8-.19.8-.7s-.1-.68-.68-.93l-.28-.12c-.71-.31-1.08-.64-1.08-1.44s.57-1.26,1.4-1.26a4.66,4.66,0,0,1,1.22.16l-.13.62a5,5,0,0,0-1-.12c-.47,0-.73.13-.73.6s.21.6.64.79l.26.11c.74.34,1.14.63,1.14,1.58s-.39,1.36-1.42,1.36a5.54,5.54,0,0,1-1.44-.2Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M20.24,578.56l0-.36h0a1.59,1.59,0,0,1-1.09.42c-.71,0-.94-.45-.94-1v-.07c0-.82.46-1.09,1.21-1.16a7.18,7.18,0,0,1,.8,0v-.12c0-.54-.1-.67-.55-.67a4.13,4.13,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.09-1.69a6,6,0,0,0-.77,0,.54.54,0,0,0-.51.61c0,.37.18.48.43.48a1.14,1.14,0,0,0,.85-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M21.87,575h.67l0,.35h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.94.23.94,1.08v2.57h-.75V576.1c0-.4-.15-.55-.43-.55a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M25.47,577.8a4.84,4.84,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.09-.4-.51-.53L26.5,577c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a4.6,4.6,0,0,1,1.27.19l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.38,0-.5.14-.5.34s.05.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M32.34,578.56l0-.36h0a1.59,1.59,0,0,1-1.09.42c-.71,0-.94-.45-.94-1v-.07c0-.82.46-1.09,1.21-1.16a7.33,7.33,0,0,1,.8,0v-.12c0-.54-.1-.67-.55-.67a4.2,4.2,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.09-1.69a6,6,0,0,0-.77,0,.53.53,0,0,0-.5.61c0,.37.17.48.42.48a1.14,1.14,0,0,0,.85-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M34.73,573.4v1.3c0,.34,0,.58,0,.61h0a1.59,1.59,0,0,1,1-.4c.67,0,1.07.34,1.07,1.65,0,1.59-.44,2.06-1.44,2.06a4.35,4.35,0,0,1-1.38-.25v-5ZM36,576.66c0-1-.2-1.11-.51-1.11a1.18,1.18,0,0,0-.8.41v1.94a1.82,1.82,0,0,0,.59.08C35.8,578,36,577.79,36,576.66Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M37.63,575h.67l0,.35h0a1.28,1.28,0,0,1,.94-.4,1,1,0,0,1,.34,0l-.11.7a2,2,0,0,0-.35,0,1,1,0,0,0-.79.38v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M40.22,573.58H41v.73h-.82Zm0,1.4H41v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M41.78,579.32a3.09,3.09,0,0,0,.39-1.54h.71a2.81,2.81,0,0,1-.42,1.54Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M44.68,579.59c.15,0,.33-.07.45-.11.37-.1.4-.32.4-.83V575h.76v3.68c0,1-.26,1.28-1,1.43l-.52.1Zm.83-6h.82v.73h-.82Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M48.65,574.89c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.16,5.16,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.59-1.45-1.86S47.48,574.89,48.65,574.89Zm.13,1.53c.4,0,.44-.17.44-.41s-.19-.53-.59-.53-.67.25-.7.8A3.09,3.09,0,0,0,48.78,576.42Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M53.33,575.54v3h-.75v-3h-.51V575h.51v-.61c0-.87.44-1,1-1a5.1,5.1,0,0,1,.93.1l-.1.58a4.55,4.55,0,0,0-.61,0c-.31,0-.48,0-.48.47V575h1l-.08.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M56.78,578.56l-.05-.36h0a1.61,1.61,0,0,1-1.09.42c-.71,0-.94-.45-.94-1v-.07c0-.82.46-1.09,1.21-1.16a7.12,7.12,0,0,1,.79,0v-.12c0-.54-.1-.67-.55-.67a4.13,4.13,0,0,0-1.17.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.1-1.69a6,6,0,0,0-.76,0,.54.54,0,0,0-.51.61c0,.37.17.48.43.48a1.12,1.12,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M58.41,573.58h.82v.73h-.82Zm0,1.4h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M60.08,577.8a4.92,4.92,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.09-.4-.51-.53l-.23-.07c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a4.6,4.6,0,0,1,1.27.19l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.38,0-.5.14-.5.34s.05.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M65.78,575v2.47c0,.39.14.53.42.53a1.17,1.17,0,0,0,.81-.4V575h.76v3.58H67.1l0-.36h0a1.61,1.61,0,0,1-1.08.42c-.47,0-.95-.22-.95-1.07V575Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M68.78,575h.66l0,.35h0a1.56,1.56,0,0,1,1.07-.42c.46,0,.94.23.94,1.08v2.57h-.76V576.1c0-.4-.15-.55-.43-.55a1.16,1.16,0,0,0-.8.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M73.85,574.89c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.16,5.16,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.59-1.45-1.86S72.69,574.89,73.85,574.89Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,74,576.42Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M16,582.05a2.31,2.31,0,0,1,.72.12h0s0-.26,0-.66v-1h.75v5.15h-.66l0-.35h0a1.62,1.62,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C14.67,582.46,15.2,582.05,16,582.05Zm.72.73a2.16,2.16,0,0,0-.59-.08c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.51,1.1a1.19,1.19,0,0,0,.8-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M19.83,582c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14V584c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S18.67,582,19.83,582Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.8A3.51,3.51,0,0,0,20,583.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M22,582.12h.66l0,.36h0a1.48,1.48,0,0,1,1-.43.84.84,0,0,1,.82.48,1.58,1.58,0,0,1,1-.48c.48,0,.94.23.94,1.07v2.58H25.7v-2.49c0-.37-.1-.51-.41-.51a1.16,1.16,0,0,0-.71.4,1,1,0,0,1,0,.15v2.45h-.75v-2.49c0-.35-.11-.51-.39-.51a1.19,1.19,0,0,0-.73.4v2.6H22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M29.38,585.7l0-.35h0a1.61,1.61,0,0,1-1.09.42c-.72,0-.95-.46-.95-1v-.07c0-.83.46-1.1,1.22-1.17l.79,0v-.12c0-.54-.1-.67-.55-.67a3.89,3.89,0,0,0-1.18.22l-.15-.57a4.41,4.41,0,0,1,1.42-.28c.73,0,1.2.24,1.2,1.31v2.34ZM29.29,584a5.28,5.28,0,0,0-.76.06.53.53,0,0,0-.51.61c0,.37.17.47.43.47a1.16,1.16,0,0,0,.84-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M31,582.12h.66l.05.36h0a1.61,1.61,0,0,1,1.08-.43c.46,0,.94.23.94,1.08v2.57H33v-2.46c0-.4-.15-.54-.43-.54a1.15,1.15,0,0,0-.8.4v2.6H31Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M35.94,582.05a2.18,2.18,0,0,1,.71.12h0s0-.26,0-.66v-1h.76v5.15h-.66l0-.35h0a1.6,1.6,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C34.58,582.46,35.12,582.05,35.94,582.05Zm.71.73a2,2,0,0,0-.58-.08c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.51,1.1a1.14,1.14,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M39.75,582c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1A4.59,4.59,0,0,1,39,584V584c0,.86.23,1.11.8,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.21,3.21,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S38.58,582,39.75,582Zm.13,1.53c.4,0,.44-.16.44-.41s-.19-.52-.59-.52-.68.24-.7.8A3.5,3.5,0,0,0,39.88,583.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M44.68,582.05a2.24,2.24,0,0,1,.71.12h0s0-.26,0-.66v-1h.76v5.15h-.67l0-.35h0a1.6,1.6,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C43.32,582.46,43.86,582.05,44.68,582.05Zm.71.73a2.08,2.08,0,0,0-.58-.08c-.48,0-.73.2-.73,1.33,0,1,.2,1.1.52,1.1a1.14,1.14,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M47,582a3.73,3.73,0,0,0,.34-1.43H48a3.24,3.24,0,0,1-.37,1.43Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M48.91,580.55h.76v1.32c0,.33,0,.59,0,.59h0a1.58,1.58,0,0,1,1-.41c.46,0,.94.23.94,1.08v2.57h-.75v-2.46c0-.4-.15-.54-.43-.54a1.15,1.15,0,0,0-.81.4v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M54,582c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14V584c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S52.82,582,54,582Zm.14,1.53c.39,0,.44-.16.44-.41s-.19-.52-.59-.52-.68.24-.71.8A3.58,3.58,0,0,0,54.12,583.56Zm.15-2h-.61l.47-1.05h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M56.88,580.55v1.29c0,.34,0,.58,0,.62h0a1.54,1.54,0,0,1,1-.41c.67,0,1.07.34,1.07,1.66,0,1.58-.43,2.06-1.43,2.06a4.44,4.44,0,0,1-1.39-.26v-5Zm1.31,3.25c0-1-.2-1.1-.51-1.1a1.15,1.15,0,0,0-.8.4V585a1.72,1.72,0,0,0,.58.09C57.94,585.13,58.19,584.93,58.19,583.8Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M61.1,582c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14V584c0,.86.22,1.11.79,1.11A3.33,3.33,0,0,0,62.2,585l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S59.94,582,61.1,582Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.8A3.51,3.51,0,0,0,61.24,583.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M63.24,582.12h.66l0,.36h0a1.3,1.3,0,0,1,.95-.41,1,1,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.38v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M66.38,586.77a8.58,8.58,0,0,0,.85-.18c.33-.1.51-.26.51-.78v-.5h0a1.58,1.58,0,0,1-1,.39c-.68,0-1.08-.33-1.08-1.58,0-1.66.5-2.07,1.45-2.07a4.68,4.68,0,0,1,1.38.26v3.51c0,1-.45,1.25-1,1.38-.3.07-.64.12-1,.17Zm.54-1.71a1.07,1.07,0,0,0,.79-.38v-1.9a1.9,1.9,0,0,0-.58-.08c-.47,0-.72.19-.72,1.3C66.41,584.93,66.6,585.06,66.92,585.06Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M70.81,582c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14V584c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S69.64,582,70.81,582Zm.13,1.53c.4,0,.44-.16.44-.41s-.19-.52-.59-.52-.67.24-.7.8A3.5,3.5,0,0,0,70.94,583.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M72.94,582.12h.67l0,.36h0a1.52,1.52,0,0,1,1-.43.85.85,0,0,1,.83.48,1.58,1.58,0,0,1,1-.48c.49,0,1,.23,1,1.07v2.58h-.77v-2.49c0-.37-.09-.51-.4-.51a1.16,1.16,0,0,0-.71.4,1,1,0,0,1,0,.15v2.45h-.75v-2.49c0-.35-.11-.51-.4-.51a1.15,1.15,0,0,0-.72.4v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M79.76,582c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1A4.57,4.57,0,0,1,79,584V584c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S78.6,582,79.76,582Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.8A3.51,3.51,0,0,0,79.9,583.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M81.9,582.12h.66l0,.36h0a1.59,1.59,0,0,1,1.07-.43c.47,0,1,.23,1,1.08v2.57h-.76v-2.46c0-.4-.15-.54-.43-.54a1.17,1.17,0,0,0-.81.4v2.6H81.9Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M85.78,582.68h-.52v-.56h.52l.06-.93.7-.07v1h.92l-.08.56h-.84v2.13c0,.29.09.32.31.32a4,4,0,0,0,.5-.08l.12.58a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M335.34,366.46a3.89,3.89,0,0,0,.83.08c.47,0,.62-.23.62-.7v-3.69h.76v3.7c0,1-.48,1.35-1.31,1.35a4.14,4.14,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M338.37,363.41a3.8,3.8,0,0,0,.34-1.43h.66a3.35,3.35,0,0,1-.37,1.43Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M342.23,367.13l0-.36h0a1.63,1.63,0,0,1-1.1.43c-.71,0-.94-.46-.94-1v-.07c0-.82.46-1.09,1.21-1.16a7.33,7.33,0,0,1,.8,0v-.12c0-.54-.1-.67-.55-.67a4.2,4.2,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.09-1.69a4.22,4.22,0,0,0-.77.06.52.52,0,0,0-.5.6c0,.37.17.48.42.48a1.14,1.14,0,0,0,.85-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M343.86,362.15h.82v.73h-.82Zm0,1.4h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M348.63,363.46c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S347.47,363.46,348.63,363.46Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,348.77,365Zm.15-2h-.62l.47-1.05h.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M350.9,364.11h-.52v-.56h.52l.06-.93.7-.07v1h.92l-.08.56h-.84v2.13c0,.28.09.31.31.31a2.57,2.57,0,0,0,.5-.08l.12.59a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.15-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M354.6,363.46c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1.05-.18l.13.57a3.33,3.33,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.87S353.44,363.46,354.6,363.46Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,354.74,365Zm.15-2h-.62l.48-1.05h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M359.12,362v1.29c0,.34,0,.58,0,.61h0a1.54,1.54,0,0,1,1-.4c.67,0,1.07.34,1.07,1.65,0,1.59-.43,2.07-1.43,2.07a4.44,4.44,0,0,1-1.39-.26v-5Zm1.3,3.25c0-1-.2-1.11-.5-1.11a1.16,1.16,0,0,0-.8.41v1.94a1.75,1.75,0,0,0,.58.08C360.18,366.55,360.42,366.36,360.42,365.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M363.37,367.12a2.16,2.16,0,0,1-.62.08c-.45,0-.73-.17-.73-.94V362h.76v4.24c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M365.31,363.46c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S364.15,363.46,365.31,363.46Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,365.45,365Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M367.29,366.37a4.92,4.92,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.51-.53l-.23-.07c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a4.54,4.54,0,0,1,1.27.19l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.37,0-.5.14-.5.34s.05.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.82,4.82,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M370.46,366.37a5,5,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.5-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.15-1a4.54,4.54,0,0,1,1.27.19l-.11.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s.05.32.5.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.82,4.82,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M375.11,363.46c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1-.18l.13.57a3.33,3.33,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.87S374,363.46,375.11,363.46Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,375.25,365Zm.15-2h-.62l.48-1.05H376Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M337,370.6c1.08,0,1.32.65,1.32,1.13,0,.67-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.87.22,1.11.79,1.11a3.28,3.28,0,0,0,1.05-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.86S335.81,370.6,337,370.6Zm.14,1.53c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,337.11,372.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M339.11,370.69h.66l.05.36h0a1.61,1.61,0,0,1,1.08-.42c.46,0,.94.22.94,1.07v2.57h-.76v-2.46c0-.4-.15-.54-.43-.54a1.16,1.16,0,0,0-.8.41v2.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M344.48,370.69h.67l0,.36h0a1.51,1.51,0,0,1,1-.42.83.83,0,0,1,.82.47,1.6,1.6,0,0,1,1-.47c.49,0,.94.22.94,1.06v2.58h-.76v-2.49c0-.37-.09-.51-.41-.51a1.18,1.18,0,0,0-.71.41.82.82,0,0,1,0,.14v2.45h-.75v-2.49c0-.35-.1-.51-.39-.51a1.16,1.16,0,0,0-.72.41v2.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M351.9,374.27l0-.35h0a1.61,1.61,0,0,1-1.09.42c-.72,0-.94-.46-.94-1v-.07c0-.82.45-1.1,1.21-1.17l.79,0v-.11c0-.55-.1-.68-.55-.68a4,4,0,0,0-1.18.22l-.15-.57a4.52,4.52,0,0,1,1.43-.27c.72,0,1.2.23,1.2,1.3v2.34Zm-.1-1.69a5.28,5.28,0,0,0-.76.06.54.54,0,0,0-.51.61c0,.37.17.48.43.48a1.15,1.15,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M353.53,370.69h.67l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.22.94,1.07v2.57h-.76v-2.46c0-.4-.14-.54-.42-.54a1.16,1.16,0,0,0-.81.41v2.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M357.28,369.3h.82V370h-.82Zm0,1.39h.77v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M360,371.25v3h-.75v-3h-.51v-.56h.51v-.61c0-.87.44-1,1-1a5.24,5.24,0,0,1,.93.09l-.1.58c-.2,0-.44-.05-.61-.05s-.48.05-.48.47v.53h1l-.09.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M362.88,370.6c1.07,0,1.32.65,1.32,1.13,0,.67-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.87.22,1.11.8,1.11a3.33,3.33,0,0,0,1.05-.19l.12.57a3.1,3.1,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.86S361.71,370.6,362.88,370.6Zm.13,1.53c.39,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.71.8A3.14,3.14,0,0,0,363,372.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M364.85,373.51a4.58,4.58,0,0,0,1.23.2c.36,0,.55-.08.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.22-1.06-.42-1.06-1.1s.46-1,1.16-1a5.15,5.15,0,0,1,1.27.18l-.12.59a5.21,5.21,0,0,0-1.06-.15c-.38,0-.5.14-.5.35s.05.31.51.46l.22.07c.78.24,1.08.5,1.08,1.17s-.5,1-1.24,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M368.31,371.25h-.51v-.56h.52l.06-.93.7-.07v1H370l-.09.56h-.83v2.13c0,.29.09.32.31.32a3.49,3.49,0,0,0,.49-.08l.12.58a2.43,2.43,0,0,1-.79.13c-.6,0-.9-.14-.9-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M372.62,374.27l0-.35h0a1.62,1.62,0,0,1-1.1.42c-.71,0-.94-.46-.94-1v-.07c0-.82.46-1.1,1.21-1.17l.8,0v-.11c0-.55-.1-.68-.55-.68a3.89,3.89,0,0,0-1.18.22l-.15-.57a4.45,4.45,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3v2.34Zm-.09-1.69a5.48,5.48,0,0,0-.77.06.53.53,0,0,0-.5.61c0,.37.17.48.42.48a1.17,1.17,0,0,0,.85-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M374.38,371.25h-.51v-.56h.52l.06-.93.7-.07v1h.92l-.09.56h-.83v2.13c0,.29.09.32.31.32a4,4,0,0,0,.5-.08l.12.58a2.51,2.51,0,0,1-.8.13c-.6,0-.9-.14-.9-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M376.76,369.3h.82V370h-.82Zm0,1.39h.77v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M378.41,372.54c0-1.24.34-1.94,1.5-1.94s1.45.7,1.45,1.94-.35,1.82-1.5,1.82S378.41,373.78,378.41,372.54Zm2.19,0c0-.9-.19-1.28-.72-1.28s-.71.38-.71,1.28.19,1.19.71,1.19S380.6,373.46,380.6,372.53Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M382.19,370.69h.67l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.22.94,1.07v2.57h-.75v-2.46c0-.4-.15-.54-.43-.54a1.16,1.16,0,0,0-.81.41v2.59h-.76Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M14,537.68a4.81,4.81,0,0,0,.83.07c.46,0,.61-.22.61-.7v-3.68h.77v3.7a1.16,1.16,0,0,1-1.32,1.34,3.74,3.74,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M18.53,534.68c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v0c0,.87.22,1.11.8,1.11a3.21,3.21,0,0,0,1-.19l.13.58a3.4,3.4,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S17.36,534.68,18.53,534.68Zm.13,1.52c.39,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.71.8A3.14,3.14,0,0,0,18.66,536.2Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M22.13,537.58a4.43,4.43,0,0,0,1.22.2c.36,0,.55-.08.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.22-1.06-.42-1.06-1.09s.46-1,1.16-1a5.15,5.15,0,0,1,1.27.18l-.12.59a5.21,5.21,0,0,0-1.06-.14c-.38,0-.5.13-.5.34s.05.31.51.46l.23.07c.77.24,1.07.5,1.07,1.18s-.5,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M26.2,534.76v2.47c0,.39.15.54.43.54a1.19,1.19,0,0,0,.8-.4v-2.61h.77v3.59h-.67l-.05-.36h0a1.65,1.65,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M29.2,533.37H30v.73H29.2Zm0,1.39H30v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M30.87,537.58a4.5,4.5,0,0,0,1.22.2c.37,0,.55-.08.55-.41s-.09-.4-.51-.53l-.23-.07c-.72-.22-1.07-.42-1.07-1.09s.47-1,1.16-1a5,5,0,0,1,1.27.18l-.11.59a5.31,5.31,0,0,0-1.07-.14c-.37,0-.5.13-.5.34s.05.31.51.46l.23.07c.77.24,1.07.5,1.07,1.18s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M37.29,538.41a2.23,2.23,0,0,1-.71-.11h0s0,.23,0,.55v1.09h-.76v-5.18h.66l.05.36h0a1.54,1.54,0,0,1,1-.42c.67,0,1.07.33,1.07,1.65C38.64,538,38.11,538.41,37.29,538.41Zm-.71-.73a2,2,0,0,0,.58.09c.48,0,.72-.19.72-1.32,0-1-.19-1.11-.51-1.11a1.16,1.16,0,0,0-.79.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M40.83,538.34a2.24,2.24,0,0,1-.62.07c-.45,0-.73-.16-.73-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M43.37,538.35l0-.36h0a1.62,1.62,0,0,1-1.1.42c-.71,0-.94-.46-.94-1v-.07c0-.82.46-1.09,1.21-1.17l.8,0V536c0-.55-.1-.67-.55-.67a3.87,3.87,0,0,0-1.18.21L41.4,535a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3v2.35Zm-.09-1.7a5.48,5.48,0,0,0-.77.06.53.53,0,0,0-.5.61c0,.37.17.48.43.48a1.17,1.17,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M46.31,534.7a3.37,3.37,0,0,1,.92.14l-.12.59a3.13,3.13,0,0,0-.71-.09c-.6,0-.81.37-.81,1.23s.21,1.2.8,1.2a2.18,2.18,0,0,0,.72-.12l.15.6a3.08,3.08,0,0,1-1,.16c-1.15,0-1.47-.62-1.47-1.84S45.14,534.7,46.31,534.7Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M49.31,534.68c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13v0c0,.87.23,1.11.8,1.11a3.33,3.33,0,0,0,1-.19l.13.58a3.47,3.47,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S48.14,534.68,49.31,534.68Zm.13,1.52c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.7.8A3.07,3.07,0,0,0,49.44,536.2Zm.15-2H49l.47-1.05h.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M15.62,541.82c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5,5,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.47,3.47,0,0,1-1.29.23c-1.12,0-1.45-.59-1.45-1.86S14.45,541.82,15.62,541.82Zm.13,1.53c.4,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.25-.7.8A3.09,3.09,0,0,0,15.75,543.35Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M17.75,541.91h.67l0,.35h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.23.94,1.08v2.57h-.75V543c0-.4-.15-.55-.43-.55a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M24.05,542.47v3H23.3v-3h-.51v-.56h.51v-.61c0-.87.44-1,1-1a5.1,5.1,0,0,1,.93.1l-.1.58a4.55,4.55,0,0,0-.61-.05c-.31,0-.48.05-.48.47v.53h1l-.08.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M27.5,545.49l-.05-.36h0a1.61,1.61,0,0,1-1.09.42c-.71,0-.94-.45-.94-1v-.07c0-.82.45-1.09,1.21-1.16.2,0,.42,0,.79,0v-.11c0-.54-.1-.67-.55-.67a4.13,4.13,0,0,0-1.17.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.1-1.69a6,6,0,0,0-.76.05.54.54,0,0,0-.51.61c0,.37.17.48.43.48a1.12,1.12,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M29.13,541.91h.67l0,.35h0a1.51,1.51,0,0,1,1-.42.82.82,0,0,1,.82.48,1.63,1.63,0,0,1,1-.48c.49,0,1,.23,1,1.07v2.58h-.77V543c0-.36-.09-.51-.41-.51a1.13,1.13,0,0,0-.7.41v2.6H31V543c0-.34-.1-.51-.39-.51a1.16,1.16,0,0,0-.72.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M34.62,540.51h.82v.73h-.82Zm0,1.4h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M37.8,545.48a2.24,2.24,0,0,1-.62.07c-.45,0-.73-.16-.73-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M39.77,545.48a2.21,2.21,0,0,1-.61.07c-.45,0-.74-.16-.74-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M41.71,541.82c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.17,5.17,0,0,1-1.09-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1.05-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.12,0-1.45-.59-1.45-1.86S40.55,541.82,41.71,541.82Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,41.85,543.35Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M15.47,549a2.29,2.29,0,0,1,.71.11h0s0-.26,0-.66v-1h.76v5.15h-.67l0-.35h0a1.6,1.6,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C14.11,549.39,14.65,549,15.47,549Zm.71.72a2.08,2.08,0,0,0-.58-.08c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.51,1.1a1.14,1.14,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M17.76,548.91a3.54,3.54,0,0,0,.34-1.43h.67a3.24,3.24,0,0,1-.37,1.43Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M21.62,552.63l0-.35h0a1.61,1.61,0,0,1-1.09.42c-.72,0-.94-.46-.94-1v-.07c0-.82.45-1.1,1.21-1.17l.79,0v-.11c0-.55-.1-.68-.55-.68a4,4,0,0,0-1.18.22l-.15-.57a4.52,4.52,0,0,1,1.43-.27c.72,0,1.19.23,1.19,1.3v2.34Zm-.09-1.69a5.28,5.28,0,0,0-.76.06.54.54,0,0,0-.51.61c0,.37.17.47.43.47a1.14,1.14,0,0,0,.84-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M24.56,549a3.32,3.32,0,0,1,.92.14l-.11.59a3.15,3.15,0,0,0-.72-.09c-.6,0-.81.37-.81,1.23s.21,1.2.81,1.2a2.58,2.58,0,0,0,.72-.12l.14.6a3.34,3.34,0,0,1-1,.16c-1.15,0-1.46-.62-1.46-1.84S23.4,549,24.56,549Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M27.54,549a3.32,3.32,0,0,1,.92.14l-.11.59a3.15,3.15,0,0,0-.72-.09c-.6,0-.81.37-.81,1.23s.21,1.2.81,1.2a2.58,2.58,0,0,0,.72-.12l.14.6a3.34,3.34,0,0,1-1,.16c-1.15,0-1.46-.62-1.46-1.84S26.38,549,27.54,549Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M30,549.05v2.47c0,.39.14.54.42.54a1.19,1.19,0,0,0,.81-.4v-2.61H32v3.58h-.67l0-.35h0a1.6,1.6,0,0,1-1.07.42c-.48,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M34.29,549c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14V551c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S33.13,549,34.29,549Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.8A3.09,3.09,0,0,0,34.43,550.49Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M36.42,547.66h.82v.73h-.82Zm0,1.39h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M39.6,552.63a2.71,2.71,0,0,1-.62.07c-.45,0-.73-.16-.73-.94v-4.28H39v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M14.3,315.85a3.82,3.82,0,0,0,.83.08c.46,0,.61-.23.61-.7v-3.69h.77v3.7c0,1-.48,1.35-1.32,1.35a4.22,4.22,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M17.32,312.8a3.53,3.53,0,0,0,.35-1.43h.66A3.35,3.35,0,0,1,18,312.8Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M21.19,316.52l-.05-.36h0a1.62,1.62,0,0,1-1.09.43c-.71,0-.94-.46-.94-1v-.07c0-.82.45-1.09,1.21-1.16a7.12,7.12,0,0,1,.79,0v-.12c0-.54-.1-.67-.55-.67a4.13,4.13,0,0,0-1.17.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.72,0,1.2.24,1.2,1.31v2.34Zm-.1-1.69a4.08,4.08,0,0,0-.76.06.52.52,0,0,0-.51.6c0,.37.17.48.43.48a1.12,1.12,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M22.82,311.54h.82v.73h-.82Zm0,1.4h.77v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M26.05,315.74a3.42,3.42,0,0,0,1.16.2c.63,0,.76-.34.76-.82s-.15-.87-.95-.9h-.47v-.62l.47,0c.7,0,.87-.29.87-.77s-.1-.65-.63-.65a3.66,3.66,0,0,0-1.15.2l-.14-.59a3.69,3.69,0,0,1,1.28-.27c1,0,1.41.4,1.41,1.28a1.09,1.09,0,0,1-.66,1.1c.44.15.74.52.73,1.28,0,1-.44,1.45-1.5,1.45a3.76,3.76,0,0,1-1.34-.25Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M33.12,316.52l0-.36h0a1.62,1.62,0,0,1-1.09.43c-.71,0-.94-.46-.94-1v-.07c0-.82.45-1.09,1.21-1.16a7.12,7.12,0,0,1,.79,0v-.12c0-.54-.1-.67-.55-.67a4.26,4.26,0,0,0-1.18.21l-.14-.57a4.75,4.75,0,0,1,1.42-.27c.72,0,1.2.24,1.2,1.31v2.34Zm-.1-1.69a4.08,4.08,0,0,0-.76.06.52.52,0,0,0-.51.6c0,.37.17.48.43.48a1.12,1.12,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M34.75,312.94h.67l0,.35h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.23.94,1.08v2.57h-.75v-2.46c0-.4-.15-.55-.43-.55a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M38.35,315.76a4.84,4.84,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.1-.4-.51-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.16-1a4.67,4.67,0,0,1,1.27.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s0,.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.5,1-1.24,1a4.89,4.89,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M41.4,317.28a3,3,0,0,0,.4-1.54h.71a2.81,2.81,0,0,1-.42,1.54Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M13.79,324.69l.45-.1c.37-.11.4-.33.4-.84v-3.67h.76v3.69c0,1-.26,1.27-1,1.42a4.76,4.76,0,0,1-.52.1Zm.82-6h.83v.73h-.83Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M17.76,320c1.08,0,1.32.65,1.32,1.13,0,.67-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14V322c0,.87.23,1.11.8,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.21,3.21,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.86S16.59,320,17.76,320Zm.13,1.53c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.7.8A3.07,3.07,0,0,0,17.89,321.52Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M21.52,320.08h.66l0,.36h0a1.3,1.3,0,0,1,1-.41,1,1,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.39v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M25.43,320c1.08,0,1.32.65,1.32,1.13,0,.67-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14V322c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.86S24.27,320,25.43,320Zm.14,1.53c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,25.57,321.52Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M27.57,320.08h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.95.22.95,1.07v2.58h-.76V321.2c0-.4-.15-.54-.43-.54a1.18,1.18,0,0,0-.81.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M31.45,320.64h-.52v-.56h.52l.06-.93.7-.07v1h.92l-.09.56h-.83v2.13c0,.29.09.32.31.32A2.72,2.72,0,0,0,33,323l.12.58a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M33.83,320.08h.67l0,.36h0a1.27,1.27,0,0,1,.94-.41,1,1,0,0,1,.34,0l-.12.7a1.78,1.78,0,0,0-.35,0,1,1,0,0,0-.78.39v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M37.75,320c1.07,0,1.32.65,1.32,1.13,0,.67-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14V322c0,.87.22,1.11.8,1.11a3.33,3.33,0,0,0,1.05-.19l.12.57a3.1,3.1,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.86S36.58,320,37.75,320Zm.13,1.53c.39,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.71.8A3.14,3.14,0,0,0,37.88,321.52Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M16.53,330.81l0-.36h0a1.59,1.59,0,0,1-1.09.42c-.71,0-.94-.45-.94-1v-.07c0-.82.46-1.09,1.21-1.16a6.68,6.68,0,0,1,.8-.05v-.11c0-.54-.1-.67-.55-.67a3.82,3.82,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34ZM15,325.64h.74l.46,1.05h-.61Zm1.4,3.48a4.52,4.52,0,0,0-.77.05.54.54,0,0,0-.51.61c0,.37.18.48.43.48a1.17,1.17,0,0,0,.85-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M21.14,330.8a2.24,2.24,0,0,1-.62.07c-.45,0-.73-.16-.73-.93v-4.29h.75v4.25c0,.3.1.33.25.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M21.57,327.09a3.81,3.81,0,0,0,.34-1.44h.66a3.36,3.36,0,0,1-.37,1.44Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M24.83,327.14c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v.05c0,.87.22,1.11.79,1.11a3.34,3.34,0,0,0,1.05-.18l.13.57a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S23.67,327.14,24.83,327.14Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,25,328.67Zm.15-2H24.5l.47-1.05h.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M28.27,327.16a3.37,3.37,0,0,1,.92.14l-.12.6a3.12,3.12,0,0,0-.71-.1c-.6,0-.82.37-.82,1.23s.22,1.2.81,1.2a2.51,2.51,0,0,0,.72-.11l.15.59a3.1,3.1,0,0,1-1,.16c-1.15,0-1.46-.62-1.46-1.84S27.1,327.16,28.27,327.16Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M29.76,329.07c0-1.23.34-1.93,1.5-1.93s1.46.7,1.46,1.93-.35,1.82-1.51,1.82S29.76,330.32,29.76,329.07Zm2.19,0c0-.9-.18-1.29-.71-1.29s-.72.38-.72,1.29.19,1.18.71,1.18S32,330,32,329.07Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M34.9,330.8a2.29,2.29,0,0,1-.62.07c-.45,0-.73-.16-.73-.93v-4.29h.75v4.25c0,.3.1.33.25.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M36.84,327.14c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v.05c0,.87.22,1.11.79,1.11a3.34,3.34,0,0,0,1-.18l.13.57a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S35.67,327.14,36.84,327.14Zm.13,1.53c.4,0,.44-.17.44-.41s-.19-.53-.59-.53-.67.24-.7.8A3.09,3.09,0,0,0,37,328.67Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M519.69,729.75a3.82,3.82,0,0,0,.83.08c.46,0,.61-.23.61-.7v-3.68h.77v3.69c0,1-.48,1.35-1.32,1.35a4.22,4.22,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M524.23,726.75c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.8,1.11a3.33,3.33,0,0,0,1.05-.19l.12.57a3.1,3.1,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S523.06,726.75,524.23,726.75Zm.13,1.53c.39,0,.44-.16.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.16,3.16,0,0,0,524.36,728.28Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M527.83,729.66a4.84,4.84,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.1-.4-.51-.52l-.24-.08c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.16-1a4.67,4.67,0,0,1,1.27.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.35s.05.31.51.46l.23.07c.77.24,1.07.49,1.07,1.17s-.5,1-1.24,1a5.35,5.35,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M531.91,726.84v2.47c0,.39.14.53.42.53a1.15,1.15,0,0,0,.8-.4v-2.6h.77v3.58h-.67l-.05-.35h0a1.7,1.7,0,0,1-1.08.42c-.47,0-1-.23-1-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M534.9,725.45h.82v.72h-.82Zm0,1.39h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M536.57,729.66a4.92,4.92,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.51-.52l-.23-.08c-.72-.21-1.06-.42-1.06-1.09s.46-1,1.15-1A4.54,4.54,0,0,1,539,727l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.37,0-.49.14-.49.35s0,.31.5.46l.23.07c.77.24,1.07.49,1.07,1.17s-.49,1-1.23,1a5.28,5.28,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M541.36,729.66a5,5,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.5-.52l-.24-.08c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.15-1a4.68,4.68,0,0,1,1.28.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.35s0,.31.5.46l.23.07c.77.24,1.07.49,1.07,1.17s-.49,1-1.23,1a5.28,5.28,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M545.44,726.84v2.47c0,.39.14.53.42.53a1.15,1.15,0,0,0,.81-.4v-2.6h.76v3.58h-.67l0-.35h0a1.7,1.7,0,0,1-1.08.42c-.47,0-1-.23-1-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M548.29,729.66a4.84,4.84,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.1-.4-.51-.52l-.24-.08c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.16-1a4.67,4.67,0,0,1,1.27.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.35s0,.31.51.46l.23.07c.77.24,1.07.49,1.07,1.17s-.5,1-1.24,1a5.35,5.35,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M553.09,730.49a2.25,2.25,0,0,1-.72-.12h0s0,.23,0,.55V732h-.75v-5.18h.66l0,.36h0a1.56,1.56,0,0,1,1-.43c.67,0,1.07.34,1.07,1.65C554.44,730.08,553.91,730.49,553.09,730.49Zm-.72-.73a2.16,2.16,0,0,0,.59.08c.48,0,.72-.19.72-1.31s-.19-1.11-.51-1.11a1.17,1.17,0,0,0-.8.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M556.59,726.75c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1.05-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S555.43,726.75,556.59,726.75Zm.14,1.53c.39,0,.44-.16.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.09,3.09,0,0,0,556.73,728.28Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M560,726.77a3,3,0,0,1,.92.15l-.11.59a3.15,3.15,0,0,0-.72-.09c-.6,0-.81.37-.81,1.22s.21,1.2.81,1.2a2.57,2.57,0,0,0,.72-.11l.14.59a3,3,0,0,1-1,.17c-1.15,0-1.47-.62-1.47-1.85S558.87,726.77,560,726.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M561.84,727.4h-.52v-.56h.52l.06-.93.7-.07v1h.92l-.08.56h-.84v2.13c0,.29.09.31.32.31a4.28,4.28,0,0,0,.49-.07l.12.58a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M565.54,726.75c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.23,3.23,0,0,0,1-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S564.38,726.75,565.54,726.75Zm.14,1.53c.39,0,.44-.16.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.16,3.16,0,0,0,565.68,728.28Zm.15-2h-.61l.47-1h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M570.47,726.77a2.31,2.31,0,0,1,.72.12h0s0-.26,0-.66v-1H572v5.15h-.67l0-.35h0a1.67,1.67,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C569.12,727.18,569.65,726.77,570.47,726.77Zm.72.73a2.16,2.16,0,0,0-.59-.08c-.48,0-.72.2-.72,1.33,0,1,.19,1.09.52,1.09a1.15,1.15,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M574.28,726.75c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S573.12,726.75,574.28,726.75Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,574.42,728.28Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M520.75,732.41v1.29c0,.35,0,.58,0,.62h0a1.59,1.59,0,0,1,1-.4c.67,0,1.07.33,1.07,1.65,0,1.58-.44,2.06-1.44,2.06a4.38,4.38,0,0,1-1.38-.26v-5Zm1.31,3.26c0-1-.2-1.11-.51-1.11a1.2,1.2,0,0,0-.8.41v1.93a1.78,1.78,0,0,0,.59.09C521.82,737,522.06,736.79,522.06,735.67Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M525,737.56a2.68,2.68,0,0,1-.61.07c-.45,0-.74-.16-.74-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.28,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M527.55,737.57l0-.36h0a1.61,1.61,0,0,1-1.09.42c-.71,0-.94-.46-.94-1v-.07c0-.82.45-1.09,1.21-1.17l.79,0v-.11c0-.55-.1-.67-.55-.67a3.81,3.81,0,0,0-1.17.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3v2.35Zm-.1-1.7a5.28,5.28,0,0,0-.76.06.54.54,0,0,0-.51.61c0,.37.17.48.43.48a1.15,1.15,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M529.18,734h.67l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.94.23.94,1.08v2.57h-.75V735.1c0-.4-.15-.54-.43-.54a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M534.23,733.92a3.44,3.44,0,0,1,.93.14l-.12.59a3.13,3.13,0,0,0-.71-.09c-.6,0-.82.37-.82,1.23s.22,1.2.81,1.2a2.22,2.22,0,0,0,.72-.12l.14.6a3,3,0,0,1-1,.16c-1.15,0-1.46-.62-1.46-1.84S533.07,733.92,534.23,733.92Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M535.91,732.41h.76v1.32c0,.33,0,.59,0,.59h0a1.57,1.57,0,0,1,1.05-.4c.46,0,.94.23.94,1.08v2.57h-.75V735.1c0-.4-.15-.54-.43-.54a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M539.66,732.59h.82v.73h-.82Zm0,1.39h.76v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M541.49,734h.66l0,.36h0a1.51,1.51,0,0,1,1-.42.83.83,0,0,1,.82.48,1.54,1.54,0,0,1,1-.48c.48,0,.94.23.94,1.06v2.59h-.77v-2.5c0-.37-.09-.51-.4-.51a1.13,1.13,0,0,0-.71.41.88.88,0,0,1,0,.14v2.46h-.75v-2.5c0-.35-.11-.51-.4-.51a1.19,1.19,0,0,0-.72.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M548.3,733.9c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v0c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.86S547.14,733.9,548.3,733.9Zm.14,1.52c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,548.44,735.42Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M550.44,734h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,1,.23,1,1.08v2.57h-.76V735.1c0-.4-.15-.54-.43-.54a1.2,1.2,0,0,0-.81.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M554.32,734.55h-.52V734h.52l.06-.93.7-.07v1H556l-.08.57h-.84v2.12c0,.29.09.32.31.32a2.72,2.72,0,0,0,.5-.08l.12.59a2.92,2.92,0,0,1-.8.12c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M559.49,733.92a2.31,2.31,0,0,1,.72.11h0s0-.26,0-.65v-1H561v5.16h-.67l0-.36h0a1.62,1.62,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C558.14,734.32,558.67,733.92,559.49,733.92Zm.72.73a2.15,2.15,0,0,0-.59-.09c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.52,1.1a1.19,1.19,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M561.79,733.85a3.81,3.81,0,0,0,.34-1.44h.66a3.21,3.21,0,0,1-.37,1.44Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M565.65,737.57l0-.36h0a1.61,1.61,0,0,1-1.09.42c-.72,0-1-.46-1-1v-.07c0-.82.46-1.09,1.22-1.17l.79,0v-.11c0-.55-.1-.67-.55-.67a3.87,3.87,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3v2.35Zm-.09-1.7a5.65,5.65,0,0,0-.77.06.53.53,0,0,0-.5.61c0,.37.17.48.43.48a1.17,1.17,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M567.29,734H568l0,.36h0a1.26,1.26,0,0,1,.94-.41,1.34,1.34,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.39v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M570.43,738.63a8,8,0,0,0,.85-.18c.33-.1.52-.25.52-.78v-.5h0a1.56,1.56,0,0,1-1,.4c-.67,0-1.07-.34-1.07-1.59,0-1.66.5-2.06,1.44-2.06a4.65,4.65,0,0,1,1.38.25v3.51c0,1-.45,1.25-1,1.38-.3.07-.63.12-1,.17Zm.54-1.71a1.08,1.08,0,0,0,.8-.38v-1.89a1.69,1.69,0,0,0-.59-.09c-.47,0-.72.19-.72,1.31C570.46,736.79,570.65,736.92,571,736.92Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M574.86,733.9c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v0c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.86S573.7,733.9,574.86,733.9Zm.14,1.52c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,575,735.42Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M577,734h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,1,.23,1,1.08v2.57H579V735.1c0-.4-.15-.54-.43-.54a1.2,1.2,0,0,0-.81.41v2.6H577Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M580.88,734.55h-.52V734h.52l.06-.93.7-.07v1h.92l-.08.57h-.84v2.12c0,.29.09.32.31.32a2.72,2.72,0,0,0,.5-.08l.12.59a2.92,2.92,0,0,1-.8.12c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M235.84,137.76h.77v4.32h1.63v.66h-2.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M238.71,139a3.81,3.81,0,0,0,.34-1.44h.66a3.36,3.36,0,0,1-.37,1.44Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M242.57,142.74l0-.36h0a1.62,1.62,0,0,1-1.1.42c-.71,0-.94-.45-.94-1v-.07c0-.82.46-1.09,1.21-1.16a6.84,6.84,0,0,1,.8-.05v-.11c0-.54-.1-.67-.55-.67a3.87,3.87,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.31v2.34Zm-.09-1.69a4.62,4.62,0,0,0-.77,0,.53.53,0,0,0-.5.61c0,.37.17.48.42.48a1.17,1.17,0,0,0,.85-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M244.05,142a4.5,4.5,0,0,0,1.22.2c.36,0,.55-.07.55-.41s-.09-.4-.51-.53l-.23-.07c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a5.07,5.07,0,0,1,1.27.18l-.11.59a6.13,6.13,0,0,0-1.07-.14c-.37,0-.5.13-.5.34s.05.31.51.46l.23.08c.77.23,1.07.49,1.07,1.17s-.49,1-1.24,1a4.87,4.87,0,0,1-1.39-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M247.37,137.76h.82v.73h-.82Zm0,1.39h.76v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M250.55,142.73a2.21,2.21,0,0,1-.61.07c-.45,0-.74-.16-.74-.93v-4.29H250v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M252.49,139.07c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13v0c0,.87.22,1.11.79,1.11a3.29,3.29,0,0,0,1.05-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.13,0-1.45-.6-1.45-1.86S251.33,139.07,252.49,139.07Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,252.63,140.6Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M257.72,142.8a2.23,2.23,0,0,1-.71-.11h0s0,.23,0,.55v1.09h-.76v-5.18h.67l0,.36h0a1.54,1.54,0,0,1,1-.42c.67,0,1.07.33,1.07,1.65C259.07,142.4,258.54,142.8,257.72,142.8Zm-.71-.73a2.07,2.07,0,0,0,.58.09c.48,0,.72-.19.72-1.31s-.19-1.12-.51-1.12a1.16,1.16,0,0,0-.79.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M259.72,141c0-1.23.35-1.93,1.5-1.93s1.46.7,1.46,1.93-.35,1.82-1.51,1.82S259.72,142.25,259.72,141Zm2.2,0c0-.9-.19-1.29-.72-1.29s-.71.38-.71,1.29.18,1.18.7,1.18S261.92,141.92,261.92,141Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M264.86,142.73a2.24,2.24,0,0,1-.62.07c-.45,0-.73-.16-.73-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M265.47,137.76h.82v.73h-.82Zm0,1.39h.77v3.59h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M267.43,139.72h-.51v-.57h.52l.06-.93.7-.07v1h.92l-.09.57h-.83v2.13c0,.28.09.31.31.31a2.43,2.43,0,0,0,.49-.08l.12.59a2.52,2.52,0,0,1-.8.12c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M269.81,137.76h.82v.73h-.82Zm0,1.39h.76v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M273.52,144.33V143c0-.25,0-.61,0-.62h0a1.56,1.56,0,0,1-1,.4c-.68,0-1.08-.33-1.08-1.65,0-1.65.5-2.06,1.45-2.06a4.43,4.43,0,0,1,1.38.26v5Zm-1.3-3.28c0,1,.19,1.11.51,1.11a1.14,1.14,0,0,0,.79-.4v-1.94a1.72,1.72,0,0,0-.58-.09C272.46,139.73,272.22,139.93,272.22,141.05Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M276.05,139.15v2.47c0,.4.14.54.42.54a1.19,1.19,0,0,0,.8-.4v-2.61H278v3.59h-.67l-.05-.36h0a1.65,1.65,0,0,1-1.08.42c-.47,0-1-.23-1-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M280.37,139.07c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13v0c0,.87.23,1.11.8,1.11a3.34,3.34,0,0,0,1.05-.18l.13.57a3.47,3.47,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S279.2,139.07,280.37,139.07Zm.13,1.53c.4,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.7.8A3.09,3.09,0,0,0,280.5,140.6Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M235.81,146.3h.66l0,.35h0a1.57,1.57,0,0,1,1-.42.83.83,0,0,1,.82.48,1.58,1.58,0,0,1,1-.48c.49,0,1,.23,1,1.07v2.58h-.77v-2.5c0-.36-.09-.5-.4-.5a1.11,1.11,0,0,0-.71.4.92.92,0,0,1,0,.15v2.45h-.75v-2.5c0-.34-.11-.5-.4-.5a1.17,1.17,0,0,0-.72.4v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M241.11,146.16a3.73,3.73,0,0,0,.34-1.43h.66a3.24,3.24,0,0,1-.37,1.43Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M245,149.88l0-.36h0a1.63,1.63,0,0,1-1.1.43c-.71,0-.94-.46-.94-1v-.07c0-.82.46-1.09,1.21-1.16a7.48,7.48,0,0,1,.8,0v-.12c0-.54-.1-.67-.55-.67a3.89,3.89,0,0,0-1.18.22l-.15-.58a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.09-1.69a4.33,4.33,0,0,0-.77.06.52.52,0,0,0-.5.6c0,.37.17.48.43.48a1.13,1.13,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M249.55,146.21c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S248.39,146.21,249.55,146.21Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,249.69,147.74Zm.15-2h-.62l.47-1h.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M251.81,146.86h-.51v-.56h.52l.06-.93.7-.07v1h.92l-.09.56h-.83V149c0,.28.09.31.31.31a2.72,2.72,0,0,0,.5-.08l.12.59a2.51,2.51,0,0,1-.8.13c-.6,0-.9-.14-.9-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M255.52,146.21c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.44-.6-1.44-1.87S254.36,146.21,255.52,146.21Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,255.66,147.74Zm.15-2h-.62l.48-1h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M259.28,146.3h.66l.05.35h0a1.29,1.29,0,0,1,.94-.4,1,1,0,0,1,.34,0l-.12.7a1.78,1.78,0,0,0-.35,0,1,1,0,0,0-.78.38v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M263.19,146.21c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1.05-.18l.13.57a3.33,3.33,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S262,146.21,263.19,146.21Zm.14,1.53c.39,0,.44-.16.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.16,3.16,0,0,0,263.33,147.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M266.26,146.86v3h-.76v-3H265v-.56h.5v-.61c0-.87.44-1,1-1a5.12,5.12,0,0,1,.92.09l-.1.58c-.2,0-.43,0-.6,0s-.48,0-.48.47v.53h1l-.09.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M268.53,146.3v2.47c0,.39.14.53.42.53a1.15,1.15,0,0,0,.81-.4v-2.6h.76v3.58h-.67l0-.36h0a1.61,1.61,0,0,1-1.07.43c-.47,0-1-.23-1-1.08V146.3Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M271.37,149.12a5,5,0,0,0,1.23.2c.36,0,.55-.08.55-.42s-.1-.4-.51-.52l-.24-.08c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.16-1a4.67,4.67,0,0,1,1.27.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s.05.32.51.47l.22.07c.78.24,1.08.49,1.08,1.17s-.5,1-1.24,1a4.82,4.82,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M276,146.21c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1.05-.18l.13.57A3.33,3.33,0,0,1,276,150c-1.12,0-1.45-.6-1.45-1.87S274.86,146.21,276,146.21Zm.14,1.53c.39,0,.44-.16.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.16,3.16,0,0,0,276.16,147.74Zm.15-2h-.61l.47-1h.73Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M72.5,544.77a3.82,3.82,0,0,0,.83.08c.46,0,.61-.23.61-.7v-3.69h.77v3.7c0,1-.48,1.35-1.32,1.35a4.22,4.22,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M75.52,541.72a3.54,3.54,0,0,0,.34-1.43h.67a3.24,3.24,0,0,1-.37,1.43Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M79.39,545.44l0-.36h0a1.62,1.62,0,0,1-1.09.43c-.72,0-.94-.46-.94-1v-.07c0-.82.45-1.09,1.21-1.16a7.12,7.12,0,0,1,.79,0v-.12c0-.54-.1-.67-.55-.67a4.26,4.26,0,0,0-1.18.21l-.15-.57a4.83,4.83,0,0,1,1.43-.27c.72,0,1.2.24,1.2,1.31v2.34Zm-.1-1.69a4.08,4.08,0,0,0-.76.06.52.52,0,0,0-.51.6c0,.37.17.48.43.48a1.12,1.12,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M81.15,542.42h-.51v-.56h.52l0-.93.71-.07v1h.92l-.09.56h-.83v2.13c0,.28.09.31.31.31a2.43,2.43,0,0,0,.49-.08l.12.59a2.45,2.45,0,0,1-.8.13c-.59,0-.89-.14-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M83.67,542.42h-.52v-.56h.52l.06-.93.7-.07v1h.92l-.08.56h-.84v2.13c0,.28.09.31.31.31a2.57,2.57,0,0,0,.5-.08l.12.59a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M87.37,541.77c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.44-.6-1.44-1.87S86.21,541.77,87.37,541.77Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,87.51,543.3Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M89.51,541.86h.66l0,.35h0a1.66,1.66,0,0,1,1.08-.42c.46,0,.94.23.94,1.08v2.57H91.5V543c0-.4-.15-.55-.43-.55a1.16,1.16,0,0,0-.8.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M94.43,541.79a2.18,2.18,0,0,1,.71.12h0s0-.26,0-.66v-1h.76v5.15h-.66l0-.36h0a1.6,1.6,0,0,1-1,.43c-.68,0-1.08-.34-1.08-1.65C93.07,542.2,93.61,541.79,94.43,541.79Zm.71.73a2,2,0,0,0-.58-.09c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.51,1.1a1.11,1.11,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M96.76,544.68a4.92,4.92,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.09-.4-.51-.53l-.23-.07c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a4.6,4.6,0,0,1,1.27.19l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.37,0-.5.14-.5.34s0,.32.51.47l.23.07c.77.24,1.07.49,1.07,1.17s-.49,1-1.24,1a4.8,4.8,0,0,1-1.39-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M73.56,549v2.47c0,.39.14.54.42.54a1.24,1.24,0,0,0,.81-.4V549h.76v3.58h-.67l0-.35h0a1.63,1.63,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08V549Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M76.56,549h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,1,.22,1,1.07v2.57h-.76v-2.46c0-.4-.15-.54-.43-.54a1.2,1.2,0,0,0-.81.41v2.59h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M83.25,548.91c1.08,0,1.32.65,1.32,1.13,0,.67-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.86S82.09,548.91,83.25,548.91Zm.14,1.53c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,83.39,550.44Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M85.39,549h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,1,.22,1,1.07v2.57h-.76v-2.46c0-.4-.15-.54-.43-.54a1.2,1.2,0,0,0-.81.41v2.59h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M90.07,549.56v3h-.76v-3H88.8V549h.51v-.61c0-.87.44-1,1-1a5.15,5.15,0,0,1,.93.09l-.1.58c-.2,0-.43,0-.61,0s-.47,0-.47.47V549h1l-.08.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M93.51,552.58l0-.35h0a1.59,1.59,0,0,1-1.09.42c-.71,0-.94-.46-.94-1v-.07c0-.82.46-1.1,1.21-1.17l.8,0v-.11c0-.55-.1-.68-.55-.68a3.83,3.83,0,0,0-1.18.22l-.15-.57a4.45,4.45,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3v2.34Zm-.09-1.69a5.32,5.32,0,0,0-.77.06.54.54,0,0,0-.51.61c0,.37.18.48.43.48a1.17,1.17,0,0,0,.85-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M95.15,549h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.94.22.94,1.07v2.57h-.75v-2.46c0-.4-.15-.54-.43-.54a1.16,1.16,0,0,0-.81.41v2.59h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M99,549.56h-.51V549H99l.06-.93.7-.07v1h.92l-.09.56h-.83v2.13c0,.29.09.32.31.32a2.72,2.72,0,0,0,.5-.08l.12.58a2.51,2.51,0,0,1-.8.13c-.6,0-.9-.14-.9-.93Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M191.69,336.42a4.59,4.59,0,0,0,.83.08c.46,0,.61-.23.61-.7v-3.69h.77v3.7a1.16,1.16,0,0,1-1.32,1.34,3.74,3.74,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M196.23,333.42c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.22,1.11.79,1.11a3.29,3.29,0,0,0,1-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S195.06,333.42,196.23,333.42Zm.13,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.71.8A3.16,3.16,0,0,0,196.36,335Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M199.83,336.32a4.43,4.43,0,0,0,1.22.2c.36,0,.55-.07.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.16-1a5.15,5.15,0,0,1,1.27.18l-.12.59a6,6,0,0,0-1.06-.14c-.38,0-.5.13-.5.34s.05.31.51.46l.23.08c.77.23,1.07.49,1.07,1.17s-.5,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M203.9,333.5V336c0,.4.15.54.43.54a1.19,1.19,0,0,0,.8-.4V333.5h.77v3.59h-.67l0-.36h0a1.65,1.65,0,0,1-1.08.42c-.47,0-1-.23-1-1.08V333.5Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M206.9,332.11h.82v.73h-.82Zm0,1.39h.76v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M208.57,336.32a4.5,4.5,0,0,0,1.22.2c.36,0,.55-.07.55-.41s-.09-.4-.51-.53l-.23-.07c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a5.07,5.07,0,0,1,1.27.18l-.11.59a6.13,6.13,0,0,0-1.07-.14c-.37,0-.5.13-.5.34s.05.31.51.46l.23.08c.77.23,1.07.49,1.07,1.17s-.49,1-1.24,1a4.87,4.87,0,0,1-1.39-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M193.17,340.58a2.24,2.24,0,0,1,.71.12h0s0-.26,0-.66v-1h.76v5.15H194l0-.35h0a1.65,1.65,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C191.81,341,192.35,340.58,193.17,340.58Zm.71.73a2.08,2.08,0,0,0-.58-.08c-.48,0-.73.2-.73,1.32,0,1,.2,1.1.52,1.1a1.11,1.11,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M197,340.56c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S195.81,340.56,197,340.56Zm.13,1.53c.39,0,.44-.16.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.16,3.16,0,0,0,197.11,342.09Zm.15-2h-.61l.47-1.05h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M200.58,344.3a2.18,2.18,0,0,1-.71-.12h0s0,.23,0,.55v1.09h-.76v-5.17h.67l0,.35h0a1.6,1.6,0,0,1,1-.42c.67,0,1.07.34,1.07,1.65C201.93,343.89,201.4,344.3,200.58,344.3Zm-.71-.73a2.08,2.08,0,0,0,.58.08c.48,0,.73-.19.73-1.31s-.2-1.11-.52-1.11a1.15,1.15,0,0,0-.79.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M202.77,340.65h.66l0,.35h0a1.29,1.29,0,0,1,.94-.4,1.05,1.05,0,0,1,.34,0l-.12.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.78.38v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M206.68,340.56c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1.05-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.87S205.52,340.56,206.68,340.56Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,206.82,342.09Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M208.66,343.47a5,5,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.5-.52l-.24-.08c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.15-1a4.54,4.54,0,0,1,1.27.19l-.11.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s.05.32.5.47l.23.07c.77.24,1.07.49,1.07,1.17s-.49,1-1.23,1a5.28,5.28,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M211.83,343.47a5,5,0,0,0,1.23.2c.36,0,.55-.08.55-.42s-.1-.4-.51-.52l-.24-.08c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.16-1a4.67,4.67,0,0,1,1.27.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s0,.32.51.47l.22.07c.78.24,1.07.49,1.07,1.17s-.49,1-1.23,1a5.28,5.28,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M215.16,339.25H216V340h-.82Zm0,1.4H216v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M217.91,341.21v3h-.75v-3h-.51v-.56h.51V340c0-.87.44-1,1-1a5.24,5.24,0,0,1,.93.09l-.1.58c-.2,0-.44-.05-.61-.05s-.48.05-.48.47v.53h1l-.09.56Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M177.18,108.92a4.81,4.81,0,0,0,.83.07c.46,0,.61-.22.61-.7v-3.68h.77v3.7a1.16,1.16,0,0,1-1.32,1.34,3.74,3.74,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M181.72,105.92c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v0c0,.87.22,1.11.8,1.11a3.33,3.33,0,0,0,1-.19l.12.58a3.35,3.35,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S180.55,105.92,181.72,105.92Zm.13,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.71.8A3.16,3.16,0,0,0,181.85,107.45Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M185.07,106h.78l.45,1.76c.14.53.26,1.18.26,1.18h0s.13-.67.25-1.18l.45-1.76h.76l-1,3.59h-1Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M190,105.92c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5,5,0,0,1-1.08-.13v0c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.58a3.47,3.47,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S188.82,105.92,190,105.92Zm.13,1.53c.4,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.7.8A3.09,3.09,0,0,0,190.12,107.45Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M192.87,106v2.47c0,.4.15.54.43.54a1.19,1.19,0,0,0,.8-.4V106h.77v3.59h-.67l0-.36h0a1.65,1.65,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08V106Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M196.58,107.72l-1-1.72h.84l.34.65.26.54.27-.56.33-.63h.81l-1,1.72,1.1,1.87h-.87l-.35-.65-.33-.67s-.16.33-.33.65l-.36.67h-.86Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M200.76,106h.66l.05.36h0a1.51,1.51,0,0,1,1-.42.83.83,0,0,1,.82.48,1.56,1.56,0,0,1,1-.48c.49,0,.94.23.94,1.06v2.59h-.76v-2.5c0-.37-.09-.51-.41-.51a1.18,1.18,0,0,0-.71.41.88.88,0,0,1,0,.14v2.46h-.75v-2.5c0-.34-.11-.51-.39-.51a1.16,1.16,0,0,0-.72.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M206.06,105.87a3.61,3.61,0,0,0,.34-1.44h.67a3.36,3.36,0,0,1-.37,1.44Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M208,104.61h.82v.73H208Zm0,1.39h.76v3.59H208Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M209.83,106h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,1,.23,1,1.08v2.57h-.76v-2.47c0-.4-.15-.54-.43-.54a1.18,1.18,0,0,0-.81.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M213.42,108.82a4.5,4.5,0,0,0,1.22.2c.36,0,.55-.08.55-.41s-.09-.4-.51-.53l-.23-.07c-.72-.22-1.07-.42-1.07-1.09s.47-1,1.16-1a5.07,5.07,0,0,1,1.27.18l-.11.59a6.13,6.13,0,0,0-1.07-.14c-.37,0-.5.13-.5.34s.05.31.51.46l.23.08c.77.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M218.05,105.94a3.32,3.32,0,0,1,.92.14l-.11.59a3.22,3.22,0,0,0-.72-.09c-.6,0-.81.37-.81,1.23s.21,1.2.8,1.2a2.28,2.28,0,0,0,.73-.12l.14.6a3,3,0,0,1-1,.16c-1.15,0-1.47-.62-1.47-1.84S216.88,105.94,218.05,105.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M219.73,106h.66l0,.36h0a1.26,1.26,0,0,1,.94-.41,1,1,0,0,1,.33,0l-.11.7a1.29,1.29,0,0,0-.35,0,1,1,0,0,0-.79.39v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M222.31,104.61h.83v.73h-.83Zm0,1.39h.77v3.59h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M224.14,106h.67l0,.36h0a1.27,1.27,0,0,1,.94-.41,1,1,0,0,1,.34,0l-.12.7a1.23,1.23,0,0,0-.35,0,1,1,0,0,0-.78.39v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M228.06,105.92c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v0c0,.87.23,1.11.8,1.11a3.33,3.33,0,0,0,1-.19l.13.58a3.47,3.47,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S226.89,105.92,228.06,105.92Zm.13,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.7.8A3.09,3.09,0,0,0,228.19,107.45Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M179.41,116.73l0-.36h0a1.6,1.6,0,0,1-1.09.43c-.71,0-.94-.46-.94-1v-.07c0-.82.46-1.09,1.21-1.16a7.12,7.12,0,0,1,.79,0v-.12c0-.54-.09-.67-.54-.67a4.13,4.13,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-1.49-5.17h.74l.46,1h-.61Zm1.39,3.48a4.08,4.08,0,0,0-.76.06.52.52,0,0,0-.51.6c0,.37.18.48.43.48a1.1,1.1,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M184,116.72a2.22,2.22,0,0,1-.62.08c-.45,0-.73-.17-.73-.94v-4.28h.75v4.24c0,.3.1.33.25.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M184.45,113a3.73,3.73,0,0,0,.34-1.43h.66a3.24,3.24,0,0,1-.37,1.43Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M187.14,113.15v2.47c0,.39.14.53.42.53a1.19,1.19,0,0,0,.81-.4v-2.6h.76v3.58h-.67l0-.36h0a1.63,1.63,0,0,1-1.08.43c-.47,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M190.14,113.15h.66l0,.35h0a1.66,1.66,0,0,1,1.08-.42c.46,0,.94.23.94,1.08v2.57h-.76v-2.46c0-.4-.15-.54-.43-.54a1.15,1.15,0,0,0-.8.4v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M193.88,111.75h.82v.73h-.82Zm0,1.4h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M195.3,113.15h.78l.46,1.75c.13.54.26,1.18.26,1.18h0s.13-.66.26-1.18l.44-1.75h.77l-1,3.58h-1Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M200.22,113.06c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1-.18l.13.57a3.33,3.33,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S199.06,113.06,200.22,113.06Zm.14,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.16,3.16,0,0,0,200.36,114.59Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M202.36,113.15H203l0,.35h0a1.29,1.29,0,0,1,.94-.4,1,1,0,0,1,.34,0l-.12.7a1.78,1.78,0,0,0-.35,0,1,1,0,0,0-.78.38v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M204.8,116a4.84,4.84,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.09-.4-.51-.53l-.23-.07c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a4.6,4.6,0,0,1,1.27.19l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.38,0-.5.14-.5.34s.05.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.24,1a5,5,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M208.12,111.75h.82v.73h-.82Zm0,1.4h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M210.08,113.71h-.52v-.56h.52l.06-.93.7-.07v1h.92l-.08.56h-.84v2.13c0,.28.09.31.31.31a2.57,2.57,0,0,0,.5-.08l.12.59a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M213.78,113.06c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1A4.59,4.59,0,0,1,213,115v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1-.18l.13.57a3.33,3.33,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.87S212.62,113.06,213.78,113.06Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,213.92,114.59Zm.15-2h-.62l.48-1h.73Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M221.12,215.46a3.75,3.75,0,0,0,.83.08c.46,0,.61-.23.61-.7v-3.68h.76v3.7c0,1-.47,1.34-1.31,1.34a4.22,4.22,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M224.14,212.41a3.73,3.73,0,0,0,.34-1.43h.67a3,3,0,0,1-.38,1.43Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M228,216.13l0-.35h0a1.61,1.61,0,0,1-1.09.42c-.72,0-.95-.46-.95-1v-.07c0-.83.46-1.1,1.22-1.17l.79,0v-.12c0-.54-.1-.67-.55-.67a3.89,3.89,0,0,0-1.18.22l-.15-.57a4.45,4.45,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3v2.34Zm-.09-1.69a5.28,5.28,0,0,0-.76.06.53.53,0,0,0-.51.61c0,.37.17.47.43.47a1.16,1.16,0,0,0,.84-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M229.63,211.16h.82v.73h-.82Zm0,1.39h.77v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M235,217.73v-1.32c0-.24,0-.6,0-.61h0a1.56,1.56,0,0,1-1,.4c-.68,0-1.08-.34-1.08-1.65,0-1.66.5-2.06,1.44-2.06a4.76,4.76,0,0,1,1.39.25v5Zm-1.31-3.28c0,1,.19,1.11.52,1.11a1.19,1.19,0,0,0,.79-.4v-1.95a2.15,2.15,0,0,0-.59-.08C233.9,213.13,233.66,213.33,233.66,214.45Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M237.49,212.55V215c0,.39.14.54.42.54a1.19,1.19,0,0,0,.81-.4v-2.61h.76v3.58h-.67l0-.35h0a1.6,1.6,0,0,1-1.07.42c-.48,0-1-.23-1-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M240.48,211.16h.83v.73h-.83Zm0,1.39h.77v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M242.44,213.11h-.51v-.56h.52l.06-.93.7-.07v1h.92l-.09.56h-.83v2.13c0,.29.09.32.31.32a3.49,3.49,0,0,0,.49-.08l.12.58a2.45,2.45,0,0,1-.8.13c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M245,213.11h-.52v-.56H245l.06-.93.7-.07v1h.92l-.08.56h-.84v2.13c0,.29.09.32.31.32a3.71,3.71,0,0,0,.5-.08l.12.58a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M248.66,212.46c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.87S247.5,212.46,248.66,212.46Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.8A3.51,3.51,0,0,0,248.8,214Zm.15-2h-.62l.48-1h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M222.77,223.27a2.21,2.21,0,0,1-.61.07c-.45,0-.74-.16-.74-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.28,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M223.2,219.56a3.54,3.54,0,0,0,.35-1.44h.66a3.36,3.36,0,0,1-.37,1.44Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M226.47,219.61c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.23,1.11.8,1.11a3.34,3.34,0,0,0,1-.18l.13.57a3.47,3.47,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S225.3,219.61,226.47,219.61Zm.13,1.53c.4,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.7.8A3.09,3.09,0,0,0,226.6,221.14Zm.15-2h-.61l.47-1h.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M229.9,219.63a3.32,3.32,0,0,1,.92.14l-.11.59a3.13,3.13,0,0,0-.71-.09c-.6,0-.82.37-.82,1.23s.22,1.2.81,1.2a2.57,2.57,0,0,0,.72-.11l.14.59a3,3,0,0,1-1,.16c-1.15,0-1.46-.62-1.46-1.84S228.74,219.63,229.9,219.63Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M231.4,221.54c0-1.23.34-1.93,1.5-1.93s1.45.7,1.45,1.93-.35,1.82-1.5,1.82S231.4,222.79,231.4,221.54Zm2.19,0c0-.9-.19-1.29-.71-1.29s-.72.38-.72,1.29.19,1.18.71,1.18S233.59,222.46,233.59,221.54Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M236.53,223.27a2.21,2.21,0,0,1-.61.07c-.45,0-.74-.16-.74-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M238.48,219.61c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.22,1.11.8,1.11a3.34,3.34,0,0,0,1.05-.18l.12.57a3.35,3.35,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S237.31,219.61,238.48,219.61Zm.13,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.71.8A3.16,3.16,0,0,0,238.61,221.14Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M243.56,219.61c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.22,1.11.79,1.11a3.29,3.29,0,0,0,1.05-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S242.39,219.61,243.56,219.61Zm.13,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.71.8A3.16,3.16,0,0,0,243.69,221.14Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M245.69,219.69h.67l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.23.94,1.08v2.57h-.76v-2.47c0-.4-.15-.54-.42-.54a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M250.85,222.49a3.15,3.15,0,0,0,1.16.2c.62,0,.76-.33.75-.81s-.15-.87-.95-.9l-.46,0v-.62l.47,0c.7,0,.87-.29.87-.77s-.11-.66-.63-.66a3.91,3.91,0,0,0-1.15.2l-.15-.58a3.48,3.48,0,0,1,1.29-.27c1,0,1.41.4,1.41,1.28a1.08,1.08,0,0,1-.66,1.09,1.17,1.17,0,0,1,.73,1.28c0,1-.44,1.46-1.5,1.46a3.68,3.68,0,0,1-1.34-.26Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M254.93,218.76c.63,0,.77.38.77.65s-.08.56-.57.56a2.7,2.7,0,0,1-.63-.07v0c0,.5.13.64.46.64a2.22,2.22,0,0,0,.61-.1l.08.33a1.91,1.91,0,0,1-.75.14c-.66,0-.85-.35-.85-1.09S254.25,218.76,254.93,218.76Zm.08.89c.23,0,.25-.1.25-.24s-.1-.31-.34-.31-.39.15-.41.47A1.74,1.74,0,0,0,255,219.65Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M392.11,585.8a4.81,4.81,0,0,0,.83.07c.46,0,.61-.22.61-.7v-3.68h.77v3.7a1.16,1.16,0,0,1-1.32,1.34,3.74,3.74,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M396.64,582.8c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v0c0,.87.22,1.11.79,1.11a3.28,3.28,0,0,0,1.05-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.86S395.48,582.8,396.64,582.8Zm.14,1.52c.39,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.71.8A3.14,3.14,0,0,0,396.78,584.32Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M401.57,582.82a2.31,2.31,0,0,1,.72.11h0s0-.26,0-.65v-1H403v5.16h-.66l0-.36h0a1.62,1.62,0,0,1-1,.42c-.67,0-1.07-.33-1.07-1.65C400.22,583.22,400.75,582.82,401.57,582.82Zm.72.73a2.15,2.15,0,0,0-.59-.09c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.52,1.1a1.19,1.19,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M405.38,582.8c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v0c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.86S404.22,582.8,405.38,582.8Zm.14,1.52c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,405.52,584.32Zm.15-2h-.62l.47-1.05h.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M408.82,582.82a3.37,3.37,0,0,1,.92.14l-.12.59a3.13,3.13,0,0,0-.71-.09c-.6,0-.81.37-.81,1.23s.21,1.2.8,1.2a2.18,2.18,0,0,0,.72-.12l.15.6a3.08,3.08,0,0,1-1,.16c-1.15,0-1.47-.62-1.47-1.84S407.65,582.82,408.82,582.82Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M411.85,586.46a2.29,2.29,0,0,1-.62.07c-.45,0-.73-.16-.73-.93v-4.29h.75v4.25c0,.3.1.33.25.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M414.39,586.47l0-.36h0a1.59,1.59,0,0,1-1.09.42c-.71,0-.94-.46-.94-1v-.07c0-.82.46-1.09,1.21-1.17l.8,0v-.11c0-.55-.1-.67-.55-.67a3.82,3.82,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3v2.35Zm-.09-1.7a5.32,5.32,0,0,0-.77.06.54.54,0,0,0-.51.61c0,.37.18.48.43.48a1.17,1.17,0,0,0,.85-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M416,582.88h.66l0,.36h0a1.3,1.3,0,0,1,.95-.41,1,1,0,0,1,.33,0l-.11.69a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.39v2.55H416Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M419.94,582.8c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v0c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.86S418.78,582.8,419.94,582.8Zm.14,1.52c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,420.08,584.32Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M392.42,590h.66l0,.35h0a1.51,1.51,0,0,1,1-.42.83.83,0,0,1,.82.48,1.58,1.58,0,0,1,1-.48c.49,0,1,.23,1,1.07v2.58h-.77v-2.5c0-.36-.09-.51-.4-.51a1.13,1.13,0,0,0-.71.41.88.88,0,0,1,0,.14v2.46h-.75v-2.5c0-.34-.11-.51-.4-.51a1.19,1.19,0,0,0-.72.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M399.23,589.94c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.16,5.16,0,0,1-1.08-.14V592c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.59-1.45-1.86S398.07,589.94,399.23,589.94Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,399.37,591.47Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M401.21,592.85a4.92,4.92,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.09-.4-.51-.53l-.23-.07c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a4.6,4.6,0,0,1,1.27.19l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.37,0-.5.14-.5.34s.05.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M406.16,590h.66l.05.35h0a1.25,1.25,0,0,1,.94-.4,1,1,0,0,1,.34,0l-.12.7a1.78,1.78,0,0,0-.35,0,1,1,0,0,0-.78.38v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M410.07,589.94c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a5.17,5.17,0,0,1-1.09-.14V592c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1.05-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.12,0-1.45-.59-1.45-1.86S408.91,589.94,410.07,589.94Zm.14,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.16,3.16,0,0,0,410.21,591.47Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M411.8,590h.78l.46,1.75c.14.54.26,1.18.26,1.18h0s.12-.66.25-1.18L414,590h.77l-1,3.58h-1Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M416.73,589.94c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.17,5.17,0,0,1-1.09-.14V592c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1.05-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.12,0-1.45-.59-1.45-1.86S415.56,589.94,416.73,589.94Zm.13,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.16,3.16,0,0,0,416.86,591.47Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M418.86,590h.67l0,.35h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.23.94,1.08v2.57h-.76v-2.46c0-.4-.15-.55-.42-.55a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M423.36,590v2.47c0,.39.14.53.42.53a1.15,1.15,0,0,0,.81-.4V590h.76v3.58h-.67l0-.36h0a1.65,1.65,0,0,1-1.08.42c-.47,0-.95-.22-.95-1.07V590Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M426.21,592.85a4.84,4.84,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.1-.4-.51-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.16-1a4.67,4.67,0,0,1,1.27.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s.05.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.5,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M240.74,631.8a3.82,3.82,0,0,0,.83.08c.46,0,.61-.23.61-.7V627.5H243v3.7a1.16,1.16,0,0,1-1.32,1.34,4.22,4.22,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M245.28,628.8c1.07,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.23,1.11.8,1.11a3.33,3.33,0,0,0,1-.19l.12.57a3.1,3.1,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S244.11,628.8,245.28,628.8Zm.13,1.53c.4,0,.44-.16.44-.41s-.19-.52-.59-.52-.68.24-.7.8A3.5,3.5,0,0,0,245.41,630.33Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M248.88,631.71a4.84,4.84,0,0,0,1.22.2c.36,0,.55-.08.55-.41s-.09-.4-.51-.53l-.23-.07c-.72-.22-1.07-.43-1.07-1.1s.47-1,1.16-1a4.6,4.6,0,0,1,1.27.19l-.11.59a5.31,5.31,0,0,0-1.07-.15c-.38,0-.5.14-.5.35s0,.31.51.46l.23.07c.77.24,1.07.49,1.07,1.17s-.49,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M253,628.89v2.47c0,.39.14.54.42.54a1.19,1.19,0,0,0,.8-.4v-2.61H255v3.58h-.67l-.05-.35h0a1.7,1.7,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M256,627.5h.82v.72H256Zm0,1.39h.76v3.58H256Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M257.62,631.71a5,5,0,0,0,1.22.2c.37,0,.55-.08.55-.41s-.09-.4-.5-.53l-.24-.07c-.71-.22-1.06-.43-1.06-1.1s.46-1,1.15-1A4.54,4.54,0,0,1,260,629l-.11.59a5.31,5.31,0,0,0-1.06-.15c-.38,0-.5.14-.5.35s.05.31.5.46l.23.07c.77.24,1.07.49,1.07,1.17s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M264.49,632.47l0-.35h0a1.66,1.66,0,0,1-1.09.42c-.72,0-.95-.46-.95-1v-.07c0-.83.46-1.1,1.22-1.17l.79,0v-.12c0-.54-.1-.67-.55-.67a3.89,3.89,0,0,0-1.18.22l-.15-.57a4.41,4.41,0,0,1,1.42-.28c.73,0,1.2.24,1.2,1.31v2.34Zm-.09-1.69a5.28,5.28,0,0,0-.76.06.53.53,0,0,0-.51.61c0,.37.17.47.43.47a1.16,1.16,0,0,0,.84-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M266.68,633.54c.31-.06.53-.09.85-.18s.51-.26.51-.78v-.5h0a1.58,1.58,0,0,1-1,.39c-.68,0-1.08-.33-1.08-1.58,0-1.66.5-2.07,1.45-2.07a4.68,4.68,0,0,1,1.38.26v3.51a1.2,1.2,0,0,1-1,1.38c-.3.07-.64.12-1,.17Zm.54-1.71a1.07,1.07,0,0,0,.79-.38v-1.9a1.9,1.9,0,0,0-.58-.08c-.47,0-.72.19-.72,1.3C266.71,631.7,266.9,631.83,267.22,631.83Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M271.11,628.8c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.21,3.21,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S269.94,628.8,271.11,628.8Zm.13,1.53c.4,0,.44-.16.44-.41s-.19-.52-.59-.52-.67.24-.7.8A3.5,3.5,0,0,0,271.24,630.33Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M273.24,628.89h.67l0,.36h0a1.59,1.59,0,0,1,1.07-.43c.47,0,.94.23.94,1.08v2.57h-.75V630c0-.4-.15-.54-.43-.54a1.15,1.15,0,0,0-.81.4v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M277.12,629.45h-.51v-.56h.52l.06-.93.7-.07v1h.92l-.09.56h-.83v2.13c0,.29.09.32.31.32a3.49,3.49,0,0,0,.49-.08l.13.58a2.56,2.56,0,0,1-.8.13c-.6,0-.9-.14-.9-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M242.22,636a2.23,2.23,0,0,1,.71.11h0s0-.25,0-.65v-1h.76v5.16H243l-.05-.36h0a1.6,1.6,0,0,1-1,.42c-.68,0-1.08-.33-1.08-1.65C240.86,636.38,241.4,636,242.22,636Zm.71.73a2,2,0,0,0-.58-.09c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.51,1.1a1.14,1.14,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M244.51,635.9a3.54,3.54,0,0,0,.35-1.44h.66a3.36,3.36,0,0,1-.37,1.44Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M247.78,636c1.07,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13V638c0,.87.23,1.11.8,1.11a3.65,3.65,0,0,0,1-.18l.12.57a3.35,3.35,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S246.61,636,247.78,636Zm.13,1.52c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.7.8A3.07,3.07,0,0,0,247.91,637.47Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M249.91,636h.67l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.23.94,1.08v2.57h-.75v-2.47c0-.4-.15-.54-.43-.54a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M253.79,636.6h-.51V636h.52l.06-.93.7-.07v1h.92l-.09.57h-.83v2.12c0,.29.09.32.31.32a2.43,2.43,0,0,0,.49-.08l.12.59a2.5,2.5,0,0,1-.79.12c-.6,0-.9-.14-.9-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M256.18,636h.66l.05.36h0a1.26,1.26,0,0,1,.94-.41,1,1,0,0,1,.34,0l-.12.69a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.78.39v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M260.09,636c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13V638c0,.87.22,1.11.79,1.11a3.59,3.59,0,0,0,1.05-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.13,0-1.45-.6-1.45-1.86S258.93,636,260.09,636Zm.14,1.52c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,260.23,637.47Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M262.36,636.6h-.52V636h.52l.06-.93.7-.07v1H264l-.08.57h-.84v2.12c0,.29.09.32.32.32a2.57,2.57,0,0,0,.49-.08l.12.59a2.57,2.57,0,0,1-.8.12c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M264.74,634.64h.82v.73h-.82Zm0,1.39h.76v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M267.89,636c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13V638c0,.87.22,1.11.8,1.11a3.65,3.65,0,0,0,1.05-.18l.12.57a3.35,3.35,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S266.72,636,267.89,636Zm.13,1.52c.39,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.7.8A3.07,3.07,0,0,0,268,637.47Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M270,636h.67l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.23.94,1.08v2.57H272v-2.47c0-.4-.15-.54-.43-.54a1.16,1.16,0,0,0-.81.41v2.6H270Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M276.72,636c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13V638c0,.87.22,1.11.8,1.11a3.65,3.65,0,0,0,1.05-.18l.12.57a3.35,3.35,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S275.55,636,276.72,636Zm.13,1.52c.39,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.71.8A3.14,3.14,0,0,0,276.85,637.47Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M278.85,636h.67l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.23.94,1.08v2.57h-.76v-2.47c0-.4-.15-.54-.42-.54a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M286.92,639.51a3.91,3.91,0,0,1-1.07.17c-1.21,0-1.78-.48-1.78-2.53,0-1.67.33-2.57,1.73-2.57a3.62,3.62,0,0,1,1.07.14l-.1.6a4.81,4.81,0,0,0-.9-.09c-.72,0-1,.27-1,1.92s.29,1.87,1.08,1.87a4,4,0,0,0,.88-.12Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M287.66,639.62v-5h1c1.68,0,2.15.41,2.15,2.47s-.4,2.51-2.16,2.51Zm1-.66c1.14,0,1.36-.16,1.36-1.86s-.31-1.8-1.35-1.8h-.26V639Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M291.69,639.62v-5h1c1.68,0,2.14.41,2.14,2.47s-.4,2.51-2.15,2.51Zm1-.66c1.14,0,1.36-.16,1.36-1.86s-.31-1.8-1.35-1.8h-.26V639Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M629,702.1a4.81,4.81,0,0,0,.83.07c.46,0,.61-.22.61-.7v-3.68h.77v3.7a1.16,1.16,0,0,1-1.32,1.34,3.74,3.74,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M633.57,699.1c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.22,1.11.8,1.11a3.33,3.33,0,0,0,1-.19l.12.58a3.35,3.35,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S632.4,699.1,633.57,699.1Zm.13,1.52c.39,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.71.8A3.14,3.14,0,0,0,633.7,700.62Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M637.17,702a4.43,4.43,0,0,0,1.22.2c.36,0,.55-.08.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.22-1.06-.42-1.06-1.09s.46-1,1.16-1a5.15,5.15,0,0,1,1.27.18l-.12.59a5.21,5.21,0,0,0-1.06-.14c-.38,0-.5.13-.5.34s0,.31.51.46l.23.07c.77.24,1.07.5,1.07,1.17s-.5,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M641.25,699.18v2.47c0,.39.14.54.42.54a1.19,1.19,0,0,0,.8-.4v-2.61h.77v3.59h-.67l-.05-.36h0a1.65,1.65,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M644.24,697.79h.82v.73h-.82Zm0,1.39H645v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M645.91,702a4.5,4.5,0,0,0,1.22.2c.37,0,.55-.08.55-.41s-.09-.4-.51-.53l-.23-.07c-.72-.22-1.06-.42-1.06-1.09s.46-1,1.15-1a5,5,0,0,1,1.27.18l-.11.59a5.31,5.31,0,0,0-1.07-.14c-.37,0-.5.13-.5.34s0,.31.51.46l.23.07c.77.24,1.07.5,1.07,1.17s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M650.86,699.18h.66l.05.36h0a1.51,1.51,0,0,1,1-.42.83.83,0,0,1,.82.48,1.56,1.56,0,0,1,1-.48c.49,0,.94.23.94,1.06v2.59h-.76v-2.5c0-.37-.09-.51-.41-.51a1.18,1.18,0,0,0-.71.41.88.88,0,0,1,0,.14v2.46h-.75v-2.5c0-.35-.11-.51-.39-.51a1.16,1.16,0,0,0-.72.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M656.35,697.79h.82v.73h-.82Zm0,1.39h.76v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M658.18,699.18h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.95.23.95,1.08v2.57h-.76V700.3c0-.4-.15-.54-.43-.54a1.18,1.18,0,0,0-.81.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M663.25,699.1c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.06,5.06,0,0,1-1.08-.13v.05c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.58a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S662.08,699.1,663.25,699.1Zm.13,1.52c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.67.24-.7.8A3.07,3.07,0,0,0,663.38,700.62Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M666.13,699.18v2.47c0,.39.15.54.42.54a1.19,1.19,0,0,0,.81-.4v-2.61h.77v3.59h-.67l-.05-.36h0a1.65,1.65,0,0,1-1.08.42c-.47,0-1-.23-1-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M669.13,699.18h.67l0,.36h0a1.3,1.3,0,0,1,.95-.41,1.34,1.34,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.39v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M671.46,703.52a3.09,3.09,0,0,0,.39-1.54h.71a2.75,2.75,0,0,1-.42,1.54Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M630.81,710a2.31,2.31,0,0,1-.72-.11h0s0,.23,0,.55v1.09h-.75v-5.17H630l0,.35h0a1.55,1.55,0,0,1,1-.42c.67,0,1.07.34,1.07,1.65C632.16,709.57,631.63,710,630.81,710Zm-.72-.72a2.16,2.16,0,0,0,.59.08c.48,0,.72-.19.72-1.31s-.19-1.12-.51-1.12a1.18,1.18,0,0,0-.8.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M634.34,709.9a2.21,2.21,0,0,1-.61.07c-.45,0-.74-.16-.74-.93v-4.29h.76V709c0,.3.09.33.24.33l.28,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M636.89,709.91l0-.36h0a1.61,1.61,0,0,1-1.09.42c-.71,0-.94-.45-.94-1v-.07c0-.82.45-1.09,1.21-1.16.2,0,.42,0,.79-.05v-.11c0-.54-.1-.67-.55-.67a4.13,4.13,0,0,0-1.17.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.1-1.69a6,6,0,0,0-.76,0,.54.54,0,0,0-.51.61c0,.37.17.48.43.48a1.12,1.12,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M639.82,706.26a3.32,3.32,0,0,1,.92.14l-.11.6a3.12,3.12,0,0,0-.71-.1c-.6,0-.82.38-.82,1.23s.22,1.2.81,1.2a2.57,2.57,0,0,0,.72-.11l.14.59a3,3,0,0,1-1,.16c-1.15,0-1.46-.62-1.46-1.84S638.66,706.26,639.82,706.26Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M642.82,706.24c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a5.17,5.17,0,0,1-1.09-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.12,0-1.45-.59-1.45-1.86S641.66,706.24,642.82,706.24Zm.14,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.25-.71.8A3.16,3.16,0,0,0,643,707.77Zm.15-2h-.61l.47-1h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M647.9,706.24c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.17,5.17,0,0,1-1.09-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.13,0-1.45-.59-1.45-1.86S646.74,706.24,647.9,706.24Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,648,707.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M650,706.33h.66l0,.35h0a1.63,1.63,0,0,1,1.08-.42c.46,0,.94.23.94,1.08v2.57H652v-2.46c0-.4-.15-.55-.43-.55a1.16,1.16,0,0,0-.8.41v2.6H650Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M656.71,706.26a3.32,3.32,0,0,1,.92.14l-.11.6a3.13,3.13,0,0,0-.72-.1c-.6,0-.81.38-.81,1.23s.21,1.2.81,1.2a2.57,2.57,0,0,0,.72-.11l.14.59a3,3,0,0,1-1,.16c-1.15,0-1.46-.62-1.46-1.84S655.55,706.26,656.71,706.26Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M659.71,706.24c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.16,5.16,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.44-.59-1.44-1.86S658.55,706.24,659.71,706.24Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,659.85,707.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M661.85,706.33h.66l0,.35h0a1.58,1.58,0,0,1,1.07-.42c.47,0,1,.23,1,1.08v2.57h-.76v-2.46c0-.4-.15-.55-.43-.55a1.2,1.2,0,0,0-.81.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M665.73,706.89h-.52v-.56h.52l.06-.93.7-.07v1h.92l-.08.56h-.84V709c0,.28.09.31.32.31a2.57,2.57,0,0,0,.49-.08l.12.59a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.15-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M668.11,706.33h.67l0,.35h0a1.28,1.28,0,0,1,.94-.4,1,1,0,0,1,.34,0l-.11.7a2,2,0,0,0-.35,0,1,1,0,0,0-.79.38v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M672,706.24c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5,5,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1-.18l.13.57A3.47,3.47,0,0,1,672,710c-1.12,0-1.45-.59-1.45-1.86S670.86,706.24,672,706.24Zm.13,1.53c.4,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.25-.7.8A3.09,3.09,0,0,0,672.16,707.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M630.27,714v3h-.76v-3H629v-.56h.51v-.61c0-.87.44-1,1-1a5.15,5.15,0,0,1,.93.09l-.1.58c-.2,0-.43,0-.61,0s-.47,0-.47.47v.53h1l-.08.56Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M633.11,713.38c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S631.94,713.38,633.11,713.38Zm.13,1.53c.4,0,.44-.16.44-.41s-.19-.52-.59-.52-.67.24-.7.8A3.07,3.07,0,0,0,633.24,714.91Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M635.25,713.47h.66l0,.36h0a1.3,1.3,0,0,1,.95-.41,1,1,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.38v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M637.84,713.47h.66l0,.36h0a1.47,1.47,0,0,1,1-.42.83.83,0,0,1,.82.47,1.57,1.57,0,0,1,1-.47c.48,0,.94.22.94,1.06v2.58h-.76v-2.49c0-.37-.1-.51-.41-.51a1.13,1.13,0,0,0-.71.41.82.82,0,0,1,0,.14v2.45h-.75v-2.49c0-.35-.11-.51-.39-.51a1.21,1.21,0,0,0-.73.41v2.59h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M644.65,713.38c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.87S643.49,713.38,644.65,713.38Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.8A3.09,3.09,0,0,0,644.79,714.91Zm.15-2h-.62l.47-1h.74Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M426.48,513.16a3.89,3.89,0,0,0,.83.08c.47,0,.62-.23.62-.7v-3.69h.76v3.7c0,1-.48,1.35-1.31,1.35a4.14,4.14,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M431,510.16c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S429.86,510.16,431,510.16Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,431.16,511.69Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M434.62,513.07a5,5,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.5-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.15-1a4.54,4.54,0,0,1,1.27.19l-.11.58a6.15,6.15,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s.05.32.5.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.82,4.82,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M438.7,510.25v2.47c0,.39.14.53.42.53a1.15,1.15,0,0,0,.81-.4v-2.6h.76v3.58H440l0-.36h0a1.61,1.61,0,0,1-1.07.43c-.48,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M441.69,508.85h.82v.73h-.82Zm0,1.4h.77v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M443.37,513.07a4.84,4.84,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.1-.4-.51-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.16-1a4.67,4.67,0,0,1,1.27.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s.05.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.5,1-1.24,1a4.89,4.89,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M450.24,513.83l-.05-.36h0a1.62,1.62,0,0,1-1.09.43c-.71,0-.94-.46-.94-1v-.07c0-.82.45-1.09,1.21-1.16a7.12,7.12,0,0,1,.79,0v-.12c0-.54-.1-.67-.55-.67a4.13,4.13,0,0,0-1.17.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.1-1.69a4.08,4.08,0,0,0-.76.06.52.52,0,0,0-.51.6c0,.37.17.48.43.48a1.12,1.12,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M451.87,510.25h.67l0,.35h0a1.32,1.32,0,0,1,.94-.4,1,1,0,0,1,.34,0l-.11.7a2,2,0,0,0-.35,0,1,1,0,0,0-.79.38v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M454.47,510.25h.66l0,.35h0a1.33,1.33,0,0,1,.95-.4,1,1,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.38v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M458.38,510.16c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S457.22,510.16,458.38,510.16Zm-.23-1.5h.47l.83,1h-.63l-.44-.57-.43.57h-.63Zm.37,3c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,458.52,511.69Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M460.65,510.81h-.52v-.56h.52l.06-.93.7-.07v1h.92l-.08.56h-.84v2.13c0,.28.09.31.31.31a2.72,2.72,0,0,0,.5-.08l.12.59a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M464.35,510.16c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.44-.6-1.44-1.87S463.19,510.16,464.35,510.16Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,464.49,511.69Zm.15-2H464l.48-1h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M467.81,510.16c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S466.65,510.16,467.81,510.16Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,468,511.69Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M428.11,517.3c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.87S427,517.3,428.11,517.3Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.8A3.09,3.09,0,0,0,428.25,518.83Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M430.25,517.39h.66l0,.36h0a1.61,1.61,0,0,1,1.08-.42c.46,0,.94.22.94,1.07V521h-.76v-2.46c0-.4-.15-.54-.43-.54a1.16,1.16,0,0,0-.8.41V521h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M437.09,521a2.18,2.18,0,0,1-.71-.12h0s0,.23,0,.55v1.1h-.76v-5.18h.67l0,.36h0a1.54,1.54,0,0,1,1-.42c.67,0,1.07.33,1.07,1.64C438.44,520.63,437.91,521,437.09,521Zm-.71-.73a2.07,2.07,0,0,0,.58.09c.48,0,.73-.2.73-1.32s-.2-1.11-.52-1.11a1.16,1.16,0,0,0-.79.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M439.09,519.24c0-1.24.35-1.94,1.5-1.94s1.46.7,1.46,1.94-.35,1.82-1.51,1.82S439.09,520.48,439.09,519.24Zm2.2,0c0-.9-.19-1.28-.72-1.28s-.71.38-.71,1.28.18,1.19.7,1.19S441.29,520.16,441.29,519.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M442.72,520.21a4.57,4.57,0,0,0,1.22.2c.37,0,.55-.08.55-.41s-.09-.4-.5-.53l-.24-.07c-.71-.22-1.06-.43-1.06-1.1s.46-1,1.15-1a5,5,0,0,1,1.27.18l-.11.59a5.31,5.31,0,0,0-1.06-.15c-.38,0-.5.14-.5.35s.05.31.5.46l.23.07c.77.24,1.07.5,1.07,1.17s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M445.89,520.21a4.58,4.58,0,0,0,1.23.2c.36,0,.55-.08.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.22-1.06-.43-1.06-1.1s.46-1,1.15-1a5.16,5.16,0,0,1,1.28.18l-.12.59a5.21,5.21,0,0,0-1.06-.15c-.38,0-.5.14-.5.35s.05.31.51.46l.22.07c.78.24,1.08.5,1.08,1.17s-.5,1-1.24,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M450.54,517.3c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1.05-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S449.38,517.3,450.54,517.3Zm.14,1.53c.39,0,.44-.16.44-.41s-.19-.52-.59-.52-.68.24-.71.8A3.14,3.14,0,0,0,450.68,518.83Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M452.52,520.21a4.58,4.58,0,0,0,1.23.2c.36,0,.54-.08.54-.41s-.09-.4-.5-.53l-.24-.07c-.71-.22-1.06-.43-1.06-1.1s.46-1,1.15-1a5.16,5.16,0,0,1,1.28.18l-.12.59a5.21,5.21,0,0,0-1.06-.15c-.38,0-.5.14-.5.35s.05.31.51.46l.22.07c.77.24,1.07.5,1.07,1.17s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M455.69,520.21a4.58,4.58,0,0,0,1.23.2c.36,0,.55-.08.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.22-1.06-.43-1.06-1.1s.46-1,1.16-1a5.15,5.15,0,0,1,1.27.18l-.12.59a5.21,5.21,0,0,0-1.06-.15c-.38,0-.5.14-.5.35s0,.31.51.46l.22.07c.78.24,1.08.5,1.08,1.17s-.5,1-1.24,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M459,516h.82v.73H459Zm0,1.39h.77V521H459Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M460.66,519.24c0-1.24.34-1.94,1.5-1.94s1.46.7,1.46,1.94-.35,1.82-1.51,1.82S460.66,520.48,460.66,519.24Zm2.19,0c0-.9-.18-1.28-.71-1.28s-.72.38-.72,1.28.19,1.19.71,1.19S462.85,520.16,462.85,519.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M464.45,517.39h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.95.22.95,1.07V521h-.76v-2.46c0-.4-.15-.54-.43-.54a1.18,1.18,0,0,0-.81.41V521h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M428,524.47a2.36,2.36,0,0,1,.72.11h0s0-.25,0-.65v-1h.75v5.16h-.66l0-.36h0a1.62,1.62,0,0,1-1,.42c-.67,0-1.07-.33-1.07-1.65C426.61,524.88,427.14,524.47,428,524.47Zm.72.73a2.15,2.15,0,0,0-.59-.09c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.51,1.1a1.19,1.19,0,0,0,.8-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M431.77,524.45c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S430.61,524.45,431.77,524.45Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,431.91,526Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M436.83,524.47a3.32,3.32,0,0,1,.92.14l-.11.6a3.21,3.21,0,0,0-.72-.1c-.6,0-.81.37-.81,1.23s.21,1.2.8,1.2a2.58,2.58,0,0,0,.73-.11l.14.59a3,3,0,0,1-1,.16c-1.15,0-1.47-.62-1.47-1.84S435.66,524.47,436.83,524.47Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M440.43,528.12l0-.36h0a1.59,1.59,0,0,1-1.09.42c-.71,0-.94-.45-.94-1v-.07c0-.82.46-1.09,1.21-1.16.2,0,.42,0,.8,0v-.11c0-.54-.1-.67-.55-.67a3.82,3.82,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.09-1.69a6,6,0,0,0-.77.05.54.54,0,0,0-.51.61c0,.37.18.48.43.48a1.14,1.14,0,0,0,.85-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M442.06,524.53h.67l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.94.23.94,1.08v2.57h-.75v-2.46c0-.4-.15-.55-.43-.55a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M445.82,524.53h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.94.23.94,1.08v2.57h-.75v-2.46c0-.4-.15-.55-.43-.55a1.18,1.18,0,0,0-.81.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M451.49,528.12l-.05-.36h0a1.61,1.61,0,0,1-1.09.42c-.71,0-.94-.45-.94-1v-.07c0-.82.45-1.09,1.21-1.16.2,0,.42,0,.79,0v-.11c0-.54-.1-.67-.55-.67a3.81,3.81,0,0,0-1.17.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.1-1.69a6,6,0,0,0-.76.05.54.54,0,0,0-.51.61c0,.37.17.48.43.48a1.12,1.12,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M453.88,523v1.3c0,.34,0,.57,0,.61h0a1.54,1.54,0,0,1,1-.4c.67,0,1.07.34,1.07,1.65,0,1.59-.43,2.06-1.43,2.06a4.45,4.45,0,0,1-1.39-.25v-5Zm1.31,3.26c0-1-.2-1.11-.51-1.11a1.16,1.16,0,0,0-.8.41v1.94a2.09,2.09,0,0,0,.59.08C454.94,527.54,455.19,527.35,455.19,526.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M456.77,523.14h.82v.73h-.82Zm0,1.39h.77v3.59h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M458.45,527.36a4.88,4.88,0,0,0,1.22.19c.36,0,.55-.07.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.16-1a4.67,4.67,0,0,1,1.27.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.13-.5.34s0,.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.5,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M717,572.25a4.81,4.81,0,0,0,.83.07c.46,0,.61-.23.61-.7v-3.68h.76v3.7c0,1-.47,1.34-1.31,1.34a4.22,4.22,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M721.55,569.25c1.08,0,1.33.65,1.33,1.12,0,.67-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v0c0,.87.22,1.11.79,1.11a3.28,3.28,0,0,0,1-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.86S720.39,569.25,721.55,569.25Zm.14,1.52c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,721.69,570.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M725.15,572.15a4.58,4.58,0,0,0,1.23.2c.36,0,.55-.08.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.22-1.06-.42-1.06-1.09s.46-1,1.16-1a5.15,5.15,0,0,1,1.27.18l-.12.59a5.21,5.21,0,0,0-1.06-.14c-.38,0-.5.13-.5.34s0,.31.51.46l.22.07c.78.24,1.08.5,1.08,1.18s-.5,1-1.24,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M729.23,569.33v2.47c0,.39.15.54.42.54a1.19,1.19,0,0,0,.81-.4v-2.61h.77v3.59h-.68l0-.36h0a1.65,1.65,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M732.23,567.94h.82v.73h-.82Zm0,1.39H733v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M733.9,572.15a4.5,4.5,0,0,0,1.22.2c.36,0,.55-.08.55-.41s-.09-.4-.51-.53l-.23-.07c-.72-.22-1.07-.42-1.07-1.09s.47-1,1.16-1a5.07,5.07,0,0,1,1.27.18l-.11.59a5.31,5.31,0,0,0-1.07-.14c-.38,0-.5.13-.5.34s0,.31.51.46l.23.07c.77.24,1.07.5,1.07,1.18s-.49,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M740.17,569.25c1.08,0,1.32.65,1.32,1.12,0,.67-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v0c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.86S739,569.25,740.17,569.25Zm.14,1.52c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,740.31,570.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M742.31,569.33H743l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.95.23.95,1.08v2.57h-.76v-2.47c0-.4-.15-.54-.43-.54a1.2,1.2,0,0,0-.81.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M749.15,573a2.23,2.23,0,0,1-.71-.11h0s0,.22,0,.55v1.09h-.76v-5.18h.66l0,.36h0a1.52,1.52,0,0,1,1-.42c.67,0,1.07.33,1.07,1.65C750.5,572.57,750,573,749.15,573Zm-.71-.73a2,2,0,0,0,.58.09c.48,0,.72-.2.72-1.32s-.19-1.11-.51-1.11a1.16,1.16,0,0,0-.79.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M751.34,569.33H752l0,.36h0a1.3,1.3,0,0,1,1-.41,1.34,1.34,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.39v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M753.92,567.94h.82v.73h-.82Zm0,1.39h.77v3.59H754Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M755.59,572.15a4.58,4.58,0,0,0,1.23.2c.36,0,.55-.08.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.22-1.06-.42-1.06-1.09s.46-1,1.15-1a5.16,5.16,0,0,1,1.28.18l-.12.59a5.21,5.21,0,0,0-1.06-.14c-.38,0-.5.13-.5.34s.05.31.51.46l.22.07c.77.24,1.08.5,1.08,1.18s-.5,1-1.24,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M758.74,571.18c0-1.23.34-1.93,1.5-1.93s1.45.7,1.45,1.93-.35,1.82-1.5,1.82S758.74,572.42,758.74,571.18Zm2.19,0c0-.9-.19-1.28-.71-1.28s-.72.38-.72,1.28.19,1.19.71,1.19S760.93,572.1,760.93,571.17Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M762.52,569.33h.67l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.46,0,.94.23.94,1.08v2.57h-.75v-2.47c0-.4-.15-.54-.43-.54a1.16,1.16,0,0,0-.81.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M766,573.67a3,3,0,0,0,.39-1.54h.72a2.84,2.84,0,0,1-.42,1.54Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M716.5,581.09c.16,0,.33-.07.45-.11.38-.11.4-.32.4-.83v-3.68h.77v3.69c0,1-.26,1.28-1,1.43l-.52.1Zm.83-6h.82v.73h-.82Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M720.48,576.39c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v.06c0,.86.22,1.1.8,1.1a3.34,3.34,0,0,0,1.05-.18l.12.57a3.35,3.35,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S719.31,576.39,720.48,576.39Zm.13,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.71.8A3.16,3.16,0,0,0,720.61,577.92Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M724.23,576.47h.67l0,.36h0a1.51,1.51,0,0,1,1-.42.82.82,0,0,1,.82.48,1.63,1.63,0,0,1,1-.48c.49,0,1,.23,1,1.06v2.59H728v-2.5c0-.36-.09-.51-.41-.51a1.13,1.13,0,0,0-.7.41v2.6h-.75v-2.5c0-.34-.1-.51-.39-.51a1.16,1.16,0,0,0-.72.41v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M731.05,576.39c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.3,5.3,0,0,1-1.09-.13v.06c0,.86.23,1.1.8,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S729.88,576.39,731.05,576.39Zm.13,1.53c.4,0,.44-.17.44-.41s-.19-.53-.59-.53-.67.24-.7.8A3.09,3.09,0,0,0,731.18,577.92Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M734.65,579.3a4.92,4.92,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.09-.4-.51-.53l-.23-.07c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a4.6,4.6,0,0,1,1.27.19l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.38,0-.5.13-.5.34s0,.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M738.73,576.47V579c0,.39.14.53.42.53a1.24,1.24,0,0,0,.81-.4v-2.61h.76v3.59h-.67l0-.36h0a1.63,1.63,0,0,1-1.08.42c-.47,0-.95-.22-.95-1.07v-2.58Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M741.72,575.08h.82v.73h-.82Zm0,1.39h.76v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M743.39,579.3a5,5,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.5-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.15-1a4.68,4.68,0,0,1,1.28.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.13-.5.34s0,.32.5.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M718.5,583.55a2.24,2.24,0,0,1,.71.12h0s0-.26,0-.66v-1H720v5.15h-.67l0-.35h0a1.62,1.62,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C717.14,584,717.68,583.55,718.5,583.55Zm.71.73a2.1,2.1,0,0,0-.59-.08c-.47,0-.72.2-.72,1.33,0,1,.2,1.1.52,1.1a1.14,1.14,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M722.3,583.53c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.87S721.14,583.53,722.3,583.53Zm.14,1.53c.39,0,.44-.16.44-.41s-.19-.52-.59-.52-.68.24-.71.8A3.51,3.51,0,0,0,722.44,585.06Zm.15-2H722l.47-1.05h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M723.62,588.23a3.71,3.71,0,0,0,.45-.11c.37-.1.4-.32.4-.83v-3.67h.76v3.68c0,1-.25,1.28-1,1.43a4.76,4.76,0,0,1-.52.1Zm.83-6h.82V583h-.82Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M728.19,587.2l0-.35h0a1.62,1.62,0,0,1-1.1.42c-.71,0-.94-.46-.94-1v-.07c0-.83.46-1.1,1.21-1.17l.8,0v-.12c0-.54-.1-.67-.55-.67a3.89,3.89,0,0,0-1.18.22l-.15-.57a4.41,4.41,0,0,1,1.42-.28c.73,0,1.2.24,1.2,1.31v2.34ZM726.7,582h.74l.47,1.05h-.62Zm1.4,3.48a5.48,5.48,0,0,0-.77.06.53.53,0,0,0-.5.61c0,.37.17.47.42.47a1.17,1.17,0,0,0,.85-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M732.77,583.53c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S731.61,583.53,732.77,583.53Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.59-.52-.67.24-.7.8A3.51,3.51,0,0,0,732.91,585.06Zm.14-2h-.61l.47-1.05h.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M734.5,583.62h.78l.45,1.76c.14.53.26,1.17.26,1.17h0s.13-.66.26-1.17l.44-1.76h.76l-1,3.58h-1Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M740,587.2l0-.35h0a1.62,1.62,0,0,1-1.1.42c-.71,0-.94-.46-.94-1v-.07c0-.83.46-1.1,1.21-1.17l.8,0v-.12c0-.54-.1-.67-.55-.67a3.89,3.89,0,0,0-1.18.22l-.15-.57a4.41,4.41,0,0,1,1.42-.28c.73,0,1.2.24,1.2,1.31v2.34Zm-.09-1.69a5.48,5.48,0,0,0-.77.06.53.53,0,0,0-.5.61c0,.37.17.47.42.47a1.17,1.17,0,0,0,.85-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M742.83,583.55a2.24,2.24,0,0,1,.71.12h0s0-.26,0-.66v-1h.76v5.15h-.67l0-.35h0a1.6,1.6,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C741.47,584,742,583.55,742.83,583.55Zm.71.73a2.08,2.08,0,0,0-.58-.08c-.48,0-.73.2-.73,1.33,0,1,.2,1.1.52,1.1a1.14,1.14,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M746.64,583.53c1.07,0,1.32.65,1.32,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.8,1.11a3.33,3.33,0,0,0,1-.19l.12.57a3.1,3.1,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S745.47,583.53,746.64,583.53Zm.13,1.53c.39,0,.44-.16.44-.41s-.19-.52-.59-.52-.68.24-.71.8A3.58,3.58,0,0,0,746.77,585.06Zm.15-2h-.61l.47-1.05h.73Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M802.9,353.3a4.59,4.59,0,0,0,.83.08c.46,0,.61-.23.61-.7V349h.77v3.7a1.16,1.16,0,0,1-1.32,1.34,3.74,3.74,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M805.92,350.25a3.81,3.81,0,0,0,.34-1.44h.67a3.36,3.36,0,0,1-.37,1.44Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M809.79,354l0-.36h0a1.61,1.61,0,0,1-1.09.42c-.72,0-.94-.45-.94-1v-.07c0-.82.45-1.09,1.21-1.16a6.64,6.64,0,0,1,.79,0v-.11c0-.54-.1-.67-.55-.67a3.92,3.92,0,0,0-1.18.21l-.15-.57a4.83,4.83,0,0,1,1.43-.27c.72,0,1.2.24,1.2,1.31V354Zm-.1-1.69a4.47,4.47,0,0,0-.76.05.54.54,0,0,0-.51.61c0,.37.17.48.43.48a1.15,1.15,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M811.41,349h.83v.73h-.83Zm0,1.39h.77V354h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M816,350.32a2.29,2.29,0,0,1,.71.11h0s0-.25,0-.65v-1h.76V354h-.67l0-.36h0a1.62,1.62,0,0,1-1,.42c-.68,0-1.08-.33-1.08-1.65C814.68,350.73,815.21,350.32,816,350.32Zm.71.73a2.15,2.15,0,0,0-.59-.09c-.47,0-.72.2-.72,1.33,0,1,.2,1.1.52,1.1a1.17,1.17,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M819.84,350.3c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.22,1.11.79,1.11a3.29,3.29,0,0,0,1.05-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.12,0-1.45-.6-1.45-1.86S818.68,350.3,819.84,350.3Zm.14,1.53c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.71.8A3.09,3.09,0,0,0,820,351.83Zm.15-2h-.61l.47-1.05h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M823.28,350.32a3.32,3.32,0,0,1,.92.14l-.11.6a3.13,3.13,0,0,0-.72-.1c-.6,0-.81.37-.81,1.23s.21,1.2.81,1.2a2.57,2.57,0,0,0,.72-.11l.14.59a3,3,0,0,1-1,.16c-1.15,0-1.47-.62-1.47-1.84S822.12,350.32,823.28,350.32Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M826.31,354a2.24,2.24,0,0,1-.62.07c-.44,0-.73-.16-.73-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M828.85,354l0-.36h0a1.62,1.62,0,0,1-1.1.42c-.71,0-.94-.45-.94-1v-.07c0-.82.46-1.09,1.21-1.16a7,7,0,0,1,.8,0v-.11c0-.54-.1-.67-.55-.67a3.87,3.87,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31V354Zm-.09-1.69a4.73,4.73,0,0,0-.77.05.53.53,0,0,0-.5.61c0,.37.17.48.43.48a1.17,1.17,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M830.49,350.38h.66l0,.36h0a1.26,1.26,0,0,1,.94-.41,1,1,0,0,1,.33.05l-.11.7A1.84,1.84,0,0,0,832,351a1,1,0,0,0-.79.39V354h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M834.4,350.3c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.22,1.11.79,1.11a3.29,3.29,0,0,0,1-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.13,0-1.45-.6-1.45-1.86S833.24,350.3,834.4,350.3Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,834.54,351.83Zm.15-2h-.62l.47-1.05h.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M839.51,354a2.21,2.21,0,0,1-.61.07c-.45,0-.74-.16-.74-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M841.45,350.3c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.22,1.11.79,1.11a3.29,3.29,0,0,0,1-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.13,0-1.45-.6-1.45-1.86S840.29,350.3,841.45,350.3Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,841.59,351.83Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M844.8,350.38h.78l.46,1.76c.13.54.26,1.18.26,1.18h0s.12-.67.25-1.18l.45-1.76h.76l-1,3.59h-1Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M848.22,352.23c0-1.23.34-1.93,1.5-1.93s1.45.7,1.45,1.93-.34,1.82-1.5,1.82S848.22,353.48,848.22,352.23Zm2.19,0c0-.9-.18-1.29-.71-1.29s-.72.38-.72,1.29.19,1.18.71,1.18S850.41,353.15,850.41,352.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M853.35,354a2.21,2.21,0,0,1-.61.07c-.45,0-.74-.16-.74-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.28,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M804.38,357.46a2.24,2.24,0,0,1,.71.12h0s0-.26,0-.66v-1h.76v5.15h-.67l0-.35h0a1.65,1.65,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C803,357.87,803.56,357.46,804.38,357.46Zm.71.73a2.08,2.08,0,0,0-.58-.08c-.48,0-.72.2-.72,1.32,0,1,.19,1.1.51,1.1a1.11,1.11,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M808.18,357.44c1.08,0,1.33.65,1.33,1.12,0,.68-.15,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.12,0-1.45-.6-1.45-1.87S807,357.44,808.18,357.44Zm.14,1.53c.39,0,.44-.16.44-.41s-.19-.52-.59-.52-.68.24-.71.79A3.16,3.16,0,0,0,808.32,359Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M811.94,357.53h.67l0,.35h0a1.56,1.56,0,0,1,1-.42.82.82,0,0,1,.82.48,1.61,1.61,0,0,1,1-.48c.49,0,.94.23.94,1.07v2.58h-.76v-2.5c0-.36-.09-.5-.41-.5a1.12,1.12,0,0,0-.7.4v2.6h-.75v-2.5c0-.34-.1-.5-.39-.5a1.15,1.15,0,0,0-.72.4v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M819.36,361.11l-.05-.35h0a1.66,1.66,0,0,1-1.09.42c-.71,0-.94-.46-.94-1v-.08c0-.82.45-1.09,1.21-1.16a7.12,7.12,0,0,1,.79,0v-.12c0-.54-.09-.67-.55-.67a3.83,3.83,0,0,0-1.17.22l-.15-.58a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.24,1.2,1.31v2.34Zm-.1-1.69a4.08,4.08,0,0,0-.76.06.52.52,0,0,0-.51.6c0,.38.18.48.43.48a1.14,1.14,0,0,0,.84-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M822.21,357.53H823l.45,1.75c.14.54.26,1.18.26,1.18h0s.13-.66.26-1.18l.44-1.75h.76l-1,3.58h-1Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M825.62,359.38c0-1.24.35-1.94,1.5-1.94s1.46.7,1.46,1.94-.35,1.82-1.51,1.82S825.62,360.62,825.62,359.38Zm2.2,0c0-.9-.19-1.29-.72-1.29s-.71.38-.71,1.29.18,1.19.7,1.19S827.82,360.3,827.82,359.37Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M829.4,356.14h.82v.72h-.82Zm0,1.39h.77v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M831.36,358.09h-.52v-.56h.53l0-.93.7-.07v1H833l-.08.56h-.84v2.13c0,.29.1.31.32.31a4.28,4.28,0,0,0,.49-.07l.12.58a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M834.5,357.53V360c0,.39.14.53.42.53a1.15,1.15,0,0,0,.8-.4v-2.6h.77v3.58h-.67l-.05-.35h0a1.7,1.7,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M837.5,357.53h.66l0,.35h0a1.33,1.33,0,0,1,.95-.4,1,1,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.38v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M841.41,357.44c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S840.25,357.44,841.41,357.44Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.79A3.09,3.09,0,0,0,841.55,359Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M611.78,383.19a3.82,3.82,0,0,0,.83.08c.47,0,.62-.23.62-.7v-3.68H614v3.69c0,1-.48,1.35-1.31,1.35a4.14,4.14,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M616.32,380.19c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S615.15,380.19,616.32,380.19Zm.13,1.53c.4,0,.44-.16.44-.41s-.19-.52-.59-.52-.67.24-.7.79A3.09,3.09,0,0,0,616.45,381.72Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M619.92,383.1a4.92,4.92,0,0,0,1.22.2c.36,0,.55-.08.55-.42s-.09-.4-.51-.52l-.23-.08c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a4.6,4.6,0,0,1,1.27.19l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.38,0-.5.14-.5.35s0,.31.51.46l.23.07c.77.24,1.07.49,1.07,1.17s-.49,1-1.23,1a5.44,5.44,0,0,1-1.41-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M624,380.28v2.47c0,.39.14.53.42.53a1.19,1.19,0,0,0,.81-.4v-2.6H626v3.58h-.67l0-.35h0a1.66,1.66,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M627,378.89h.82v.72H627Zm0,1.39h.77v3.58H627Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M628.66,383.1a5,5,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.5-.52l-.24-.08c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.15-1a4.68,4.68,0,0,1,1.28.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.35s0,.31.5.46l.23.07c.77.24,1.07.49,1.07,1.17s-.49,1-1.23,1a5.28,5.28,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M633.61,378.89h.82v.72h-.82Zm0,1.39h.77v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M635.44,380.28h.66l0,.35h0a1.63,1.63,0,0,1,1.07-.42c.47,0,1,.23,1,1.08v2.57h-.76V381.4c0-.4-.15-.54-.43-.54a1.17,1.17,0,0,0-.81.4v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M639.31,380.84h-.51v-.56h.52l.06-.93.7-.07v1H641l-.09.56h-.83V383c0,.29.09.31.31.31a4.55,4.55,0,0,0,.5-.07l.12.58a2.51,2.51,0,0,1-.8.13c-.6,0-.9-.14-.9-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M643,380.19c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S641.86,380.19,643,380.19Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.79A3.09,3.09,0,0,0,643.16,381.72Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M645.16,380.28h.66l0,.35h0a1.29,1.29,0,0,1,.94-.4,1.09,1.09,0,0,1,.34,0l-.12.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.78.38v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M648.92,380.21a2.31,2.31,0,0,1,.72.12h0s0-.26,0-.66v-1h.75v5.15h-.66l0-.35h0a1.68,1.68,0,0,1-1,.42c-.67,0-1.07-.34-1.07-1.65C647.57,380.62,648.1,380.21,648.92,380.21Zm.72.73a2.16,2.16,0,0,0-.59-.08c-.48,0-.72.2-.72,1.32,0,1,.19,1.1.51,1.1a1.15,1.15,0,0,0,.8-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M651.4,378.89h.82v.72h-.82Zm0,1.39h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M653.36,380.84h-.52v-.56h.53l0-.93.7-.07v1H655l-.08.56h-.84V383c0,.29.1.31.32.31a4.28,4.28,0,0,0,.49-.07l.12.58a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M613.26,387.36a2.36,2.36,0,0,1,.72.11h0s0-.26,0-.66v-1h.75V391h-.66l0-.36h0a1.57,1.57,0,0,1-1,.42c-.68,0-1.08-.33-1.08-1.65C611.9,387.76,612.44,387.36,613.26,387.36Zm.72.73a2.15,2.15,0,0,0-.59-.09c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.51,1.1a1.19,1.19,0,0,0,.8-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M617.07,387.34c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.06,5.06,0,0,1-1.08-.13v0c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.58a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S615.9,387.34,617.07,387.34Zm.13,1.52c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.67.24-.7.8A3.07,3.07,0,0,0,617.2,388.86Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M620.83,387.42h.66l0,.36h0a1.51,1.51,0,0,1,1-.42.83.83,0,0,1,.82.48,1.54,1.54,0,0,1,1-.48c.48,0,.94.23.94,1.06V391h-.77v-2.5c0-.37-.09-.51-.4-.51a1.13,1.13,0,0,0-.71.41.88.88,0,0,1,0,.14V391h-.75v-2.5c0-.35-.11-.51-.4-.51a1.19,1.19,0,0,0-.72.41V391h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M628.24,391l0-.36h0a1.62,1.62,0,0,1-1.1.42c-.71,0-.94-.46-.94-1V390c0-.82.46-1.09,1.22-1.17l.79,0v-.11c0-.55-.1-.67-.55-.67a3.87,3.87,0,0,0-1.18.21l-.15-.57a4.75,4.75,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3V391Zm-.09-1.7a5.65,5.65,0,0,0-.77.06.53.53,0,0,0-.5.61c0,.37.17.48.43.48a1.17,1.17,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M629.88,387.42h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,1,.23,1,1.08V391h-.76v-2.47c0-.4-.15-.54-.43-.54a1.2,1.2,0,0,0-.81.41V391h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M633.62,386h.82v.73h-.82Zm0,1.39h.76V391h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M636.38,388v3h-.76v-3h-.5v-.57h.5v-.61c0-.87.44-1,1-1a5.12,5.12,0,0,1,.92.09l-.1.58c-.2,0-.43-.05-.6-.05-.32,0-.48.05-.48.47v.53h1l-.09.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M639.22,387.34c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v0c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.58a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S638.06,387.34,639.22,387.34Zm.14,1.52c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,639.36,388.86Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M641.2,390.24a4.5,4.5,0,0,0,1.22.2c.37,0,.55-.08.55-.41s-.09-.4-.51-.53l-.23-.07c-.72-.22-1.06-.42-1.06-1.09s.46-1,1.15-1a5,5,0,0,1,1.27.18l-.11.59a5.31,5.31,0,0,0-1.07-.14c-.37,0-.49.13-.49.34s0,.31.5.46l.23.07c.77.24,1.07.5,1.07,1.18s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M644.66,388h-.52v-.57h.53l.05-.93.7-.07v1h.92l-.08.57h-.84v2.12c0,.29.09.32.32.32a2.57,2.57,0,0,0,.49-.08l.12.59a2.57,2.57,0,0,1-.8.12c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M649,391l0-.36h0a1.61,1.61,0,0,1-1.09.42c-.72,0-.94-.46-.94-1V390c0-.82.45-1.09,1.21-1.17l.79,0v-.11c0-.55-.1-.67-.55-.67a3.92,3.92,0,0,0-1.18.21l-.15-.57a4.83,4.83,0,0,1,1.43-.27c.72,0,1.2.23,1.2,1.3V391Zm-.09-1.7a5.28,5.28,0,0,0-.76.06.54.54,0,0,0-.51.61c0,.37.17.48.43.48a1.15,1.15,0,0,0,.84-.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M650.73,388h-.51v-.57h.52l0-.93.7-.07v1h.93l-.09.57h-.84v2.12c0,.29.1.32.32.32a2.43,2.43,0,0,0,.49-.08l.12.59a2.52,2.52,0,0,1-.8.12c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M653.11,386h.82v.73h-.82Zm0,1.39h.76V391h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M654.75,389.27c0-1.23.34-1.93,1.5-1.93s1.46.7,1.46,1.93-.35,1.82-1.51,1.82S654.75,390.51,654.75,389.27Zm2.19,0c0-.9-.18-1.28-.71-1.28s-.71.38-.71,1.28.18,1.19.7,1.19S656.94,390.19,656.94,389.26Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M658.54,387.42h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,.95.23.95,1.08V391h-.76v-2.47c0-.4-.15-.54-.43-.54a1.2,1.2,0,0,0-.81.41V391h-.75Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M654.66,414.74a4.81,4.81,0,0,0,.83.07c.47,0,.62-.22.62-.7v-3.68h.76v3.7c0,1-.48,1.34-1.31,1.34a3.68,3.68,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M659.2,411.74c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v.05c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.58a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S658,411.74,659.2,411.74Zm.13,1.52c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.67.24-.7.8A3.07,3.07,0,0,0,659.33,413.26Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M662.09,411.82v2.47c0,.4.14.54.42.54a1.19,1.19,0,0,0,.8-.4v-2.61h.77v3.59h-.67l0-.36h0a1.65,1.65,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M665.09,411.82h.66l0,.36h0a1.58,1.58,0,0,1,1.07-.42c.47,0,1,.23,1,1.08v2.57h-.76v-2.47c0-.4-.15-.54-.43-.54a1.18,1.18,0,0,0-.81.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M670.16,411.74c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.06,5.06,0,0,1-1.08-.13v.05c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.58a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S669,411.74,670.16,411.74Zm.13,1.52c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.67.24-.7.8A3.07,3.07,0,0,0,670.29,413.26Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M675.24,411.74c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.23,1.11.8,1.11a3.33,3.33,0,0,0,1.05-.19l.13.58a3.47,3.47,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S674.07,411.74,675.24,411.74Zm.13,1.52c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.68.24-.7.8A3.07,3.07,0,0,0,675.37,413.26Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M678.08,413.54l-1-1.72h.84l.34.65.26.54.27-.56.33-.63h.81l-1,1.72,1.1,1.87h-.86l-.35-.65-.33-.67s-.16.33-.33.65l-.36.67H677Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M680.63,410.43h.82v.73h-.82Zm0,1.39h.76v3.59h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M683.81,415.4a2.21,2.21,0,0,1-.61.07c-.45,0-.74-.16-.74-.93v-4.29h.76v4.25c0,.3.09.33.24.33l.27,0Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M685.75,411.74c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13v.05c0,.87.22,1.11.79,1.11a3.28,3.28,0,0,0,1.05-.19l.13.58a3.4,3.4,0,0,1-1.28.23c-1.13,0-1.45-.6-1.45-1.86S684.59,411.74,685.75,411.74Zm.14,1.52c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,685.89,413.26Zm.15-2h-.62l.48-1.05h.73Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M654.81,421.79a5,5,0,0,0,1.23.2c.36,0,.54-.08.54-.42s-.09-.4-.5-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.15-1a4.68,4.68,0,0,1,1.28.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s.05.32.51.47l.22.07c.78.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.82,4.82,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M658.11,421.47V419h.77v2.4c0,.4.15.54.42.54a1.19,1.19,0,0,0,.81-.37V419h.76v3.7a1.19,1.19,0,0,1-1,1.37c-.29.07-.63.12-1,.17l-.11-.6a6.09,6.09,0,0,0,.85-.17c.33-.1.51-.26.51-.77v-.51h0a1.57,1.57,0,0,1-1.07.39C658.59,422.55,658.11,422.32,658.11,421.47Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M661.89,419h.66l0,.35h0a1.29,1.29,0,0,1,.95-.4,1,1,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.38v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M664.47,417.57h.82v.73h-.82Zm0,1.4h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M667.62,418.88c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.29,3.29,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.44-.6-1.44-1.87S666.46,418.88,667.62,418.88Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.25-.71.8A3.09,3.09,0,0,0,667.76,420.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M669.76,419h.66l0,.35h0a1.58,1.58,0,0,1,1.07-.42c.47,0,1,.23,1,1.08v2.57h-.76v-2.46c0-.4-.15-.55-.43-.55a1.2,1.2,0,0,0-.81.41v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M673.24,423.31a3.09,3.09,0,0,0,.39-1.54h.71a2.81,2.81,0,0,1-.42,1.54Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M676.14,423.58c.15,0,.33-.07.45-.11.37-.11.4-.32.4-.83V419h.76v3.68c0,1-.25,1.28-1,1.43l-.52.1Zm.83-6h.82v.73H677Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M680.11,418.88c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.35,3.35,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S679,418.88,680.11,418.88Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.59-.53-.67.25-.7.8A3.09,3.09,0,0,0,680.25,420.41Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M683.71,421.79a4.92,4.92,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.51-.53l-.23-.07c-.72-.21-1.07-.42-1.07-1.09s.47-1,1.16-1a4.54,4.54,0,0,1,1.27.19l-.11.58a6.13,6.13,0,0,0-1.07-.14c-.37,0-.5.14-.5.34s.05.32.51.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.82,4.82,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M687.79,419v2.47c0,.39.14.53.42.53a1.19,1.19,0,0,0,.81-.4V419h.76v3.58h-.67l0-.36h0a1.61,1.61,0,0,1-1.08.43c-.47,0-1-.23-1-1.08V419Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M690.78,417.57h.82v.73h-.82Zm0,1.4h.77v3.58h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M692.45,421.79a5,5,0,0,0,1.22.2c.37,0,.55-.08.55-.42s-.09-.4-.5-.53l-.24-.07c-.71-.21-1.06-.42-1.06-1.09s.46-1,1.15-1a4.68,4.68,0,0,1,1.28.19l-.12.58a6,6,0,0,0-1.06-.14c-.38,0-.5.14-.5.34s.05.32.5.47l.23.07c.77.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.82,4.82,0,0,1-1.4-.23Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M656.29,426c1.08,0,1.32.65,1.32,1.13,0,.67-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14V428c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.44-.6-1.44-1.87S655.13,426,656.29,426Zm.14,1.53c.39,0,.43-.16.43-.4s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,656.43,427.55Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M658.43,426.11h.66l0,.36h0a1.61,1.61,0,0,1,1.08-.42c.46,0,.94.22.94,1.07v2.57h-.76v-2.46c0-.4-.15-.54-.43-.54a1.19,1.19,0,0,0-.8.4v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M664.35,430.76a8,8,0,0,0,.85-.18c.33-.1.51-.26.51-.78v-.5h0a1.56,1.56,0,0,1-1,.39c-.67,0-1.07-.33-1.07-1.58,0-1.66.5-2.06,1.44-2.06a4.65,4.65,0,0,1,1.38.25v3.51c0,1-.45,1.25-1,1.38-.3.07-.63.12-1,.17Zm.54-1.71a1.11,1.11,0,0,0,.8-.38v-1.9a2,2,0,0,0-.59-.08c-.47,0-.72.19-.72,1.3C664.38,428.92,664.57,429.05,664.89,429.05Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M669.38,429.69l0-.35h0a1.59,1.59,0,0,1-1.09.42c-.71,0-.94-.46-.94-1v-.07c0-.83.46-1.1,1.21-1.17l.8,0v-.12c0-.54-.1-.67-.55-.67a3.89,3.89,0,0,0-1.18.22l-.15-.57a4.45,4.45,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3v2.34Zm-.09-1.69a5.48,5.48,0,0,0-.77.06.53.53,0,0,0-.5.61c0,.37.17.47.42.47a1.17,1.17,0,0,0,.85-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M671,426.11h.66l0,.36h0a1.3,1.3,0,0,1,1-.41,1,1,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.39v2.54H671Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M674.78,426.05a2.23,2.23,0,0,1,.71.11h0s0-.26,0-.66v-1h.76v5.15h-.66l-.05-.35h0a1.6,1.6,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C673.42,426.45,674,426.05,674.78,426.05Zm.71.72a2,2,0,0,0-.58-.08c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.51,1.1a1.14,1.14,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M678.59,426c1.08,0,1.32.65,1.32,1.13,0,.67-.14,1-1,1a4.51,4.51,0,0,1-1.08-.14V428c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S677.42,426,678.59,426Zm.13,1.53c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.67.24-.7.8A3.07,3.07,0,0,0,678.72,427.55Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M684.27,429.69l0-.35h0a1.61,1.61,0,0,1-1.09.42c-.71,0-.94-.46-.94-1v-.07c0-.83.45-1.1,1.21-1.17l.79,0v-.12c0-.54-.1-.67-.55-.67a3.83,3.83,0,0,0-1.17.22l-.15-.57a4.45,4.45,0,0,1,1.42-.27c.73,0,1.2.23,1.2,1.3v2.34Zm-1.5-5.17h.75l.46,1.05h-.61Zm1.4,3.48a5.28,5.28,0,0,0-.76.06.53.53,0,0,0-.51.61c0,.37.17.47.43.47a1.14,1.14,0,0,0,.84-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M687.12,426.11h.78l.45,1.76c.14.53.26,1.17.26,1.17h0s.13-.66.26-1.17l.44-1.76h.76l-1,3.58h-1Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M691.47,426.11v2.47c0,.39.14.54.42.54a1.24,1.24,0,0,0,.81-.4v-2.61h.76v3.58h-.67l0-.35h0a1.63,1.63,0,0,1-1.08.42c-.47,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M695.79,426c1.08,0,1.32.65,1.32,1.13,0,.67-.14,1-1,1a4.57,4.57,0,0,1-1.08-.14V428c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1-.19l.13.57a3.16,3.16,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S694.62,426,695.79,426Zm.13,1.53c.4,0,.44-.16.44-.4s-.19-.53-.59-.53-.67.24-.7.8A3.07,3.07,0,0,0,695.92,427.55Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M650.36,298.36a4.69,4.69,0,0,0,.83.08c.47,0,.62-.23.62-.7v-3.69h.76v3.7c0,1-.48,1.34-1.31,1.34a4.28,4.28,0,0,1-1-.12Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M654.9,295.36c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S653.74,295.36,654.9,295.36Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.59-.53-.67.24-.7.8A3.09,3.09,0,0,0,655,296.89Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M658.25,295.44H659l.46,1.76c.13.54.25,1.18.25,1.18h0s.13-.66.26-1.18l.44-1.76h.77l-1,3.59h-1Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M663.17,295.36c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.13,0-1.45-.6-1.45-1.86S662,295.36,663.17,295.36Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,663.31,296.89Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M666.06,295.44v2.48c0,.39.14.53.42.53a1.21,1.21,0,0,0,.81-.4v-2.61h.76V299h-.67l0-.36h0a1.61,1.61,0,0,1-1.08.42c-.47,0-1-.22-1-1.07v-2.58Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M669.77,297.16l-1-1.72h.85l.33.65.27.54s.13-.29.27-.56l.33-.63h.8l-1,1.72,1.1,1.87h-.86l-.35-.65-.33-.67-.33.65-.37.67h-.85Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M675.27,295.36c1.07,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.15,5.15,0,0,1-1.09-.13v.06c0,.86.23,1.1.8,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.47,3.47,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S674.1,295.36,675.27,295.36Zm-.24-1.5h.48l.83,1.05h-.64l-.43-.57-.44.57h-.63Zm.37,3c.39,0,.44-.17.44-.41s-.19-.53-.59-.53-.68.24-.71.8A3.16,3.16,0,0,0,675.4,296.89Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M677.53,296H677v-.57h.52l.06-.92.69-.07v1h.93l-.09.57h-.84v2.13c0,.28.1.31.32.31a2.43,2.43,0,0,0,.49-.08l.12.59a2.45,2.45,0,0,1-.8.13c-.59,0-.89-.15-.89-.94Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M679.92,295.44h.66l0,.36h0a1.25,1.25,0,0,1,.94-.4,1,1,0,0,1,.33,0l-.11.7a1.84,1.84,0,0,0-.35-.05,1,1,0,0,0-.79.39V299h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M683.83,295.36c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v.06c0,.86.22,1.1.79,1.1a3.34,3.34,0,0,0,1-.18l.13.57a3.4,3.4,0,0,1-1.28.23c-1.13,0-1.45-.6-1.45-1.86S682.67,295.36,683.83,295.36Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,684,296.89Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M652,302.52a3,3,0,0,1,.92.15l-.11.59a3.15,3.15,0,0,0-.72-.09c-.6,0-.81.37-.81,1.23s.21,1.2.81,1.2a2.58,2.58,0,0,0,.72-.12l.14.59a3,3,0,0,1-1,.17c-1.15,0-1.46-.62-1.46-1.84S650.81,302.52,652,302.52Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M653.46,304.44c0-1.24.35-1.94,1.5-1.94s1.46.7,1.46,1.94-.35,1.82-1.51,1.82S653.46,305.68,653.46,304.44Zm2.2,0c0-.9-.19-1.28-.72-1.28s-.71.37-.71,1.28.18,1.19.7,1.19S655.66,305.36,655.66,304.43Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M657.25,302.59h.66l.05.36h0a1.59,1.59,0,0,1,1.07-.43c.46,0,.94.23.94,1.08v2.57h-.76v-2.46c0-.4-.15-.54-.43-.54a1.15,1.15,0,0,0-.8.4v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M662.17,302.52a2.31,2.31,0,0,1,.72.12h0s0-.26,0-.66v-1h.75v5.15H663l0-.35h0a1.62,1.62,0,0,1-1,.42c-.67,0-1.07-.34-1.07-1.65C660.82,302.93,661.35,302.52,662.17,302.52Zm.72.73a2.16,2.16,0,0,0-.59-.08c-.48,0-.72.2-.72,1.33,0,1,.19,1.1.51,1.1a1.19,1.19,0,0,0,.8-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M665.41,302.59v2.47c0,.39.14.54.42.54a1.21,1.21,0,0,0,.81-.4v-2.61h.76v3.58h-.67l0-.35h0a1.61,1.61,0,0,1-1.08.42c-.47,0-1-.23-1-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M669.71,302.52a3,3,0,0,1,.92.15l-.11.59a3.22,3.22,0,0,0-.72-.09c-.6,0-.81.37-.81,1.23s.21,1.2.8,1.2a2.59,2.59,0,0,0,.73-.12l.14.59a3,3,0,0,1-1,.17c-1.15,0-1.47-.62-1.47-1.84S668.54,302.52,669.71,302.52Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M671.52,303.15H671v-.56h.52l.06-.93.7-.07v1h.92l-.08.56h-.84v2.13c0,.29.09.32.31.32a3.71,3.71,0,0,0,.5-.08l.12.58a2.51,2.51,0,0,1-.8.13c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M673.9,302.59h.67l0,.36h0a1.27,1.27,0,0,1,.94-.41,1,1,0,0,1,.34,0l-.12.7a1.76,1.76,0,0,0-.34,0,1,1,0,0,0-.79.38v2.55h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M676.49,301.2h.82v.72h-.82Zm0,1.39h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M679.62,302.52a3,3,0,0,1,.92.15l-.12.59a3.13,3.13,0,0,0-.71-.09c-.6,0-.81.37-.81,1.23s.21,1.2.8,1.2a2.47,2.47,0,0,0,.72-.12l.15.59a3.09,3.09,0,0,1-1,.17c-1.15,0-1.47-.62-1.47-1.84S678.45,302.52,679.62,302.52Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M682.62,302.5c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.45,4.45,0,0,1-1.08-.14v.06c0,.86.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.57a3.21,3.21,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S681.45,302.5,682.62,302.5Zm.13,1.53c.4,0,.44-.16.44-.41s-.19-.52-.59-.52-.68.24-.7.8A3.5,3.5,0,0,0,682.75,304Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M687.55,302.52a2.24,2.24,0,0,1,.71.12h0s0-.26,0-.66v-1H689v5.15h-.67l0-.35h0a1.62,1.62,0,0,1-1,.42c-.68,0-1.08-.34-1.08-1.65C686.19,302.93,686.72,302.52,687.55,302.52Zm.71.73a2.1,2.1,0,0,0-.59-.08c-.47,0-.72.2-.72,1.33,0,1,.2,1.1.52,1.1a1.14,1.14,0,0,0,.79-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M691.35,302.5c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.59,4.59,0,0,1-1.09-.14v.06c0,.86.22,1.11.79,1.11a3.28,3.28,0,0,0,1.05-.19l.13.57a3.14,3.14,0,0,1-1.28.24c-1.13,0-1.45-.6-1.45-1.87S690.19,302.5,691.35,302.5Zm.14,1.53c.39,0,.43-.16.43-.41s-.18-.52-.58-.52-.68.24-.71.8A3.51,3.51,0,0,0,691.49,304Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M695.24,303.15h-.51v-.56h.52l.06-.93.69-.07v1h.93l-.09.56H696v2.13c0,.29.1.32.32.32a3.49,3.49,0,0,0,.49-.08l.12.58a2.45,2.45,0,0,1-.8.13c-.59,0-.89-.14-.89-.93Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M697.63,302.59h.66l0,.36h0a1.3,1.3,0,0,1,.95-.41,1,1,0,0,1,.33,0l-.11.7a1.87,1.87,0,0,0-.35,0,1,1,0,0,0-.79.38v2.55h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M702.14,306.17l0-.35h0a1.62,1.62,0,0,1-1.1.42c-.71,0-.94-.46-.94-1v-.07c0-.83.46-1.1,1.22-1.17l.79,0v-.12c0-.54-.1-.67-.55-.67a3.89,3.89,0,0,0-1.18.22l-.15-.57a4.41,4.41,0,0,1,1.42-.28c.73,0,1.2.24,1.2,1.31v2.34Zm-.09-1.69a5.65,5.65,0,0,0-.77.06.53.53,0,0,0-.5.61c0,.37.17.47.43.47a1.16,1.16,0,0,0,.84-.4Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M703.77,301.2h.82v.72h-.82Zm0,1.39h.76v3.58h-.76Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M705.6,302.59h.66l0,.36h0a1.61,1.61,0,0,1,1.08-.43c.46,0,.94.23.94,1.08v2.57h-.76v-2.46c0-.4-.15-.54-.43-.54a1.15,1.15,0,0,0-.8.4v2.6h-.76Z"
+      transform="translate(0 1)"
+    />
+  </g>
+  <g>
+    <path
+      class="exemples-cls-3"
+      d="M482.41,108.71a4.67,4.67,0,0,0,.82.07c.47,0,.62-.22.62-.7V104.4h.76v3.7c0,1-.48,1.34-1.31,1.34a3.74,3.74,0,0,1-1-.13Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M486.94,105.71c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a5.13,5.13,0,0,1-1.08-.13v0c0,.87.22,1.11.79,1.11a3.33,3.33,0,0,0,1.05-.19l.13.58a3.42,3.42,0,0,1-1.29.23c-1.12,0-1.45-.6-1.45-1.86S485.78,105.71,486.94,105.71Zm.14,1.53c.39,0,.43-.17.43-.41s-.18-.53-.58-.53-.68.24-.71.8A3.09,3.09,0,0,0,487.08,107.24Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M490.54,108.61a4.57,4.57,0,0,0,1.22.2c.37,0,.55-.08.55-.41s-.09-.4-.5-.53l-.24-.07c-.71-.22-1.06-.42-1.06-1.09s.46-1,1.15-1a5,5,0,0,1,1.27.18l-.11.59a6.13,6.13,0,0,0-1.07-.14c-.37,0-.49.13-.49.34s.05.31.5.46l.23.08c.77.23,1.07.49,1.07,1.17s-.49,1-1.23,1a4.89,4.89,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M494.62,105.79v2.47c0,.4.14.54.42.54a1.19,1.19,0,0,0,.81-.4v-2.61h.76v3.59h-.67l0-.36h0a1.6,1.6,0,0,1-1.07.42c-.48,0-.95-.23-.95-1.08v-2.57Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M497.61,104.4h.83v.73h-.83Zm0,1.39h.77v3.59h-.77Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M499.29,108.61a4.43,4.43,0,0,0,1.22.2c.36,0,.55-.08.55-.41s-.1-.4-.51-.53l-.24-.07c-.71-.22-1.06-.42-1.06-1.09s.46-1,1.16-1a5.15,5.15,0,0,1,1.27.18l-.12.59a6,6,0,0,0-1.06-.14c-.38,0-.5.13-.5.34s.05.31.51.46l.23.08c.77.23,1.07.49,1.07,1.17s-.5,1-1.24,1a5,5,0,0,1-1.4-.22Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M485.67,112.94v3.58h-.77v-3h-1.26v3h-.76v-3h-.5v-.56h.5v-.61c0-.87.45-1,1.05-1a6.93,6.93,0,0,1,1.4.16l-.11.58a6.18,6.18,0,0,0-1.12-.12c-.29,0-.46,0-.46.47v.53Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M488,112.87a3,3,0,0,1,.92.15l-.12.59a3.13,3.13,0,0,0-.71-.09c-.6,0-.81.37-.81,1.22s.21,1.2.8,1.2a2.51,2.51,0,0,0,.72-.11l.15.59a3.09,3.09,0,0,1-1,.17c-1.15,0-1.47-.63-1.47-1.85S486.81,112.87,488,112.87Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M489.66,111.37h.75v1.32c0,.33,0,.58,0,.58h0a1.62,1.62,0,0,1,1-.4c.47,0,.94.23.94,1.08v2.57h-.75v-2.46c0-.4-.15-.54-.43-.54a1.17,1.17,0,0,0-.81.4v2.6h-.75Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M494.73,112.85c1.08,0,1.32.65,1.32,1.12,0,.68-.14,1-1,1a4.72,4.72,0,0,1-1.09-.14v.06c0,.86.23,1.1.8,1.1a3.34,3.34,0,0,0,1.05-.18l.13.57a3.4,3.4,0,0,1-1.29.24c-1.12,0-1.45-.6-1.45-1.87S493.56,112.85,494.73,112.85Zm.13,1.53c.4,0,.44-.17.44-.41s-.19-.53-.59-.53-.67.25-.7.8A3.09,3.09,0,0,0,494.86,114.38Zm.15-2h-.61l.47-1.05h.74Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M498.41,114.71l.71-1.42h.64l-.7,1.42.7,1.43h-.65Zm1.33,0,.71-1.42h.64l-.71,1.42.71,1.43h-.65Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M503,115.75a5.45,5.45,0,0,0,1.19.18c.6,0,.79-.19.79-.7s-.1-.68-.68-.93l-.28-.12c-.71-.31-1.07-.64-1.07-1.44s.57-1.26,1.4-1.26a4.57,4.57,0,0,1,1.21.16l-.13.62a4.89,4.89,0,0,0-1-.12c-.47,0-.72.13-.72.6s.2.6.63.79l.27.11c.74.34,1.13.63,1.13,1.58s-.38,1.37-1.42,1.37a5.42,5.42,0,0,1-1.44-.21Z"
+      transform="translate(0 1)"
+    />
+    <path
+      class="exemples-cls-3"
+      d="M508.13,116.14h-.65l.71-1.43-.71-1.42h.65l.7,1.42Zm1.33,0h-.65l.71-1.43-.71-1.42h.65l.7,1.42Z"
+      transform="translate(0 1)"
+    />
   </g>
 </g>

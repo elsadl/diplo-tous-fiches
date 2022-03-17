@@ -9,352 +9,352 @@
       }
 
       .text-cls-2 {
-        font-size: 5.8px;
+        font-size: 5.64px;
         fill: #221f20;
-        font-family: "Bunday Sans";
+        font-family: Bunday Sans;
       }
     </style>
   </defs>
-  <text class="text-cls-2" transform="translate(100.24 161.33)"
-    >Identifant<tspan x="5.68" y="5.33">élève</tspan></text
+  <text class="text-cls-2" transform="translate(87.05 158.85)"
+    >Identifiant<tspan x="5.85" y="5.49">élève</tspan></text
   >
-  <text class="text-cls-2" transform="translate(66.53 187.78)"
-    >Livret<tspan x="0" y="5.33">scolaire</tspan></text
+  <text class="text-cls-2" transform="translate(52.31 186.11)"
+    >Livret<tspan x="0" y="5.49">scolaire</tspan></text
   >
-  <text class="text-cls-2" transform="translate(203.27 258.49)"
-    >Élèves<tspan x="0" y="5.33">décrocheurs</tspan></text
+  <text class="text-cls-2" transform="translate(193.22 258.97)"
+    >Élèves<tspan x="0" y="5.49">décrocheurs</tspan></text
   >
-  <text class="text-cls-2" transform="translate(50.7 290.69)"
-    >Infirmerie<tspan x="4.32" y="5.33">scolaire</tspan></text
+  <text class="text-cls-2" transform="translate(36 292.15)"
+    >Infirmerie<tspan x="4.46" y="5.49">scolaire</tspan></text
   >
-  <text class="text-cls-2" transform="translate(120.12 431.59)"
-    >Protection<tspan x="0" y="5.33">maternelle</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(107.53 437.35)"
+    >Protection<tspan x="0" y="5.49">maternelle</tspan><tspan x="0" y="10.98"
       >infantile
     </tspan></text
   >
-  <text class="text-cls-2" transform="translate(58.4 154.49)"
-    ><tspan xml:space="preserve">Base </tspan><tspan x="-2.7" y="5.33"
+  <text class="text-cls-2" transform="translate(43.94 151.81)"
+    ><tspan xml:space="preserve">Base </tspan><tspan x="-2.79" y="5.49"
       >élèves du</tspan
-    ><tspan x="-0.04" y="10.65">1</tspan></text
+    ><tspan x="-0.04" y="10.98">1</tspan></text
   >
-  <text class="text-cls-2" transform="translate(60.01 163.33) scale(0.58)"
+  <text class="text-cls-2" transform="translate(45.6 160.91) scale(0.58)"
     >er</text
   >
-  <text class="text-cls-2" transform="translate(62.69 165.15)"
+  <text class="text-cls-2" transform="translate(48.36 162.79)"
     ><tspan xml:space="preserve"> degré</tspan></text
   >
-  <text class="text-cls-2" transform="translate(151.85 150.67)"
-    >Base<tspan x="0" y="5.33">élèves du</tspan><tspan x="0" y="10.65">2</tspan
+  <text class="text-cls-2" transform="translate(140.23 147.87)"
+    >Base<tspan x="0" y="5.49">élèves du</tspan><tspan x="0" y="10.98">2</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(154.48 159.5) scale(0.58)"
+  <text class="text-cls-2" transform="translate(142.94 156.97) scale(0.58)"
     >nd</text
   >
-  <text class="text-cls-2" transform="translate(157.77 161.32)"
+  <text class="text-cls-2" transform="translate(146.33 158.85)"
     ><tspan xml:space="preserve"> degré</tspan></text
   >
-  <text class="text-cls-2" transform="translate(712.92 260.14)"
-    >Enquêtes<tspan x="0" y="5.33">administratives</tspan></text
+  <text class="text-cls-2" transform="translate(718.41 260.68)"
+    >Enquêtes<tspan x="0" y="5.49">administratives</tspan></text
   >
-  <text class="text-cls-2" transform="translate(818.15 501.59)"
-    >Passagers<tspan x="0" y="5.33">aériens passant</tspan><tspan
+  <text class="text-cls-2" transform="translate(826.84 509.48)"
+    >Passagers<tspan x="0" y="5.49">aériens passant</tspan><tspan
       x="0"
-      y="10.65"
+      y="10.98"
       >sur le sol français
     </tspan></text
   >
-  <text class="text-cls-2" transform="translate(342.94 121.34)"
-    >Fichier central<tspan x="1.01" y="5.33">des étrangers</tspan></text
+  <text class="text-cls-2" transform="translate(337.14 117.64)"
+    >Fichier central<tspan x="1.04" y="5.49">des étrangers</tspan></text
   >
-  <text class="text-cls-2" transform="translate(148.7 518.12)"
-    >Système<tspan x="-11.33" y="5.33">de traitement</tspan><tspan
-      x="-14.36"
-      y="10.65">des allocations</tspan
+  <text class="text-cls-2" transform="translate(136.99 526.51)"
+    >Système<tspan x="-11.68" y="5.49">de traitement</tspan><tspan
+      x="-14.79"
+      y="10.98">des allocations</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(300.86 335.91)"
-    >Assurance<tspan x="0" y="5.33">maladie </tspan></text
+  <text class="text-cls-2" transform="translate(293.79 338.75)"
+    >Assurance<tspan x="0" y="5.49">maladie </tspan></text
   >
-  <text class="text-cls-2" transform="translate(226.16 293.04)"
-    >Mon Espace<tspan x="13.79" y="5.33">Santé</tspan></text
+  <text class="text-cls-2" transform="translate(216.81 294.58)"
+    >Mon Espace<tspan x="14.21" y="5.49">Santé</tspan></text
   >
-  <text class="text-cls-2" transform="translate(359.55 329.91)"
-    >Dossier<tspan x="0" y="5.33">hospitalier</tspan></text
+  <text class="text-cls-2" transform="translate(354.27 332.57)"
+    >Dossier<tspan x="0" y="5.49">hospitalier</tspan></text
   >
-  <text class="text-cls-2" transform="translate(360.91 403.93)"
-    >Victime<tspan x="0" y="5.33">de situation</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(355.66 408.85)"
+    >Victime<tspan x="0" y="5.49">de situation</tspan><tspan x="0" y="10.98"
       >exceptionnelle</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(313.44 293.31)"
-    >Dossier<tspan x="0" y="5.33">pharmaceutique</tspan></text
+  <text class="text-cls-2" transform="translate(306.75 294.85)"
+    >Dossier<tspan x="0" y="5.49">pharmaceutique</tspan></text
   >
-  <text class="text-cls-2" transform="translate(257.98 420.57)"
-    >Internements<tspan x="0" y="5.33">d’office</tspan></text
+  <text class="text-cls-2" transform="translate(249.59 425.99)"
+    >Internements<tspan x="0" y="5.49">d’office</tspan></text
   >
-  <text class="text-cls-2" transform="translate(226.01 395.42)"
-    >Patients en<tspan x="0" y="5.33">psychiatrie</tspan></text
+  <text class="text-cls-2" transform="translate(216.66 400.08)"
+    >Patients en<tspan x="0" y="5.49">psychiatrie</tspan></text
   >
-  <text class="text-cls-2" transform="translate(799.61 158.85)"
-    >Protection<tspan x="-10.07" y="5.33">des opérations</tspan><tspan
-      x="-7.34"
-      y="10.65"
+  <text class="text-cls-2" transform="translate(807.74 156.29)"
+    >Protection<tspan x="-10.37" y="5.49">des opérations</tspan><tspan
+      x="-7.57"
+      y="10.98"
       xml:space="preserve"
       >extérieures
     </tspan></text
   >
-  <text class="text-cls-2" transform="translate(719.18 160.11)"
-    >Renseignement<tspan x="15.96" y="5.33">militaire</tspan></text
+  <text class="text-cls-2" transform="translate(724.85 157.59)"
+    >Renseignement<tspan x="16.45" y="5.49">militaire</tspan></text
   >
-  <text class="text-cls-2" transform="translate(732.42 304.44)">Douanes</text>
-  <text class="text-cls-2" transform="translate(829.33 236.56)"
-    >Renseignement<tspan x="0" y="5.33">et sécurité</tspan><tspan
+  <text class="text-cls-2" transform="translate(738.5 306.32)">Douanes</text>
+  <text class="text-cls-2" transform="translate(838.36 236.37)"
+    >Renseignement<tspan x="0" y="5.49">et sécurité</tspan><tspan
       x="0"
-      y="10.65">de la défense</tspan
+      y="10.98">de la défense</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(730.48 334.26)"
-    >Sécurité<tspan x="0" y="5.33">pénitentiaire</tspan></text
+  <text class="text-cls-2" transform="translate(736.5 337.05)"
+    >Sécurité<tspan x="0" y="5.49">pénitentiaire</tspan></text
   >
-  <text class="text-cls-2" transform="translate(809.41 304.44)">Tracfin</text>
-  <text class="text-cls-2" transform="translate(437.53 156.47)"
-    >Expulsions<tspan x="0" y="5.33">groupées </tspan></text
+  <text class="text-cls-2" transform="translate(817.83 306.32)">Tracfin</text>
+  <text class="text-cls-2" transform="translate(434.62 153.84)"
+    >Expulsions<tspan x="0" y="5.49">groupées </tspan></text
   >
-  <text class="text-cls-2" transform="translate(490.72 305.95)">Schengen</text>
-  <text class="text-cls-2" transform="translate(547.89 538.59)"
-    >Casiers<tspan x="-6.89" y="5.33">judiciaires</tspan><tspan
-      x="-7.55"
-      y="10.65">européens</tspan
+  <text class="text-cls-2" transform="translate(489.43 307.88)">Schengen</text>
+  <text class="text-cls-2" transform="translate(548.34 547.61)"
+    >Casiers<tspan x="-7.1" y="5.49">judiciaires</tspan><tspan
+      x="-7.78"
+      y="10.98">européens</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(365.15 253.57)"
-    >Contrôle<tspan x="-8.27" y="5.33">biométrique</tspan><tspan
-      x="-12.57"
-      y="10.65">aux frontières</tspan
+  <text class="text-cls-2" transform="translate(360.03 253.91)"
+    >Contrôle<tspan x="-8.53" y="5.49">biométrique</tspan><tspan
+      x="-12.95"
+      y="10.98">aux frontières</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(469.54 469.19)">Tagueurs</text>
-  <text class="text-cls-2" transform="translate(537.14 486.44)"
-    >Interdictions<tspan x="0" y="5.33">de stades</tspan></text
+  <text class="text-cls-2" transform="translate(467.61 476.1)">Tagueurs</text>
+  <text class="text-cls-2" transform="translate(537.27 493.88)"
+    >Interdictions<tspan x="0" y="5.49">de stades</tspan></text
   >
-  <text class="text-cls-2" transform="translate(409.42 451.79)"
-    >Infractions sur<tspan x="-0.44" y="5.33">les stupéfants</tspan></text
+  <text class="text-cls-2" transform="translate(405.65 458.17)"
+    >Infractions sur<tspan x="-0.46" y="5.49">les stupéfiants</tspan></text
   >
-  <text class="text-cls-2" transform="translate(487.41 362.93)">Passeport</text>
-  <text class="text-cls-2" transform="translate(532.16 363.85)"
-    >Carte<tspan x="0" y="5.33">d’identité</tspan></text
+  <text class="text-cls-2" transform="translate(486.03 366.6)">Passeport</text>
+  <text class="text-cls-2" transform="translate(532.13 367.54)"
+    >Carte<tspan x="0" y="5.49">d’identité</tspan></text
   >
-  <text class="text-cls-2" transform="translate(313.17 224.27)"
-    >Demandes de<tspan x="-1.56" y="5.33">naturalisation</tspan></text
+  <text class="text-cls-2" transform="translate(306.47 223.71)"
+    >Demandes de<tspan x="-1.61" y="5.49">naturalisation</tspan></text
   >
-  <text class="text-cls-2" transform="translate(805.51 601.07)"
-    >Fichier de<tspan x="0" y="5.33">l’administration</tspan><tspan
+  <text class="text-cls-2" transform="translate(813.82 612)"
+    >Fichier de<tspan x="0" y="5.49">l’administration</tspan><tspan
       x="0"
-      y="10.65">pénitentiaire</tspan
+      y="10.98">pénitentiaire</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(628.48 503.75)"
-    >Suivi des<tspan x="0" y="5.33">procédures</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(631.39 511.71)"
+    >Suivi des<tspan x="0" y="5.49">procédures</tspan><tspan x="0" y="10.98"
       >judiciaires</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(604.02 425.44)"
-    >Antécédents<tspan x="0" y="5.33" xml:space="preserve">
+  <text class="text-cls-2" transform="translate(606.19 431.02)"
+    >Antécédents<tspan x="0" y="5.49" xml:space="preserve">
       judiciaires</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(418.92 412.62)"
+  <text class="text-cls-2" transform="translate(415.45 417.8)"
     >Contraventions</text
   >
-  <text class="text-cls-2" transform="translate(406.55 354.03)"
-    >Rapprochements<tspan x="14.74" y="5.33">judiciaires</tspan></text
+  <text class="text-cls-2" transform="translate(402.7 357.43)"
+    >Rapprochements<tspan x="15.19" y="5.49">judiciaires</tspan></text
   >
-  <text class="text-cls-2" transform="translate(331 531.04)"
-    >Dossier unique<tspan x="0" y="5.33">des demandeurs</tspan><tspan
+  <text class="text-cls-2" transform="translate(324.85 539.83)"
+    >Dossier unique<tspan x="0" y="5.49">des demandeurs</tspan><tspan
       x="0"
-      y="10.65"
+      y="10.98"
       >d’emploi
     </tspan></text
   >
-  <text class="text-cls-2" transform="translate(333.95 442.94)"
-    >Médecine<tspan x="0" y="5.33">du travail </tspan></text
+  <text class="text-cls-2" transform="translate(327.88 449.05)"
+    >Médecine<tspan x="0" y="5.49">du travail </tspan></text
   >
-  <text class="text-cls-2" transform="translate(286.01 487.92)"
-    >Mission<tspan x="3.97" y="5.33">locale</tspan></text
+  <text class="text-cls-2" transform="translate(278.48 495.4)"
+    >Mission<tspan x="4.09" y="5.49">locale</tspan></text
   >
-  <text class="text-cls-2" transform="translate(49.77 610.47)"
-    >Demandeurs<tspan x="6.92" y="5.33">logement</tspan><tspan
-      x="15.22"
-      y="10.65">social</tspan
+  <text class="text-cls-2" transform="translate(35.05 621.68)"
+    >Demandeurs<tspan x="7.13" y="5.49">logement</tspan><tspan
+      x="15.68"
+      y="10.98">social</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(508.89 423.55)"
-    >Empreintes<tspan x="6.07" y="5.33">digitales</tspan></text
+  <text class="text-cls-2" transform="translate(508.16 429.07)"
+    >Empreintes<tspan x="6.25" y="5.49">digitales</tspan></text
   >
-  <text class="text-cls-2" transform="translate(832.47 401.21)"
-    >Permis<tspan x="0" y="5.33">de conduire </tspan></text
+  <text class="text-cls-2" transform="translate(841.6 406.04)"
+    >Permis<tspan x="0" y="5.49">de conduire </tspan></text
   >
-  <text class="text-cls-2" transform="translate(805.24 468.47)"
-    >Lecture automatique<tspan x="0" y="5.33">des plaques</tspan><tspan
+  <text class="text-cls-2" transform="translate(813.54 475.35)"
+    >Lecture automatique<tspan x="0" y="5.49">des plaques</tspan><tspan
       x="0"
-      y="10.65">d’immatriculation</tspan
+      y="10.98">d’immatriculation</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(727.2 493.21)"
-    >Radars<tspan x="-2.24" y="5.33">routiers</tspan></text
+  <text class="text-cls-2" transform="translate(733.12 500.85)"
+    >Radars<tspan x="-2.31" y="5.49">routiers</tspan></text
   >
-  <text class="text-cls-2" transform="translate(767.47 399.37)"
-    >Fichier des objets<tspan x="0" y="5.33">et des véhicules</tspan><tspan
+  <text class="text-cls-2" transform="translate(774.62 404.15)"
+    >Fichier des objets<tspan x="0" y="5.49">et des véhicules</tspan><tspan
       x="0"
-      y="10.65"
+      y="10.98"
       >signalés
     </tspan></text
   >
-  <text class="text-cls-2" transform="translate(767.35 468.09)"
-    >Plaques<tspan x="-21.9" y="5.33">d&apos;immatriculation</tspan></text
+  <text class="text-cls-2" transform="translate(774.49 474.96)"
+    >Plaques<tspan x="-22.56" y="5.49">d&apos;immatriculation</tspan></text
   >
-  <text class="text-cls-2" transform="translate(629.93 538.69)"
-    >Casiers<tspan x="0" y="5.33">judiciaires</tspan></text
+  <text class="text-cls-2" transform="translate(632.88 547.71)"
+    >Casiers<tspan x="0" y="5.49">judiciaires</tspan></text
   >
-  <text class="text-cls-2" transform="translate(609.84 655.34)"
-    >Mineurs<tspan x="0" y="5.33">isolés</tspan></text
+  <text class="text-cls-2" transform="translate(612.18 667.92)"
+    >Mineurs<tspan x="0" y="5.49">isolés</tspan></text
   >
-  <text class="text-cls-2" transform="translate(731.82 708.56)"
-    >Centres<tspan x="-3.65" y="5.33">éducatifs</tspan><tspan x="1.35" y="10.65"
+  <text class="text-cls-2" transform="translate(737.88 722.76)"
+    >Centres<tspan x="-3.76" y="5.49">éducatifs</tspan><tspan x="1.39" y="10.98"
       >fermés</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(483.01 573.58)"
-    >Dossier de<tspan x="-4.96" y="5.33">personnalité</tspan></text
+  <text class="text-cls-2" transform="translate(481.48 583.67)"
+    >Dossier de<tspan x="-5.11" y="5.49">personnalité</tspan></text
   >
-  <text class="text-cls-2" transform="translate(794.07 696.62)"
-    >Détenus<tspan x="0" y="5.33">particulièrement</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(802.03 710.46)"
+    >Détenus<tspan x="0" y="5.49">particulièrement</tspan><tspan x="0" y="10.98"
       >surveillés</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(86.19 713.65)"
-    >Base des<tspan x="0" y="5.33">foyers Adoma</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(72.58 728.01)"
+    >Base des<tspan x="0" y="5.49">foyers Adoma</tspan><tspan x="0" y="10.98"
       >(ex-Sonacotra)
     </tspan></text
   >
-  <text class="text-cls-2" transform="translate(393.2 210.12)"
-    >Empreintes<tspan x="-3.04" y="5.33">digitales des</tspan><tspan
-      x="-2.48"
-      y="10.65">demandeurs</tspan
-    ><tspan x="10.75" y="15.98">d’asile</tspan></text
+  <text class="text-cls-2" transform="translate(388.94 209.13)"
+    >Empreintes<tspan x="-3.13" y="5.49">digitales des</tspan><tspan
+      x="-2.55"
+      y="10.98">demandeurs</tspan
+    ><tspan x="11.08" y="16.47">d’asile</tspan></text
   >
-  <text class="text-cls-2" transform="translate(322.62 154.58)"
-    >Étrangers<tspan x="2.19" y="5.33">expulsés</tspan></text
+  <text class="text-cls-2" transform="translate(316.21 151.9)"
+    >Étrangers<tspan x="2.26" y="5.49">expulsés</tspan></text
   >
-  <text class="text-cls-2" transform="translate(214.03 673.85)"
-    >Foyers<tspan x="0" y="5.33">demandeurs</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(204.31 686.99)"
+    >Foyers<tspan x="0" y="5.49">demandeurs</tspan><tspan x="0" y="10.98"
       >d’asile</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(140.14 305.95)"
-    >Enseignants<tspan x="0" y="5.33">grévistes</tspan></text
+  <text class="text-cls-2" transform="translate(128.17 307.88)"
+    >Enseignants<tspan x="0" y="5.49">grévistes</tspan></text
   >
-  <text class="text-cls-2" transform="translate(129.24 281.18)"
-    >Formation<tspan x="-11.74" y="5.33">professionnelle</tspan></text
+  <text class="text-cls-2" transform="translate(116.94 282.35)"
+    >Formation<tspan x="-12.1" y="5.49">professionnelle</tspan></text
   >
-  <text class="text-cls-2" transform="translate(447.04 612.84)"
-    >Redressements<tspan x="0" y="5.33">fiscaux </tspan></text
+  <text class="text-cls-2" transform="translate(444.42 624.13)"
+    >Redressements<tspan x="0" y="5.49">fiscaux </tspan></text
   >
-  <text class="text-cls-2" transform="translate(336.06 613.12)"
-    >Dossiers fiscaux<tspan x="1.18" y="5.33">des particuliers</tspan></text
+  <text class="text-cls-2" transform="translate(330.06 624.41)"
+    >Dossiers fiscaux<tspan x="1.21" y="5.49">des particuliers</tspan></text
   >
-  <text class="text-cls-2" transform="translate(466.03 695.86)"
-    >Comptes bancaires<tspan x="0" y="5.33">détenus hors</tspan><tspan
+  <text class="text-cls-2" transform="translate(463.99 709.67)"
+    >Comptes bancaires<tspan x="0" y="5.49">détenus hors</tspan><tspan
       x="0"
-      y="10.65"
+      y="10.98"
       >de France
     </tspan></text
   >
-  <text class="text-cls-2" transform="translate(420.52 714.72)"
-    >Comptes<tspan x="0" y="5.33">bancaires</tspan></text
+  <text class="text-cls-2" transform="translate(417.1 729.11)"
+    >Comptes<tspan x="0" y="5.49">bancaires</tspan></text
   >
-  <text class="text-cls-2" transform="translate(332.14 667.44)"
-    >Ménages<tspan x="-6.73" y="5.33">surendettés</tspan></text
+  <text class="text-cls-2" transform="translate(326.02 680.38)"
+    >Ménages<tspan x="-6.94" y="5.49">surendettés</tspan></text
   >
-  <text class="text-cls-2" transform="translate(342.12 715.05)"
-    >Interdits<tspan x="-2.59" y="5.33">bancaires</tspan></text
+  <text class="text-cls-2" transform="translate(336.31 729.45)"
+    >Interdits<tspan x="-2.67" y="5.49">bancaires</tspan></text
   >
-  <text class="text-cls-2" transform="translate(512.53 160.99)"
-    >Radicalisation<tspan x="6.49" y="5.33">à caractère</tspan><tspan
-      x="10.07"
-      y="10.65">terroriste</tspan
+  <text class="text-cls-2" transform="translate(511.9 158.5)"
+    >Radicalisation<tspan x="6.69" y="5.49">à caractère</tspan><tspan
+      x="10.38"
+      y="10.98">terroriste</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(652.33 157.61)">DGSI</text>
-  <text class="text-cls-2" transform="translate(560.34 201.79)"
+  <text class="text-cls-2" transform="translate(655.97 155.02)">DGSI</text>
+  <text class="text-cls-2" transform="translate(561.18 200.54)"
     >Renseignement intérieur</text
   >
-  <text class="text-cls-2" transform="translate(696.38 642.17)"
-    >Bracelet<tspan x="-9.51" y="5.33">électronique</tspan><tspan
-      x="3.38"
-      y="10.65">mobile</tspan
+  <text class="text-cls-2" transform="translate(701.36 654.35)"
+    >Bracelet<tspan x="-9.8" y="5.49">électronique</tspan><tspan
+      x="3.48"
+      y="10.98">mobile</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(720.61 612.87)"
-    >Bracelet<tspan x="-9.51" y="5.33">électronique</tspan><tspan
-      x="10.55"
-      y="10.65">fixe</tspan
+  <text class="text-cls-2" transform="translate(726.33 624.15)"
+    >Bracelet<tspan x="-9.8" y="5.49">électronique</tspan><tspan
+      x="10.87"
+      y="10.98">fixe</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(446.36 423.55)"
-    >Empreintes<tspan x="0.51" y="5.33">génétiques</tspan></text
+  <text class="text-cls-2" transform="translate(443.72 429.07)"
+    >Empreintes<tspan x="0.52" y="5.49">génétiques</tspan></text
   >
-  <text class="text-cls-2" transform="translate(394.22 529.41)"
-    >Inspection<tspan x="0" y="5.33">du travail </tspan></text
+  <text class="text-cls-2" transform="translate(389.99 538.15)"
+    >Inspection<tspan x="0" y="5.49">du travail </tspan></text
   >
-  <text class="text-cls-2" transform="translate(571.47 608.63)"
-    >Auteurs <tspan x="0" y="5.33">d’infractions</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(572.64 619.78)"
+    >Auteurs <tspan x="0" y="5.49">d’infractions</tspan><tspan x="0" y="10.98"
       >sexuelles</tspan
-    ><tspan x="0" y="15.98">et violentes</tspan></text
+    ><tspan x="0" y="16.47">et violentes</tspan></text
   >
-  <text class="text-cls-2" transform="translate(635.37 608.15)"
-    >Auteurs <tspan x="0" y="5.33">d’infractions</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(638.49 619.29)"
+    >Auteurs <tspan x="0" y="5.49">d’infractions</tspan><tspan x="0" y="10.98"
       >terroristes</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(603.55 319.98)"
-    >Fichier<tspan x="0" y="5.33">des personnes</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(605.71 322.33)"
+    >Fichier<tspan x="0" y="5.49">des personnes</tspan><tspan x="0" y="10.98"
       >recherchées
     </tspan></text
   >
-  <text class="text-cls-2" transform="translate(825.09 674.7)"
-    >Profil<tspan x="0" y="5.33">individuel</tspan><tspan x="0" y="10.65"
+  <text class="text-cls-2" transform="translate(833.99 687.87)"
+    >Profil<tspan x="0" y="5.49">individuel</tspan><tspan x="0" y="10.98"
       >des détenus
     </tspan></text
   >
-  <text class="text-cls-2" transform="translate(130.92 650.19)"
-    >Hébergement<tspan x="0" y="5.33">d’urgence </tspan></text
+  <text class="text-cls-2" transform="translate(118.67 662.61)"
+    >Hébergement<tspan x="0" y="5.49">d’urgence </tspan></text
   >
-  <text class="text-cls-2" transform="translate(636.13 258.7)"
-    >Fichier<tspan x="-5.15" y="5.33">« milieux</tspan><tspan
-      x="-9.85"
-      y="10.65">sensibles »</tspan
+  <text class="text-cls-2" transform="translate(639.27 259.19)"
+    >Fichier<tspan x="-5.31" y="5.49">« milieux</tspan><tspan
+      x="-10.15"
+      y="10.98">sensibles »</tspan
     ></text
   >
-  <text class="text-cls-2" transform="translate(640.92 336.99)"
-    >Mineurs<tspan x="-5.76" y="5.33">radicalisés</tspan></text
+  <text class="text-cls-2" transform="translate(644.21 339.86)"
+    >Mineurs<tspan x="-5.94" y="5.49">radicalisés</tspan></text
   >
-  <text class="text-cls-2" transform="translate(623.94 133.38)"
-    >Terrorisme<tspan x="0" y="5.33">et extrémisme</tspan></text
+  <text class="text-cls-2" transform="translate(626.72 130.05)"
+    >Terrorisme<tspan x="0" y="5.49">et extrémisme</tspan></text
   >
-  <text class="text-cls-2" transform="translate(687.23 121.54)"
-    >Renseignement<tspan x="0" y="5.33">territorial (ex-RG)</tspan></text
+  <text class="text-cls-2" transform="translate(691.93 117.85)"
+    >Renseignement<tspan x="0" y="5.49">territorial (ex-RG)</tspan></text
   >
-  <text class="text-cls-2" transform="translate(809.6 121.72)"
-    >Renseignement<tspan x="0" y="5.33">extérieur</tspan></text
+  <text class="text-cls-2" transform="translate(818.03 118.03)"
+    >Renseignement<tspan x="0" y="5.49">extérieur</tspan></text
   >
-  <text class="text-cls-2" transform="translate(119.67 342.2)"
+  <text class="text-cls-2" transform="translate(107.08 345.23)"
     >Répertoire Insee</text
   >
-  <text class="text-cls-2" transform="translate(199.81 536.89)"
-    >Répertoire<tspan x="7.79" y="5.33">CAF</tspan></text
+  <text class="text-cls-2" transform="translate(189.65 545.86)"
+    >Répertoire<tspan x="8.03" y="5.49">CAF</tspan></text
   >
-  <text class="text-cls-2" transform="translate(192.65 570)"
-    >Action<tspan x="0" y="5.33">sociale</tspan></text
+  <text class="text-cls-2" transform="translate(182.27 579.98)"
+    >Action<tspan x="0" y="5.49">sociale</tspan></text
   >
 </g>

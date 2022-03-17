@@ -27,7 +27,9 @@
         {$display.infos["Création"]}
       {/if}
     </p>
-    <p id="description">{$display.infos["Description"]}</p>
+    {#if $display.infos["Description plus simple"]}
+      <p id="description">{$display.infos["Description plus simple"]}</p>
+    {/if}
   </div>
 {/if}
 

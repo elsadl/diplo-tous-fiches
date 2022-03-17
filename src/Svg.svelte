@@ -1,6 +1,7 @@
 <script>
   import { display } from "./store.js"
 
+  import Circles from "./Svg/Circles.svelte"
   import Links from "./Svg/Links.svelte"
   import Exemples from "./Svg/Exemples.svelte"
   import Text from "./Svg/Text.svelte"
@@ -16,6 +17,7 @@
   id="tous-fiches-svg"
   viewBox="0 0 890 792"
 >
+  <Circles />
   <Domains />
   {#if $display.exemples}
     <Exemples />

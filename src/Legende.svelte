@@ -82,6 +82,22 @@
       </div>
     </div>
   </div>
+  <div id="credits">
+    <p>
+      Merci à la <a href="https://www.zite.fr" target="_blank"
+        >revue <img src={BASE_PATH + "zite.png"} alt="Zite" /></a
+      > qui a publié une version antérieure de ce poster (n°11, octobre 2017) et
+      nous a autorisé à reprendre son travail.
+    </p>
+    <p>
+      Ressource complémentaire : « La folle volonté de tout contrôler », Caisse
+      de solidarité de Lyon, 2021.
+    </p>
+    <p>
+      Recherches et documentation : Jérome Thorel <span>●</span> Réalisation : Cécile
+      Marin
+    </p>
+  </div>
 </div>
 
 <style>
@@ -171,8 +187,8 @@
   #legende-container #toggle p {
     cursor: pointer;
     display: inline-block;
-    padding-bottom: 2px;
-    border-bottom: 1px solid #000;
+    padding-bottom: 1px;
+    border-bottom: 1px dotted #000;
   }
 
   #legende-container #toggle span {
@@ -181,5 +197,30 @@
     position: relative;
     top: 2px;
     background-color: #fff;
+  }
+
+  #legende-container #credits {
+    font-size: 1.15em;
+    margin-top: 16px;
+    border-top: 1px solid #eeaa41;
+  }
+
+  #legende-container #credits p {
+    margin-top: 8px;
+  }
+
+  #legende-container #credits p span {
+    color: #eeaa41;
+  }
+
+  #legende-container #credits p img {
+    width: 0.8em;
+    padding: 0 3px;
+    transform: translateY(2px);
+  }
+
+  #legende-container #credits a {
+    color: #000;
+    text-decoration: none;
   }
 </style>
