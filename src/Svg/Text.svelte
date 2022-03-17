@@ -9,7 +9,7 @@
       }
 
       .text-cls-2 {
-        font-size: 5.64px;
+        font-size: 6px;
         fill: #221f20;
         font-family: Bunday Sans;
       }
