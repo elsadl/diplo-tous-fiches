@@ -235,7 +235,7 @@
       }
 
       .hubs-cls25 {
-        font-size: 5.57px;
+        font-size: 6px;
         font-family: BundaySans-Regular, Bunday Sans;
       }
 
@@ -1223,7 +1223,7 @@
       >
     </g>
     <text class="hubs-cls25" transform="translate(445.24 615.82)"
-      >Redressements<tspan x="0" y="5.42">fscaux </tspan></text
+      >Redressements<tspan x="0" y="5.42">fiscaux </tspan></text
     >
   </g>
   <g on:click={handleClick}>
@@ -1238,7 +1238,7 @@
       >
     </g>
     <text class="hubs-cls25" transform="translate(332.4 616.1)"
-      >Dossiers fscaux<tspan x="1.2" y="5.42">des particuliers</tspan></text
+      >Dossiers fiscaux<tspan x="1.2" y="5.42">des particuliers</tspan></text
     >
   </g>
   <g on:click={handleClick}>
@@ -1406,7 +1406,7 @@
     <text class="hubs-cls25" transform="translate(723.36 615.85)"
       >Bracelet<tspan x="-9.67" y="5.42">électronique</tspan><tspan
         x="10.73"
-        y="10.84">fxe</tspan
+        y="10.84">fixe</tspan
       ></text
     >
   </g>
@@ -1514,7 +1514,7 @@
       >
     </g>
     <text class="hubs-cls25" transform="translate(829.58 678.71)"
-      >Profl<tspan x="0" y="5.42">individuel</tspan><tspan x="0" y="10.84"
+      >Profil<tspan x="0" y="5.42">individuel</tspan><tspan x="0" y="10.84"
         >des détenus
       </tspan></text
     >
@@ -1948,7 +1948,7 @@
       <text class="hubs-cls24" transform="translate(443.9 444.86)">OSIRIS</text>
     </g>
     <text class="hubs-cls25" transform="translate(406.98 452.09)"
-      >Infractions sur<tspan x="-0.45" y="5.42">les stupéfants</tspan></text
+      >Infractions sur<tspan x="-0.45" y="5.42">les stupéfiants</tspan></text
     >
   </g>
   <g on:click={handleClick}>
@@ -2054,7 +2054,7 @@
       <text class="hubs-cls24" transform="translate(65.27 280.6)">SAGESSE</text>
     </g>
     <text class="hubs-cls25" transform="translate(42.3 288.31)"
-      >Infrmerie<tspan x="4.4" y="5.42">scolaire</tspan></text
+      >Infirmerie<tspan x="4.4" y="5.42">scolaire</tspan></text
     >
   </g>
   <g on:click={handleClick}>
@@ -2280,7 +2280,7 @@
       <text class="hubs-cls24" transform="translate(232.82 412.87)">HOPSY</text>
     </g>
     <text class="hubs-cls25" transform="translate(253.04 420.35)"
-      >Internements<tspan x="0" y="5.42">d’ofce</tspan></text
+      >Internements<tspan x="0" y="5.42">d’office</tspan></text
     >
   </g>
   <g on:click={handleClick}>
@@ -2449,7 +2449,7 @@
         xlink:href="#Nouveau_symbole"
       />
     </g>
-    <text class="hubs-cls25" transform="translate(813.64 302.29)">Tracfn</text>
+    <text class="hubs-cls25" transform="translate(813.64 302.29)">Tracfin</text>
   </g>
   <g on:click={handleClick}>
     <g>

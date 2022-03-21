@@ -78,7 +78,7 @@
 
   #tous-fiches #header #left {
     width: 40%;
-    max-width: 520px;
+    max-width: 420px;
     position: relative;
     top: 20px;
     left: 4vw;
@@ -86,7 +86,7 @@
 
   #tous-fiches #header #right {
     width: 40%;
-    max-width: 520px;
+    max-width: 420px;
     position: fixed;
     top: 20px;
     right: 20px;
