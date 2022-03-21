@@ -1,442 +1,387 @@
 <g id="ellipses">
   <defs>
     <style>
-      .circles-cls-1 {
+      .circles-cls1 {
         fill: #fff;
         stroke: #000;
         stroke-miterlimit: 10;
         opacity: 0;
       }
 
-      .circles-cls-2,
-      .circles-cls-4 {
+      .circles-cls2,
+      .circles-cls4 {
         fill: #5a8992;
       }
 
-      .circles-cls-2 {
+      .circles-cls2 {
         fill-opacity: 0.1;
       }
 
-      .circles-cls-3 {
+      .circles-cls3 {
         opacity: 0.2;
       }
 
-      .circles-cls-5 {
+      .circles-cls5 {
         fill: #eeaa41;
       }
     </style>
   </defs>
-  <circle class="circles-cls-2" cx="871.15" cy="164.17" r="125.92" />
+  <circle class="circles-cls2" cx="864.45" cy="160.05" r="124.23" />
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M403.59,509.71a60.6,60.6,0,1,1-60.6-60.6,60.6,60.6,0,0,1,60.6,60.6"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M405,501.93a59.78,59.78,0,1,1-59.78-59.78A59.78,59.78,0,0,1,405,501.93"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M385.41,509.71A42.42,42.42,0,1,1,343,467.29a42.41,42.41,0,0,1,42.41,42.42"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M387,501.93a41.85,41.85,0,1,1-41.85-41.85A41.85,41.85,0,0,1,387,501.93"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M369.93,509.71A26.94,26.94,0,1,1,343,482.77a26.94,26.94,0,0,1,26.93,26.94"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M371.76,501.93a26.58,26.58,0,1,1-26.58-26.58,26.58,26.58,0,0,1,26.58,26.58"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M358.18,509.71A15.19,15.19,0,1,1,343,494.52a15.19,15.19,0,0,1,15.19,15.19"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M360.16,501.93a15,15,0,1,1-15-15,15,15,0,0,1,15,15"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M217.07,214.74A105.92,105.92,0,1,1,111.15,108.82,105.92,105.92,0,0,1,217.07,214.74"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M221,210.92a104.5,104.5,0,1,1-104.5-104.49A104.5,104.5,0,0,1,221,210.92"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M185.29,214.74a74.15,74.15,0,1,1-74.14-74.14,74.14,74.14,0,0,1,74.14,74.14"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M189.6,210.92a73.15,73.15,0,1,1-73.15-73.15,73.15,73.15,0,0,1,73.15,73.15"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M158.24,214.74a47.1,47.1,0,1,1-47.09-47.09,47.09,47.09,0,0,1,47.09,47.09"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M162.91,210.92a46.46,46.46,0,1,1-46.46-46.46,46.46,46.46,0,0,1,46.46,46.46"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M137.69,214.74a26.54,26.54,0,1,1-26.54-26.54,26.54,26.54,0,0,1,26.54,26.54"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M142.64,210.92a26.19,26.19,0,1,1-26.19-26.18,26.2,26.2,0,0,1,26.19,26.18"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M642.63,394.83A118.25,118.25,0,1,1,524.38,276.58,118.25,118.25,0,0,1,642.63,394.83"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M640.79,388.59A116.66,116.66,0,1,1,524.13,271.94,116.66,116.66,0,0,1,640.79,388.59"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M607.15,394.83a82.78,82.78,0,1,1-82.77-82.77,82.77,82.77,0,0,1,82.77,82.77"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M605.79,388.59a81.66,81.66,0,1,1-81.66-81.66,81.66,81.66,0,0,1,81.66,81.66"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M577,394.83a52.58,52.58,0,1,1-52.57-52.57A52.57,52.57,0,0,1,577,394.83"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M576,388.59a51.87,51.87,0,1,1-51.86-51.86A51.86,51.86,0,0,1,576,388.59"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M554,394.83a29.64,29.64,0,1,1-29.64-29.63A29.64,29.64,0,0,1,554,394.83"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M553.37,388.59a29.24,29.24,0,1,1-29.24-29.23,29.24,29.24,0,0,1,29.24,29.23"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <g>
         <path
-          class="circles-cls-4"
-          d="M198.24,443.89a105.92,105.92,0,1,1,184.93-70.55"
-          transform="translate(1.82 1)"
+          class="circles-cls4"
+          d="M202.37,437a104.5,104.5,0,1,1,182.44-69.61"
         />
         <path
-          class="circles-cls-4"
-          d="M383.17,373.34a105.92,105.92,0,0,1-184.93,70.55"
-          transform="translate(1.82 1)"
+          class="circles-cls4"
+          d="M384.81,367.39A104.5,104.5,0,0,1,202.37,437"
         />
       </g>
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M351.39,373.34a74.15,74.15,0,1,1-74.14-74.14,74.15,74.15,0,0,1,74.14,74.14"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M353.46,367.39a73.15,73.15,0,1,1-73.14-73.14,73.15,73.15,0,0,1,73.14,73.14"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M324.33,373.34a47.09,47.09,0,1,1-47.08-47.09,47.09,47.09,0,0,1,47.08,47.09"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M326.77,367.39a46.46,46.46,0,1,1-46.45-46.46,46.47,46.47,0,0,1,46.45,46.46"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M303.79,373.34a26.54,26.54,0,1,1-26.54-26.54,26.55,26.55,0,0,1,26.54,26.54"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M306.5,367.39a26.19,26.19,0,1,1-26.18-26.18,26.18,26.18,0,0,1,26.18,26.18"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M210,681.08A105.92,105.92,0,1,1,104.1,575.16,105.92,105.92,0,0,1,210,681.08"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M214,671A104.5,104.5,0,1,1,109.5,566.5,104.5,104.5,0,0,1,214,671"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M178.25,681.08a74.15,74.15,0,1,1-74.14-74.14,74.14,74.14,0,0,1,74.14,74.14"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M182.64,671a73.15,73.15,0,1,1-73.14-73.15A73.14,73.14,0,0,1,182.64,671"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M151.19,681.08A47.09,47.09,0,1,1,104.11,634a47.08,47.08,0,0,1,47.08,47.09"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M156,671a46.46,46.46,0,1,1-46.46-46.46A46.47,46.47,0,0,1,156,671"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M130.65,681.08a26.54,26.54,0,1,1-26.54-26.54,26.54,26.54,0,0,1,26.54,26.54"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M135.69,671a26.19,26.19,0,1,1-26.19-26.19A26.19,26.19,0,0,1,135.69,671"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M867.45,184.84A179.84,179.84,0,1,1,687.61,5,179.84,179.84,0,0,1,867.45,184.84"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M862.59,181.42A177.43,177.43,0,1,1,685.17,4,177.42,177.42,0,0,1,862.59,181.42"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M813.49,184.84A125.89,125.89,0,1,1,687.61,59,125.88,125.88,0,0,1,813.49,184.84"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M809.36,181.42A124.2,124.2,0,1,1,685.17,57.23,124.2,124.2,0,0,1,809.36,181.42"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M767.56,184.84a80,80,0,1,1-79.95-80,80,80,0,0,1,79.95,80"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M764,181.42a78.88,78.88,0,1,1-78.87-78.88A78.89,78.89,0,0,1,764,181.42"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M732.68,184.84a45.07,45.07,0,1,1-45.07-45.07,45.07,45.07,0,0,1,45.07,45.07"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M729.63,181.42A44.46,44.46,0,1,1,685.17,137a44.47,44.47,0,0,1,44.46,44.46"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M704.89,586.33A105.93,105.93,0,1,1,599,480.41,105.92,105.92,0,0,1,704.89,586.33"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M702.21,577.52A104.5,104.5,0,1,1,597.72,473,104.49,104.49,0,0,1,702.21,577.52"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M673.11,586.33A74.15,74.15,0,1,1,599,512.19a74.15,74.15,0,0,1,74.14,74.14"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M670.86,577.52a73.15,73.15,0,1,1-73.14-73.15,73.15,73.15,0,0,1,73.14,73.15"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M646.06,586.33A47.1,47.1,0,1,1,599,539.24a47.1,47.1,0,0,1,47.09,47.09"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M644.17,577.52a46.46,46.46,0,1,1-46.45-46.46,46.46,46.46,0,0,1,46.45,46.46"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M625.51,586.33A26.54,26.54,0,1,1,599,559.79a26.54,26.54,0,0,1,26.54,26.54"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M623.9,577.52a26.19,26.19,0,1,1-26.18-26.18,26.19,26.19,0,0,1,26.18,26.18"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M878.92,660.47a83.78,83.78,0,1,1-83.77-83.78,83.77,83.77,0,0,1,83.77,83.78"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M873.91,650.66A82.65,82.65,0,1,1,791.26,568a82.65,82.65,0,0,1,82.65,82.65"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M853.79,660.47a58.65,58.65,0,1,1-58.64-58.65,58.64,58.64,0,0,1,58.64,58.65"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M849.11,650.66a57.86,57.86,0,1,1-57.85-57.85,57.85,57.85,0,0,1,57.85,57.85"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M832.39,660.47a37.25,37.25,0,1,1-37.24-37.25,37.24,37.24,0,0,1,37.24,37.25"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M828,650.66a36.75,36.75,0,1,1-36.75-36.75A36.75,36.75,0,0,1,828,650.66"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M816.14,660.47a21,21,0,1,1-21-21,21,21,0,0,1,21,21"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M812,650.66A20.72,20.72,0,1,1,791.26,630,20.72,20.72,0,0,1,812,650.66"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M270.14,550.47A71.44,71.44,0,1,1,198.7,479a71.43,71.43,0,0,1,71.44,71.43"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M273.31,542.15a70.48,70.48,0,1,1-70.48-70.48,70.48,70.48,0,0,1,70.48,70.48"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M248.71,550.47a50,50,0,1,1-50-50,50,50,0,0,1,50,50"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M252.16,542.15a49.34,49.34,0,1,1-49.33-49.34,49.34,49.34,0,0,1,49.33,49.34"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M230.46,550.47a31.76,31.76,0,1,1-31.75-31.76,31.77,31.77,0,0,1,31.75,31.76"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M234.16,542.15a31.34,31.34,0,1,1-31.33-31.34,31.33,31.33,0,0,1,31.33,31.34"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M216.61,550.47a17.9,17.9,0,1,1-17.91-17.9,17.91,17.91,0,0,1,17.91,17.9"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M220.49,542.15a17.66,17.66,0,1,1-17.66-17.67,17.66,17.66,0,0,1,17.66,17.67"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M482.68,184.89a98.24,98.24,0,1,1-98.24-98.24,98.24,98.24,0,0,1,98.24,98.24"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M483,181.48a96.92,96.92,0,1,1-96.92-96.92A96.92,96.92,0,0,1,483,181.48"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M453.2,184.89a68.77,68.77,0,1,1-68.76-68.77,68.77,68.77,0,0,1,68.76,68.77"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M453.91,181.48a67.85,67.85,0,1,1-67.84-67.85,67.85,67.85,0,0,1,67.84,67.85"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M428.11,184.89a43.68,43.68,0,1,1-43.67-43.68,43.68,43.68,0,0,1,43.67,43.68"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M429.15,181.48a43.09,43.09,0,1,1-43.08-43.1,43.09,43.09,0,0,1,43.08,43.1"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M409.06,184.89a24.62,24.62,0,1,1-24.62-24.62,24.62,24.62,0,0,1,24.62,24.62"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M410.36,181.47a24.29,24.29,0,1,1-24.29-24.28,24.29,24.29,0,0,1,24.29,24.28"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M885.73,459.16a90,90,0,1,1-90-90,90,90,0,0,1,90,90"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M880.63,452.06a88.76,88.76,0,1,1-88.76-88.76,88.76,88.76,0,0,1,88.76,88.76"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M858.74,459.16a63,63,0,1,1-63-63,63,63,0,0,1,63,63"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M854,452.06a62.14,62.14,0,1,1-62.13-62.13A62.13,62.13,0,0,1,854,452.06"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M835.76,459.16a40,40,0,1,1-40-40,40,40,0,0,1,40,40"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M831.33,452.06a39.47,39.47,0,1,1-39.46-39.46,39.47,39.47,0,0,1,39.46,39.46"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M818.31,459.16a22.55,22.55,0,1,1-22.55-22.54,22.55,22.55,0,0,1,22.55,22.54"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M814.11,452.06a22.24,22.24,0,1,1-22.24-22.24,22.24,22.24,0,0,1,22.24,22.24"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M141,464.39A64.79,64.79,0,1,1,76.19,399.6,64.78,64.78,0,0,1,141,464.39"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M145.88,457.22A63.92,63.92,0,1,1,82,393.3a63.92,63.92,0,0,1,63.92,63.92"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M121.54,464.39A45.35,45.35,0,1,1,76.19,419a45.35,45.35,0,0,1,45.35,45.35"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M126.71,457.22A44.75,44.75,0,1,1,82,412.48a44.76,44.76,0,0,1,44.75,44.74"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M105,464.39a28.81,28.81,0,1,1-28.81-28.81A28.81,28.81,0,0,1,105,464.39"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M110.38,457.22A28.42,28.42,0,1,1,82,428.8a28.42,28.42,0,0,1,28.42,28.42"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M92.43,464.39a16.24,16.24,0,1,1-16.24-16.23,16.24,16.24,0,0,1,16.24,16.23"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M98,457.22a16,16,0,1,1-16-16,16,16,0,0,1,16,16"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-5"
-        d="M171.17,365.61a45.36,45.36,0,1,1-45.36-45.36,45.35,45.35,0,0,1,45.36,45.36"
-        transform="translate(1.82 1)"
+        class="circles-cls5"
+        d="M175.66,359.76A44.75,44.75,0,1,1,130.92,315a44.74,44.74,0,0,1,44.74,44.74"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-5"
-        d="M154.62,365.61a28.81,28.81,0,1,1-28.81-28.81,28.81,28.81,0,0,1,28.81,28.81"
-        transform="translate(1.82 1)"
+        class="circles-cls5"
+        d="M159.33,359.76a28.42,28.42,0,1,1-28.41-28.42,28.41,28.41,0,0,1,28.41,28.42"
       />
     </g>
   </g>
   <g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M485.3,675.68a81.12,81.12,0,1,1-81.12-81.12,81.12,81.12,0,0,1,81.12,81.12"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M485.57,665.67a80,80,0,1,1-80-80,80,80,0,0,1,80,80"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M461,675.68a56.78,56.78,0,1,1-56.78-56.78A56.78,56.78,0,0,1,461,675.68"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M461.56,665.67a56,56,0,1,1-56-56,56,56,0,0,1,56,56"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M440.24,675.68a36.07,36.07,0,1,1-36.06-36.07,36.06,36.06,0,0,1,36.06,36.07"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M441.12,665.67a35.58,35.58,0,1,1-35.57-35.58,35.57,35.57,0,0,1,35.57,35.58"
       />
     </g>
-    <g class="circles-cls-3">
+    <g class="circles-cls3">
       <path
-        class="circles-cls-4"
-        d="M424.51,675.68a20.33,20.33,0,1,1-20.33-20.33,20.33,20.33,0,0,1,20.33,20.33"
-        transform="translate(1.82 1)"
+        class="circles-cls4"
+        d="M425.6,665.67a20.05,20.05,0,1,1-20.05-20.06,20.05,20.05,0,0,1,20.05,20.06"
       />
     </g>
   </g>

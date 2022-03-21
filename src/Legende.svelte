@@ -2,6 +2,7 @@
   import { display, BASE_PATH } from "./store.js"
 
   let toggle
+  let legende
 
   const toggleExemples = () => {
     $display.exemples = !$display.exemples
@@ -10,15 +11,40 @@
       : toggle.classList.add("active")
   }
 
-  // const handleClick = (e) => {
-  //   console.log(e)
-  //   const fichier = e.path.find((el) => el.classList.contains("fichier"))
-  //   $display.niveau = fichier.getAttribute("data-fichier")
-  //   console.log($display.niveau)
-  // }
+  const handleClick = (e) => {
+    console.log(e)
+    const fichier = e
+      .composedPath()
+      .find((el) => el.classList.contains("fichier"))
+
+    if ($display.niveau === fichier.getAttribute("data-fichier")) {
+      $display.niveau = false
+    } else {
+      $display.niveau = fichier.getAttribute("data-fichier")
+    }
+
+    console.log($display.niveau)
+
+    // legende.querySelectorAll(".fichier").forEach((el) => {
+    //   console.log(el)
+    //   el.classList.
+    // })
+    if ($display.niveau) {
+      legende.querySelectorAll(".fichier").forEach((el) => {
+        console.log(el)
+        el.classList.add("transparent")
+      })
+      fichier.classList.remove("transparent")
+    } else {
+      legende.querySelectorAll(".fichier").forEach((el) => {
+        console.log(el)
+        el.classList.remove("transparent")
+      })
+    }
+  }
 </script>
 
-<div id="legende-container">
+<div id="legende-container" bind:this={legende}>
   <img
     id="titre"
     src={BASE_PATH + "legende/tousfiches.svg"}
@@ -26,29 +52,33 @@
   />
   <div id="legende">
     <div id="fichiers">
-      <div class="fichier" data-fichier="Répertoire national">
+      <div
+        on:click={handleClick}
+        class="fichier"
+        data-fichier="Répertoire national"
+      >
         <img
           src={BASE_PATH + "legende/repertoire.svg"}
           alt="Répertoire national"
         />
         <p>Répertoire national</p>
       </div>
-      <div class="fichier" data-fichier="Européen">
+      <div on:click={handleClick} class="fichier" data-fichier="Européen">
         <img src={BASE_PATH + "legende/europeen.svg"} alt="Fichier européen" />
         <p>Fichier européen</p>
       </div>
-      <div class="fichier" data-fichier="National">
+      <div on:click={handleClick} class="fichier" data-fichier="National">
         <img src={BASE_PATH + "legende/national.svg"} alt="Fichier national" />
         <p>Fichier national</p>
       </div>
-      <div class="fichier" data-fichier="Régional">
+      <div on:click={handleClick} class="fichier" data-fichier="Régional">
         <img
           src={BASE_PATH + "legende/regional.svg"}
           alt="Fichier régional ou académique"
         />
         <p>Fichier régional ou académique</p>
       </div>
-      <div class="fichier" data-fichier="Local">
+      <div on:click={handleClick} class="fichier" data-fichier="Local">
         <img src={BASE_PATH + "legende/local.svg"} alt="Fichier local" />
         <p>Fichier local</p>
         <p class="small">(établissement, commune ou département)</p>
@@ -118,7 +148,7 @@
 
   #legende-container #fichiers > div {
     text-align: center;
-    /* cursor: pointer; */
+    cursor: pointer;
   }
 
   #legende-container #fichiers p {

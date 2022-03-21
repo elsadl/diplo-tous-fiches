@@ -5,7 +5,6 @@
   import Svg from "./Svg.svelte"
   import Infos from "./Infos.svelte"
   import Legende from "./Legende.svelte"
-  import Empreintes from "./Empreintes.svelte"
 
   let containerWidth
 
@@ -28,7 +27,6 @@
   <div id="container">
     <Fond {scale} />
     <Svg {scale} />
-    <Empreintes {scale} />
   </div>
 </main>
 
@@ -49,7 +47,8 @@
   #tous-fiches #container {
     display: grid;
     transform-origin: top left;
-    transform: translateY(-7vw);
+    position: relative;
+    margin-top: -7vw;
   }
 
   #tous-fiches #header {
@@ -80,7 +79,7 @@
     right: 20px;
   }
 
-  @media (max-width: 675px) {
+  @media (max-width: 840px) {
     #tous-fiches #header {
       height: auto;
     }

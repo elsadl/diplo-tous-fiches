@@ -11,7 +11,7 @@
 </script>
 
 {#if $display.infos}
-  <div id="infos" transition:fade={{ duration: 100 }}>
+  <div id="infos" transition:fade={{ duration: 200 }}>
     <div id="close" on:click={closeInfos}>
       <Close />
     </div>

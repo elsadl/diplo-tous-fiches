@@ -4,12 +4,12 @@
 </script>
 
 <div id="fond" style="transform: scale({scale});">
-  <img src={BASE_PATH + "ministeres.png"} alt="fond" />
+  <img src={BASE_PATH + "ministeres-3.png"} alt="fond" />
 </div>
 
 <style>
   #fond {
-    max-width: 890px;
+    max-width: 885px;
     pointer-events: none;
     grid-area: 1 / -1;
     transform-origin: top left;

@@ -118,7 +118,7 @@ export const data = [
   },
   {
     Thématique: "POLICE",
-    Niveau: "Local",
+    Niveau: "National",
     Acronyme: "ANACRIM/MERCURE",
     Secret: "",
     "Nom complet": "",
