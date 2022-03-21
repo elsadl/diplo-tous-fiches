@@ -165,7 +165,7 @@
     <div class="texte" id="notice">
       <p>
         Cliquer sur un fichier pour en savoir plus, et sur un élément de légende
-        pour filtrer l'affichage
+        pour filtrer les fichiers affichés
       </p>
     </div>
   </div>
