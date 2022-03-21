@@ -7,4 +7,6 @@ export const display = writable({
   exemples: true,
   infos: false,
   niveau: false,
+  biometrique: false,
+  secret: false,
 })

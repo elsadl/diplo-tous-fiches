@@ -20,8 +20,11 @@
         }
         console.log(group)
         const infos = data.find((el) => el.Acronyme === group.id)
+        console.log(infos)
         group.classList.add("fichier")
         group.setAttribute("data-niveau", infos["Niveau"])
+        group.setAttribute("data-biometrique", infos["Biométrique"])
+        group.setAttribute("data-secret", infos["Secret"])
         group.style.cursor = "pointer"
       }
     }
@@ -42,24 +45,47 @@
 
   const highlightFichiers = () => {
     if (!mounted) return
-    console.log($display.niveau)
-    if (!$display.niveau) {
+
+    if ($display.biometrique) {
       for (const fichier of root.querySelectorAll(".fichier")) {
-        fichier.classList.remove("transparent")
+        if (fichier.getAttribute("data-biometrique") === "true") {
+          fichier.classList.remove("transparent")
+        } else {
+          fichier.classList.add("transparent")
+        }
       }
       return
     }
-    for (const fichier of root.querySelectorAll(".fichier")) {
-      if (fichier.getAttribute("data-niveau") === $display.niveau) {
-        fichier.classList.remove("transparent")
-      } else {
-        fichier.classList.add("transparent")
+
+    if ($display.secret) {
+      for (const fichier of root.querySelectorAll(".fichier")) {
+        if (fichier.getAttribute("data-secret") === "true") {
+          fichier.classList.remove("transparent")
+        } else {
+          fichier.classList.add("transparent")
+        }
       }
+      return
+    }
+
+    if ($display.niveau) {
+      for (const fichier of root.querySelectorAll(".fichier")) {
+        if (fichier.getAttribute("data-niveau") === $display.niveau) {
+          fichier.classList.remove("transparent")
+        } else {
+          fichier.classList.add("transparent")
+        }
+      }
+      return
+    }
+
+    for (const fichier of root.querySelectorAll(".fichier")) {
+      fichier.classList.remove("transparent")
     }
   }
 </script>
 
-<g id="fichiers" bind:this={root}>
+<g id="hubs" bind:this={root}>
   <defs>
     <style>
       .hubs-cls1,
@@ -2685,19 +2711,19 @@
 </g>
 
 <style>
-  :global(#tous-fiches #fichiers .fichier) {
+  :global(#tous-fiches #hubs .fichier) {
     transition: opacity 200ms;
   }
 
-  :global(#tous-fiches #fichiers .fichier.transparent) {
+  :global(#tous-fiches .fichier.transparent) {
     opacity: 0.2;
   }
 
-  :global(#tous-fiches #fichiers symbol, #tous-fiches #fichiers use) {
-    opacity: 1;
+  :global(#tous-fiches #hubs .fichier.transparent) {
+    pointer-events: none;
   }
 
-  :global(#tous-fiches #fichiers .fichier .fichier) {
+  :global(#tous-fiches #hubs .fichier .fichier) {
     opacity: 1;
   }
 

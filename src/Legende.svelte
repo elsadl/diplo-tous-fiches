@@ -1,8 +1,15 @@
 <script>
+  import { onMount } from "svelte"
+
   import { display, BASE_PATH } from "./store.js"
 
   let toggle
   let legende
+  let mounted = false
+
+  onMount(() => {
+    mounted = true
+  })
 
   const toggleExemples = () => {
     $display.exemples = !$display.exemples
@@ -11,8 +18,28 @@
       : toggle.classList.add("active")
   }
 
-  const handleClick = (e) => {
-    console.log(e)
+  const displayBiometrique = (e) => {
+    $display.niveau = false
+    $display.secret = false
+
+    $display.biometrique = !$display.biometrique
+    console.log($display)
+    highlightLegende(e)
+  }
+
+  const displaySecret = (e) => {
+    $display.niveau = false
+    $display.biometrique = false
+
+    $display.secret = !$display.secret
+    console.log($display)
+    highlightLegende(e)
+  }
+
+  const displayFiletype = (e) => {
+    $display.biometrique = false
+    $display.secret = false
+
     const fichier = e
       .composedPath()
       .find((el) => el.classList.contains("fichier"))
@@ -23,21 +50,27 @@
       $display.niveau = fichier.getAttribute("data-fichier")
     }
 
-    console.log($display.niveau)
+    console.log($display)
+    highlightLegende(e)
+  }
 
-    // legende.querySelectorAll(".fichier").forEach((el) => {
-    //   console.log(el)
-    //   el.classList.
-    // })
-    if ($display.niveau) {
-      legende.querySelectorAll(".fichier").forEach((el) => {
-        console.log(el)
+  // $: $display, highlightLegende()
+
+  const highlightLegende = (e) => {
+    if (!mounted) return
+
+    const button = e
+      .composedPath()
+      .find((el) => el.classList.contains("el-legende"))
+
+    if ($display.niveau || $display.biometrique || $display.secret) {
+      legende.querySelectorAll(".el-legende").forEach((el) => {
         el.classList.add("transparent")
       })
-      fichier.classList.remove("transparent")
+
+      button.classList.remove("transparent")
     } else {
-      legende.querySelectorAll(".fichier").forEach((el) => {
-        console.log(el)
+      legende.querySelectorAll(".el-legende").forEach((el) => {
         el.classList.remove("transparent")
       })
     }
@@ -53,8 +86,8 @@
   <div id="legende">
     <div id="fichiers">
       <div
-        on:click={handleClick}
-        class="fichier"
+        on:click={displayFiletype}
+        class="fichier el-legende"
         data-fichier="Répertoire national"
       >
         <img
@@ -63,22 +96,38 @@
         />
         <p>Répertoire national</p>
       </div>
-      <div on:click={handleClick} class="fichier" data-fichier="Européen">
+      <div
+        on:click={displayFiletype}
+        class="fichier el-legende"
+        data-fichier="Européen"
+      >
         <img src={BASE_PATH + "legende/europeen.svg"} alt="Fichier européen" />
         <p>Fichier européen</p>
       </div>
-      <div on:click={handleClick} class="fichier" data-fichier="National">
+      <div
+        on:click={displayFiletype}
+        class="fichier el-legende"
+        data-fichier="National"
+      >
         <img src={BASE_PATH + "legende/national.svg"} alt="Fichier national" />
         <p>Fichier national</p>
       </div>
-      <div on:click={handleClick} class="fichier" data-fichier="Régional">
+      <div
+        on:click={displayFiletype}
+        class="fichier el-legende"
+        data-fichier="Régional"
+      >
         <img
           src={BASE_PATH + "legende/regional.svg"}
           alt="Fichier régional ou académique"
         />
         <p>Fichier régional ou académique</p>
       </div>
-      <div on:click={handleClick} class="fichier" data-fichier="Local">
+      <div
+        on:click={displayFiletype}
+        class="fichier el-legende"
+        data-fichier="Local"
+      >
         <img src={BASE_PATH + "legende/local.svg"} alt="Fichier local" />
         <p>Fichier local</p>
         <p class="small">(établissement, commune ou département)</p>
@@ -89,27 +138,35 @@
         <img src={BASE_PATH + "legende/ministere.png"} alt="Ministère" />
         <p>Ministère <br />concerné</p>
       </div>
-      <div>
+      <div on:click={displayBiometrique} class="el-legende biometrique">
         <img
           src={BASE_PATH + "legende/empreinte.png"}
           alt="Fichier biométrique"
         />
         <p>Fichier <br />biométrique</p>
       </div>
-      <div>
+      <div on:click={displaySecret} class="el-legende secret">
         <img src={BASE_PATH + "legende/cadenas.svg"} alt="Fichier secret" />
         <p>Fichier non <br />publié (secret)</p>
       </div>
     </div>
-    <div id="texte">
-      <div id="toggle" bind:this={toggle} on:click={toggleExemples}>
-        <p>
-          <span>→ </span>{$display.exemples ? "Masquer" : "Afficher"} les situations-clés
-        </p>
-      </div>
-      <div id="notice">
-        <p>Cliquer sur un fichier pour en savoir plus</p>
-      </div>
+    <div
+      class="texte {$display.niveau || $display.biometrique || $display.secret
+        ? 'inactive'
+        : ''}"
+      id="toggle"
+      bind:this={toggle}
+      on:click={toggleExemples}
+    >
+      <p>
+        <span>→ </span>{$display.exemples ? "Masquer" : "Afficher"} les situations-clés
+      </p>
+    </div>
+    <div class="texte" id="notice">
+      <p>
+        Cliquer sur un fichier pour en savoir plus, et sur un élément de légende
+        pour filtrer l'affichage
+      </p>
     </div>
   </div>
   <div id="credits">
@@ -182,21 +239,25 @@
     width: 80px;
   }
 
-  #legende-container #texte {
-    width: 120%;
-    display: grid;
-    grid-gap: 24px;
-    grid-template-columns: 2fr 3fr;
+  #legende-container .texte {
+    width: 80%;
     padding-top: 8px;
     font-size: 1.15em;
-    align-items: baseline;
   }
 
-  @media (max-width: 1060px) {
+  /* @media (max-width: 1060px) {
     #legende-container #texte {
       grid-template-columns: 1fr;
       grid-gap: 8px;
     }
+  } */
+
+  #legende-container .el-legende {
+    cursor: pointer;
+  }
+
+  :global(#legende-container .el-legende.transparent) {
+    opacity: 0.2;
   }
 
   #legende-container p {
@@ -219,6 +280,12 @@
     display: inline-block;
     padding-bottom: 1px;
     border-bottom: 1px dotted #000;
+  }
+
+  #legende-container #toggle.inactive {
+    cursor: default;
+    opacity: 0.2;
+    pointer-events: none;
   }
 
   #legende-container #toggle span {

@@ -19,10 +19,10 @@
 >
   <Circles />
   <Domains />
-  {#if $display.exemples && !$display.niveau}
+  {#if $display.exemples && !$display.niveau && !$display.biometrique && !$display.secret}
     <Exemples />
   {/if}
-  {#if !$display.niveau}
+  {#if !$display.niveau && !$display.biometrique && !$display.secret}
     <Links />
   {/if}
   <Hubs />

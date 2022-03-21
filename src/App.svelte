@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte"
+  import { display } from "./store.js"
 
   import Fond from "./Fond.svelte"
   import Svg from "./Svg.svelte"
@@ -12,11 +13,23 @@
     console.log(containerWidth)
   })
 
+  const unselectDisplay = (e) => {
+    if (e.composedPath()[0].id === "header") {
+      $display.niveau = false
+      $display.secret = false
+      $display.biometrique = false
+
+      document.querySelectorAll("#left .el-legende").forEach((el) => {
+        el.classList.remove("transparent")
+      })
+    }
+  }
+
   $: scale = containerWidth > 890 ? containerWidth / 890 : 1
 </script>
 
 <main id="tous-fiches" bind:clientWidth={containerWidth}>
-  <div id="header">
+  <div id="header" on:click={unselectDisplay}>
     <div id="left">
       <Legende />
     </div>
@@ -65,7 +78,7 @@
 
   #tous-fiches #header #left {
     width: 40%;
-    max-width: 440px;
+    max-width: 520px;
     position: relative;
     top: 20px;
     left: 4vw;
@@ -73,7 +86,7 @@
 
   #tous-fiches #header #right {
     width: 40%;
-    max-width: 460px;
+    max-width: 520px;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -100,7 +113,6 @@
     }
 
     #tous-fiches #header #right {
-      max-width: unset;
       box-sizing: border-box;
       margin: 20px auto;
       top: 20px;
