@@ -181,8 +181,8 @@
       de solidarité de Lyon, 2021.
     </p>
     <p>
-      Recherches et documentation : Jérome Thorel <span>●</span> Réalisation : Cécile
-      Marin
+      Recherches et documentation : Jérome Thorel <span>●</span> Réalisation :
+      Cécile Marin <span>●</span> Animation : Elsa Delmas
     </p>
   </div>
 </div>
