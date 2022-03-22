@@ -195,6 +195,7 @@
   #legende-container #legende {
     border-top: 4px solid #eeaa41;
     padding-top: 12px;
+    font-size: 1.15em;
   }
 
   #legende-container #fichiers {
@@ -244,7 +245,6 @@
   }
 
   #legende-container .texte {
-    width: 80%;
     padding-top: 8px;
     font-size: 1.15em;
   }
@@ -276,7 +276,7 @@
   }
 
   #legende-container #notice {
-    opacity: 0.6;
+    opacity: 0.5;
   }
 
   #legende-container #toggle p {
