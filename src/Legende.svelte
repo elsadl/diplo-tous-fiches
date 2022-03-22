@@ -173,14 +173,15 @@
     <p>
       Merci à la <a href="https://www.zite.fr" target="_blank"
         >revue <img src={BASE_PATH + "zite.png"} alt="Zite" /></a
-      > qui a publié une version antérieure de ce poster (n°11, octobre 2017) et
+      >
+      qui a publié une version antérieure de ce poster (n°11, octobre 2017) et
       nous a autorisé à reprendre son travail.
-    </p>
-    <p>
-      Ressource complémentaire : « La folle volonté de tout contrôler », Caisse
-      de solidarité de Lyon, 2021.
-    </p>
-    <p>
+      <!-- </p>
+    <p> -->
+      Ressource complémentaire : « La folle volonté de tout contrôler », Caisse de
+      solidarité de Lyon, 2021.
+      <!-- </p>
+    <p> -->
       Recherches et documentation : Jérome Thorel <span>●</span> Réalisation :
       Cécile Marin <span>●</span> Animation : Elsa Delmas
     </p>
