@@ -61,7 +61,7 @@
     display: grid;
     transform-origin: top left;
     position: relative;
-    margin-top: -7vw;
+    margin-top: -8vw;
   }
 
   #tous-fiches #header {

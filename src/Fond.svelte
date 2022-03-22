@@ -4,7 +4,7 @@
 </script>
 
 <div id="fond" style="transform: scale({scale});">
-  <img src={BASE_PATH + "ministeres-3.png"} alt="fond" />
+  <img src={BASE_PATH + "ministeres.png"} alt="ministères" />
 </div>
 
 <style>

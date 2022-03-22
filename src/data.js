@@ -183,9 +183,9 @@ export const data = [
     "Nom complet": "[Aide sociale à l’enfance]",
     Création: 2010,
     Description:
-      "Ex-DDASS, service départemental de protection de l’enfance. Alimente le fichier des « informations préoccupantes » (CRIP).",
+      "Ex-DDASS, service départemental de protection de l’enfance. Alimente le fichier des « informations préoccupantes » (CRIP).",
     "Description plus simple":
-      "Service départemental de protection de l’enfance. Alimente le fichier des « informations préoccupantes » (CRIP).",
+      "Service départemental de protection de l’enfance. Alimente le fichier des « informations préoccupantes » (CRIP).",
     "PRINCIPAUX LIENS avec": "LIEN1: RNCPS; CRIP; \nLIEN2: ONED",
     Biométrique: false,
   },
@@ -198,7 +198,7 @@ export const data = [
       "Assistance et suivi de la radicalité en services éducatifs (mineurs)",
     Création: 2017,
     Description:
-      "Jeunes mineurs suspectés de « radicalisation », géré par la PJJ.",
+      "Jeunes mineurs suspectés de « radicalisation », géré par la PJJ.",
     "Description plus simple":
       "Jeunes mineurs suspectés de radicalisation, géré par la PJJ.",
     "PRINCIPAUX LIENS avec":
@@ -257,9 +257,9 @@ export const data = [
       "[Contrôle, action, pilotage-système d’information travail en réseau]",
     Création: 2005,
     Description:
-      "Fichier des inspections du travail. Contient « identités de salariés concernés par certaines procédures » et « statistiques sur le suivi des conflits d’entreprise ».",
+      "Fichier des inspections du travail. Contient « identités de salariés concernés par certaines procédures » et « statistiques sur le suivi des conflits d’entreprise ».",
     "Description plus simple":
-      "Fichier des inspections du travail. Contient « identités de salariés concernés par certaines procédures » et « statistiques sur le suivi des conflits d’entreprise ».",
+      "Fichier des inspections du travail. Contient « identités de salariés concernés par certaines procédures » et « statistiques sur le suivi des conflits d’entreprise ».",
     "PRINCIPAUX LIENS avec":
       "Faire LIEN1 entre Min EMPLOI et RNIPP\nLIEN1: Min EMPLOI; \nLien2: PRECAR-IT",
     Biométrique: false,
@@ -360,7 +360,7 @@ export const data = [
     "Nom complet": "[Compte personnel d’activité]",
     Création: 2016,
     Description:
-      "Parcours professionnel de chaque individu. Le CPF contient une sorte de CV, le « passeport orientation-formation ».",
+      "Parcours professionnel de chaque individu. Le CPF contient une sorte de CV, le « passeport orientation-formation ».",
     "Description plus simple":
       "Parcours professionnel et de formation de chaque individu.",
     "PRINCIPAUX LIENS avec": "LIEN1: RNIE\nLIEN2: Min. EMPLOI",
@@ -583,7 +583,7 @@ export const data = [
     Niveau: "National",
     Acronyme: "ELOI",
     Secret: false,
-    "Nom complet": "Traitement pour « faciliter l'éloignement »",
+    "Nom complet": "Traitement pour « faciliter l'éloignement »",
     Création: 2010,
     Description:
       "Étrangers en voie d'expulsion après placement en centre de rétention. Peut ficher aussi des personnes solidaires.",
@@ -615,7 +615,7 @@ export const data = [
     "Nom complet": "[Office européen de police]",
     Création: 1995,
     Description:
-      "Fichiers d’analyse criminelle (suspects ou condamnés) alimentés par chaque État membre via des « unités nationales de contact ».",
+      "Fichiers d’analyse criminelle (suspects ou condamnés) alimentés par chaque État membre via des « unités nationales de contact ».",
     "Description plus simple":
       "Fichiers d’analyse criminelle (suspects ou condamnés).",
     "PRINCIPAUX LIENS avec":
@@ -705,7 +705,7 @@ export const data = [
     Description:
       "Élargi aux auteurs de « crimes graves » en 2009. Personnes poursuivies aussi bien que condamnées.",
     "Description plus simple":
-      "Élargi aux auteurs de « crimes graves » en 2009. Personnes poursuivies ou condamnées.",
+      "Élargi aux auteurs de « crimes graves » en 2009. Personnes poursuivies ou condamnées.",
     "PRINCIPAUX LIENS avec": "LIEN1: Cassiopée; CJNA (casier); FPR",
     Biométrique: false,
   },
@@ -807,9 +807,9 @@ export const data = [
     "Nom complet": "[Fichier des personnes recherchées]",
     Création: 1969,
     Description:
-      "Le plus vieux des fichiers policiers créé par la gendarmerie. Clandestin puis officialisé en 1996. Fichier à la fois judiciaire et administratif. Personnes recherchées (mineurs en fugue, mandats d’arrêt, évasions, contrôles judiciaires, etc.) ou signalées : l'une de ses 21 catégories est « S » (sûreté de l’État), divisée en 16 sous-sections (hooligans, djihadistes, militants radicaux, etc.).",
+      "Le plus vieux des fichiers policiers créé par la gendarmerie. Clandestin puis officialisé en 1996. Fichier à la fois judiciaire et administratif. Personnes recherchées (mineurs en fugue, mandats d’arrêt, évasions, contrôles judiciaires, etc.) ou signalées : l'une de ses 21 catégories est « S » (sûreté de l’État), divisée en 16 sous-sections (hooligans, djihadistes, militants radicaux, etc.).",
     "Description plus simple":
-      "Personnes recherchées (mineurs en fugue, mandats d’arrêt, évasions, contrôles judiciaires, etc.) ou signalées. L'une de ses 21 catégories est « S » (sûreté de l’État), divisée en 16 sous-sections (hooligans, djihadistes, militants radicaux, etc.). Fichier d'abord clandestin puis officialisé en 1996.",
+      "Personnes recherchées (mineurs en fugue, mandats d’arrêt, évasions, contrôles judiciaires, etc.) ou signalées. L'une de ses 21 catégories est « S » (sûreté de l’État), divisée en 16 sous-sections (hooligans, djihadistes, militants radicaux, etc.). Fichier d'abord clandestin puis officialisé en 1996.",
     "PRINCIPAUX LIENS avec":
       "LIEN1: N-SIS-2; Europol; API-PNR (transports); FIJAISV; ADGREF; \nLIEN2: PASP-GIPASP; FSPRT (TERRO); GESTEREXT, CGEEDRT; +ACCRED...",
     Biométrique: false,
@@ -823,9 +823,9 @@ export const data = [
       "[Fichier des signalements pour la prévention de la radicalisation à caractère terroriste]",
     Création: 2015,
     Description:
-      "Alimenté notamment par les « fiches S » du FPR. Recense environ 21 000 personnes (2019).",
+      "Alimenté notamment par les « fiches S » du FPR. Recense environ 21 000 personnes (2019).",
     "Description plus simple":
-      "Alimenté notamment par les « fiches S » du FPR. Env. 21 000 personnes (2019).",
+      "Alimenté notamment par les « fiches S » du FPR. Env. 21 000 personnes (2019).",
     "PRINCIPAUX LIENS avec":
       "LIEN1: FPR; HOPSY; \nLIEN2: PASP-GIPASP; Gesterex; Min INTER et ARMEES",
     Biométrique: false,
@@ -870,9 +870,9 @@ export const data = [
       "[Gestion de l’information et prévention des atteintes à la sécurité publique]",
     Création: 2009,
     Description:
-      "Version gendarmerie du PASP. Équipé d'un module de reconnaissance faciale. 13 000 inscrits (2015).",
+      "Version gendarmerie du PASP. Équipé d'un module de reconnaissance faciale. 13 000 inscrits (2015).",
     "Description plus simple":
-      "Version gendarmerie du PASP. 13 000 inscrits (2015).",
+      "Version gendarmerie du PASP. 13 000 inscrits (2015).",
     "PRINCIPAUX LIENS avec": "Placer à côté de PASP = mêmes liens",
     Biométrique: true,
   },
@@ -929,7 +929,7 @@ export const data = [
     Description:
       "Fichier des « expulsions groupées » (Joint Return Operations) de l'agence européenne Frontex (sécurité des frontières extérieures). En lien avec ELOI en France.",
     "Description plus simple":
-      "Fichier des « expulsions groupées » (Joint Return Operations) de l'agence Frontex (sécurité des frontières extérieures). En lien avec ELOI.",
+      "Fichier des « expulsions groupées » (Joint Return Operations) de l'agence Frontex (sécurité des frontières extérieures). En lien avec ELOI.",
     "PRINCIPAUX LIENS avec": "LIEN2: Europol; N-SIS-2; EURODAC; ELOI;",
     Biométrique: false,
   },
@@ -973,7 +973,7 @@ export const data = [
     Description:
       "Enseignants fichés selon les retenues de salaire pour « service non fait » (grèves, absences).",
     "Description plus simple":
-      "Enseignants fichés selon les retenues de salaire pour « service non fait » (grèves, absences).",
+      "Enseignants fichés selon les retenues de salaire pour « service non fait » (grèves, absences).",
     "PRINCIPAUX LIENS avec": "LIEN1: RNIPP",
     Biométrique: false,
   },
@@ -1000,7 +1000,7 @@ export const data = [
     Description:
       "Recense mandats d’arrêt, interdits de séjour, personnes ciblées comme « menaces » par au moins un État membre. Interconnecté avec une douzaine de fichiers français. Env 800 000 (2016). Biométrique.",
     "Description plus simple":
-      "Recense mandats d’arrêt, interdits de séjour, personnes ciblées comme « menaces » par au moins un État membre. Env. 800 000 (2016).",
+      "Recense mandats d’arrêt, interdits de séjour, personnes ciblées comme « menaces » par au moins un État membre. Env. 800 000 (2016).",
     "PRINCIPAUX LIENS avec":
       "Lien1: FPR; FOVES; TES\nLien2: LAPI; ACCRED; EASP",
     Biométrique: true,
@@ -1044,7 +1044,7 @@ export const data = [
     Description:
       "Recense les personnes « reconduites » (mineurs compris) ayant reçu une aide financière. Biométrique.",
     "Description plus simple":
-      "Personnes « reconduites » (mineurs compris) ayant reçu une aide financière.",
+      "Personnes « reconduites » (mineurs compris) ayant reçu une aide financière.",
     "PRINCIPAUX LIENS avec": "LIEN1: ELOI",
     Biométrique: true,
   },
@@ -1087,7 +1087,7 @@ export const data = [
     Description:
       "Fichier du renseignement de la police nationale. Peut recenser les opinions (politiques, syndicales, religieuses) des personnes et de leur « entourage». À partir de 13 ans. Équipé d'un module de reconnaissance faciale. 68 000 inscrits (2016).",
     "Description plus simple":
-      "Fichier du renseignement de la police nationale. Peut recenser les opinions (politiques, syndicales, religieuses) des personnes et de leur entourage, dès 13 ans. 68 000 inscrits (2016).",
+      "Fichier du renseignement de la police nationale. Peut recenser les opinions (politiques, syndicales, religieuses) des personnes et de leur entourage, dès 13 ans. 68 000 inscrits (2016).",
     "PRINCIPAUX LIENS avec":
       "LIEN1: GIPASP; EASP; RENS. Min INTER\nLIEN2: FPR; FSPRT (terro); GESTEREXT; CGEEDRT (rg), Cristina (DGSI);",
     Biométrique: true,
@@ -1226,7 +1226,7 @@ export const data = [
     "Nom complet": "[Recueil d’information médicalisé en psychiatrie]",
     Création: 2006,
     Description:
-      "Patients suivis en psychiatrie. Parallèle aux fichiers hospitaliers (PMSI). Remontées anonymes aux ARS. 424 000 patients (2018).",
+      "Patients suivis en psychiatrie. Parallèle aux fichiers hospitaliers (PMSI). Remontées anonymes aux ARS. 424 000 patients (2018).",
     "Description plus simple":
       "Patients suivis en psychiatrie. Remontées anonymes aux ARS. 424 000 patients (2018).",
     "PRINCIPAUX LIENS avec": "LIEN1: RNIPP; PMSI; \nLIEN2: MES (ex-DMP)",
@@ -1286,7 +1286,7 @@ export const data = [
     Description:
       "Fichier d’état civil tenu par l’Insee qui recense les NIR (numéro d’inscription au répertoire, dit « numéro de sécu »). Est inscrite d'office toute personne née en France. Environ 100 millions d'entrées (personnes décédées comprises).",
     "Description plus simple":
-      "Fichier d’état civil de toute personne née en France (ou française née à l’étranger). Recense les NIR (numéro d’inscription au répertoire, dit « numéro de sécu »).\nUtilisé par RNIAM (santé), RNSPS (social), Adonis (impôts) et DUDE (emploi). Permet la gestion du fichier électoral.\nEnviron 100 millions d’entrées (personnes décédées comprises).",
+      "Fichier d’état civil de toute personne née en France (ou française née à l’étranger). Recense les NIR (numéro d’inscription au répertoire, dit « numéro de sécu »).\nUtilisé par RNIAM (santé), RNSPS (social), Adonis (impôts) et DUDE (emploi). Permet la gestion du fichier électoral.\nEnviron 100 millions d’entrées (personnes décédées comprises).",
     "PRINCIPAUX LIENS avec":
       "LIEN1: RNIAM; ADONIS (fisc); \nLIEN2: RNCPS; CRISTAL; CJNA (casier)",
     Biométrique: false,
@@ -1301,7 +1301,7 @@ export const data = [
     Description:
       "Fichier centralisé du RSA. Partie « orientation » gérée dans les départements ou les communes. Partie « prestation » dans un fichier national.",
     "Description plus simple":
-      "Partie « orientation » gérée dans les départements ou les communes, partie « prestation » dans un fichier national.",
+      "Partie « orientation » gérée dans les départements ou les communes, partie « prestation » dans un fichier national.",
     "PRINCIPAUX LIENS avec": "LIEN1: Cristal; SDAS; RSA; Dude (Pole emploi);",
     Biométrique: false,
   },
@@ -1357,7 +1357,7 @@ export const data = [
     Description:
       "Fichier des élèves « décrocheurs » du second degré. Alimenté par Siecle et relié aux fichiers i-Milo (voir EMPLOI).",
     "Description plus simple":
-      "Fichier des élèves « décrocheurs » du 2nd degré. Alimenté par Siecle et relié aux fichiers i-Milo.",
+      "Fichier des élèves « décrocheurs » du 2nd degré. Alimenté par Siecle et relié aux fichiers i-Milo.",
     "PRINCIPAUX LIENS avec": "LIEN1: RNIE; SIECLE; \nLIEN2: PARCOURS-3",
     Biométrique: false,
   },
@@ -1386,7 +1386,7 @@ export const data = [
     Description:
       "Ex-fichier Sconet renommé en 2012. Équivalent de la base Onde pour le 2nd degré. Alimente LSUN, SDO (« décrocheurs »). Relié aux espaces numériques de travail (ENT) ou aux progiciels comme Pronote ou de gestion des cantines.",
     "Description plus simple":
-      "Élèves du 2nd degré. Alimente LSUN, SDO (« décrocheurs »). Relié aux espaces numériques de travail (ENT) ou aux progiciels comme Pronote ou de gestion des cantines.",
+      "Élèves du 2nd degré. Alimente LSUN, SDO (« décrocheurs »). Relié aux espaces numériques de travail (ENT) ou aux progiciels comme Pronote ou de gestion des cantines.",
     "PRINCIPAUX LIENS avec": "LIEN1: RNIE; ONDE; LSUN; SDO; +CANTINES",
     Biométrique: false,
   },
@@ -1399,7 +1399,7 @@ export const data = [
       "Fichier de la Direction du renseignement et de la sécurité de la défense",
     Création: 2014,
     Description:
-      "Outil de « contre-ingérence » (sic) destiné à la protection des militaires et des installations militaires.",
+      "Outil de « contre-ingérence » (sic) destiné à la protection des militaires et des installations militaires.",
     "Description plus simple":
       "Destiné à la protection des militaires et des installations militaires.",
     "PRINCIPAUX LIENS avec": "Lien unique: Min. ARMEES",
@@ -1455,9 +1455,9 @@ export const data = [
     "Nom complet": "[Système national des données de santé]",
     Création: 2016,
     Description:
-      "Base « anonyme » d'actes médicaux destinée à la recherche. Géré par la CNAM et mis à disposition du Health Data Hub (2021).",
+      "Base « anonyme » d'actes médicaux destinée à la recherche. Géré par la CNAM et mis à disposition du Health Data Hub (2021).",
     "Description plus simple":
-      "Base « anonyme » d'actes médicaux destinée à la recherche. Géré par la CNAM et mis à disposition du Health Data Hub (2021).",
+      "Base « anonyme » d'actes médicaux destinée à la recherche. Géré par la CNAM et mis à disposition du Health Data Hub (2021).",
     "PRINCIPAUX LIENS avec": "LIEN1: Min SANTE (CNAM)\nHDH",
     Biométrique: false,
   },
@@ -1530,7 +1530,7 @@ export const data = [
     Description:
       "Recense suspects (dès la garde à vue) mais aussi témoins et victimes. Fusion des fichiers de police (STIC) et de gendarmerie (Judex). Équipé d'un module de reconnaissance faciale. Environ 9,5 millions de  « mis en cause » (2015), dont 3,4 millions avec photo du visage.",
     "Description plus simple":
-      "Recense suspects (dès la garde à vue), témoins, victimes. Fusion des fichiers de police (STIC) et de gendarmerie (Judex). Environ 9,5 millions de  « mis en cause » (2015), dont 3,4 millions avec photo (module de reconnaissance faciale).",
+      "Recense suspects (dès la garde à vue), témoins, victimes. Fusion des fichiers de police (STIC) et de gendarmerie (Judex). Environ 9,5 millions de  « mis en cause » (2015), dont 3,4 millions avec photo (module de reconnaissance faciale).",
     "PRINCIPAUX LIENS avec":
       "LIEN1: FAED; Cassiopée (magistrats); \nLIEN2: FNAEG; FPR; EUROPOL",
     Biométrique: true,

@@ -212,6 +212,10 @@
     padding-bottom: 3px;
   }
 
+  #legende-container #notice p {
+    line-height: 1.2em;
+  }
+
   #legende-container #fichiers img {
     width: 38px;
     margin: 0 auto;
@@ -297,13 +301,17 @@
   }
 
   #legende-container #credits {
-    font-size: 1.15em;
+    font-size: 0.9em;
     margin-top: 16px;
     border-top: 1px solid #eeaa41;
   }
 
   #legende-container #credits p {
     margin-top: 8px;
+  }
+
+  #legende-container #credits p:not(:first-child) {
+    margin-top: 4px;
   }
 
   #legende-container #credits p span {
