@@ -33,14 +33,14 @@ function serve() {
 }
 
 export default {
-  // input: "src/main.js",
-  input: "src/embed.js",
+  input: "src/main.js",
+  // input: "src/embed.js",
   output: {
     sourcemap: true,
     format: "iife",
     name: "app",
-    // file: "public/build/bundle.js",
-    file: "tousfiches.js",
+    file: "public/build/bundle.js",
+    // file: "tousfiches.js",
   },
   plugins: [
     svelte({
