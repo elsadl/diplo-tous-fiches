@@ -9,7 +9,7 @@
 
 <style>
   #ministeres {
-    max-width: 885px;
+    max-width: 890px;
     pointer-events: none;
     grid-area: 1 / -1;
     transform-origin: top left;
