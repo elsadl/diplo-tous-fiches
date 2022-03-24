@@ -8,8 +8,6 @@
   let mounted = false
 
   onMount(() => {
-    console.log(data)
-
     // on donne le bon ID à chaque hub
     for (const group of root.querySelectorAll("g")) {
       if (group.querySelector("text")) {

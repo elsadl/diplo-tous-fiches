@@ -33,5 +33,6 @@
     max-width: 890px;
     grid-area: 1 / -1;
     transform-origin: top left;
+    background-color: #fff;
   }
 </style>

@@ -2,7 +2,7 @@
   import { onMount } from "svelte"
   import { display } from "./store.js"
 
-  import Fond from "./Fond.svelte"
+  import Ministeres from "./Ministeres.svelte"
   import Svg from "./Svg.svelte"
   import Infos from "./Infos.svelte"
   import Legende from "./Legende.svelte"
@@ -38,8 +38,8 @@
     </div>
   </div>
   <div id="container">
-    <Fond {scale} />
     <Svg {scale} />
+    <Ministeres {scale} />
   </div>
 </main>
 
@@ -52,7 +52,8 @@
   #tous-fiches {
     background: #fff;
     position: absolute;
-    width: 100vw;
+    width: 100%;
+    z-index: 1;
     position: relative;
     font-family: "Bunday Sans";
   }

@@ -23,7 +23,6 @@
     $display.secret = false
 
     $display.biometrique = !$display.biometrique
-    console.log($display)
     highlightLegende(e)
   }
 
@@ -32,7 +31,6 @@
     $display.biometrique = false
 
     $display.secret = !$display.secret
-    console.log($display)
     highlightLegende(e)
   }
 
@@ -50,7 +48,6 @@
       $display.niveau = fichier.getAttribute("data-fichier")
     }
 
-    console.log($display)
     highlightLegende(e)
   }
 
@@ -78,11 +75,11 @@
 </script>
 
 <div id="legende-container" bind:this={legende}>
-  <img
+  <!-- <img
     id="titre"
     src={BASE_PATH + "legende/tousfiches.svg"}
     alt="Tous fichés !"
-  />
+  /> -->
   <div id="legende">
     <div id="fichiers">
       <div
@@ -189,12 +186,17 @@
 </div>
 
 <style>
+  #legende-container {
+    text-align: left;
+    font-size: 15px;
+  }
+
   #legende-container #titre {
     padding-bottom: 8px;
   }
 
   #legende-container #legende {
-    border-top: 4px solid #eeaa41;
+    /* border-top: 4px solid #eeaa41; */
     padding-top: 12px;
     font-size: 1.15em;
   }
@@ -248,6 +250,8 @@
   #legende-container .texte {
     padding-top: 8px;
     font-size: 1.15em;
+    font-family: "Bunday Sans";
+    margin: 0;
   }
 
   /* @media (max-width: 1060px) {
@@ -302,7 +306,7 @@
   }
 
   #legende-container #credits {
-    font-size: 0.9em;
+    font-size: 1.1em;
     margin-top: 16px;
     border-top: 1px solid #eeaa41;
   }

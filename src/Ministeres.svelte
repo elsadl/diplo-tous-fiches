@@ -3,19 +3,19 @@
   export let scale
 </script>
 
-<div id="fond" style="transform: scale({scale});">
+<div id="ministeres" style="transform: scale({scale});">
   <img src={BASE_PATH + "ministeres.png"} alt="ministères" />
 </div>
 
 <style>
-  #fond {
+  #ministeres {
     max-width: 885px;
     pointer-events: none;
     grid-area: 1 / -1;
     transform-origin: top left;
   }
 
-  #fond img {
+  #ministeres img {
     width: 100%;
   }
 </style>
